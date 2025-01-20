@@ -40,6 +40,6 @@ You have the following rights:
 	* Work in Progress >> Right to Data Portability: You can export your sticky notes data in a machine-readable format.
 	* Right to Object: You can object to the processing of your personal data for marketing purposes.
 9. Data Protection Officer
-I have appointed myself to be a Data Protection Officer (DPO) to oversee my data protection practices. You can contact me at [My Email Address].
+There is no Data Protection Officer yet. So, I have appointed myself to oversee the data protection practices. You can contact me at hey@faridbouchdak.com.
 10. Complaints
 If you have a complaint about my data protection practices, you can contact me or the relevant supervisory authority.
