@@ -2,39 +2,75 @@
 layout: default
 title: Collaboration
 nav_order: 5
+permalink: /collaboration/
 ---
+
 # Collaboration
 
-Premium board owners can work together with others in two ways: **email invitations** and **share links**.
+Great ideas rarely grow alone.
 
-## Email invitations
+Collaboration makes it easy to turn individual thoughts into shared knowledge. Invite people to your board, work together in real time and keep everyone focused on the same goal.
 
-Invite someone by entering their email address on your board. They receive an invitation link; after accepting (with a StickyNotes.club account, any tier), they become a board member and can add notes. Owners can revoke pending invitations and remove members; members can leave a board themselves.
+---
 
-## Share links
+## What you'll learn
 
-Create a share link for quick access without individual invites. There are two types:
+In this guide you'll learn how to:
 
-* **View** — anyone with the link can read the board, no account needed. Perfect for showing results.
-* **Post** — anyone with the link who is logged in (any tier, free included) can add notes. Perfect for collecting input, e.g. during a workshop or retro.
+- collaborate on a private board;
+- invite team members;
+- contribute together using sticky notes;
+- keep everyone aligned.
 
-Share links can be revoked at any time; revoked links stop working immediately.
+---
 
-## Likes and comments
+## Work together on a board
 
-Everyone with access to a board — members and share-link visitors alike — can:
+Every private board is designed for collaboration.
 
-* **Like** board notes (one like per person, click again to unlike)
-* **Comment** on notes. Comments can be deleted by their author or by the board owner.
+Instead of sending ideas back and forth through email or chat, everyone works in the same place using the same collection of sticky notes.
 
-## Dot-voting
+Changes are shared with everyone on the board, making it easy to stay up to date.
 
-Prioritize ideas together, Mural-style:
+---
 
-1. The board owner (Premium) **starts a voting round** and sets the number of dots per person.
-2. Everyone with access spends their dots on the notes they find most important. Votes are **hidden** while the round is open, so nobody is influenced by others.
-3. The owner **closes the round** — results appear as badges on the notes, showing what the group prioritized.
+## Invite people
 
-Only one voting round can be open per board at a time. Voting itself is open to everyone with access; starting and closing rounds requires the board owner with Premium.
+Invite colleagues, classmates, friends or anyone else you want to collaborate with.
 
-Next: [Tags & due dates](tags-and-due-dates.md)
+Once invited, they can access the board according to the permissions you have assigned.
+
+---
+
+## Build on each other's ideas
+
+Collaboration is more than adding sticky notes.
+
+Move ideas around, expand existing notes, group related thoughts and gradually shape ideas into clear plans.
+
+The board evolves naturally as the conversation develops.
+
+---
+
+## Stay aligned
+
+A shared board helps everyone understand the current state of a project at a glance.
+
+Instead of searching through long conversations, the board becomes the single place where ideas are collected, discussed and organised.
+
+---
+
+## Good to know
+
+- Collaboration is available on private boards.
+- Changes are visible to everyone with access to the board.
+- Invite or remove members whenever needed.
+- Boards keep your team's ideas together in one place.
+
+---
+
+## Related guides
+
+- [Private boards](/private-boards/)
+- [Tags & due dates](/tags-and-due-dates/)
+- [Sticky notes](/sticky-notes/)
