@@ -1,3 +1,8 @@
+---
+layout: default
+title: StickyNotes.club Documentation
+---
+
 # StickyNotes.club Documentation
 
 Welcome! This is the user guide for [StickyNotes.club](https://stickynotes.club) — a place to jot down your thoughts on colorful sticky notes, share them with the world, or collaborate on private boards.
