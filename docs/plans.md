@@ -1,3 +1,8 @@
+---
+layout: default
+title: Plans and billing
+nav_order: 7
+---
 # Plans & billing
 
 ## Free — € 0
