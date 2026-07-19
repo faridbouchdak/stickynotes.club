@@ -1,3 +1,8 @@
+---
+layout: default
+title: Private boards
+nav_order: 4
+---
 # Private boards
 
 Boards are your private space for sticky notes — for brainstorms, retrospectives, planning, or just your own thoughts. Boards live at unguessable links, so only people you give access can see them.
