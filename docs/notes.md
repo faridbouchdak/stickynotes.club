@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sticky notes
+nav_order: 3
+---
 # Sticky notes
 
 The heart of StickyNotes.club: the public wall where everyone's notes live together.
