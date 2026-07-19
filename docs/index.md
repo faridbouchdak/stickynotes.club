@@ -4,61 +4,57 @@ title: Home
 nav_order: 1
 ---
 
-# StickyNotes.club Documentation
+# StickyNotes.club
 
-Welcome to the StickyNotes.club Help Center.
+StickyNotes.club is a place to capture ideas, share thoughts, and collaborate with others.
 
-Whether you want to share a thought with the world or organize ideas with your team, you'll find everything you need here.
+You can post sticky notes on the worldwide wall or create private boards for your own projects, team, classroom, or workshop.
 
-If you're new, start with **Getting started**. If you're already using StickyNotes.club, browse the guides below to learn more about specific features.
-
----
-
-## New to StickyNotes.club?
-
-These guides will help you get up and running.
-
-* **Getting started** — Create an account, verify your email address, and set up your profile.
-* **Sticky notes** — Post your first note, upload photos, and interact with the worldwide wall.
-* **Private boards** — Create your own workspace for brainstorming, planning, and collaboration.
+Whether you're here to brainstorm on your own or work together, these guides will help you get the most out of StickyNotes.club.
 
 ---
 
-## Working with others
+## Getting started
 
-StickyNotes.club makes it easy to collaborate.
+New here?
 
-Learn how to:
+Start with these guides:
 
-* invite people to your boards;
-* share boards with view or post links;
-* leave comments;
-* run dot-voting sessions to make decisions together.
+* **Getting started** — Create your account and set up your profile.
+* **Sticky notes** — Publish your first sticky note on the worldwide wall.
+* **Private boards** — Create your first collaborative board.
 
-See **Collaboration** for the complete guide.
+---
+
+## Working together
+
+Invite others, share boards, collect ideas, and make decisions together.
+
+Learn about:
+
+* invitations
+* share links
+* comments
+* dot voting
+
+Everything you need is covered in **Collaboration**.
 
 ---
 
 ## Stay organized
 
-As your boards grow, organization becomes more important.
-
-Use tags, due dates, layouts, and filters to keep information easy to find and work with.
-
-Everything is explained in **Tags & Due Dates**.
+As your boards grow, tags, due dates, layouts, and filters help you keep everything organized.
 
 ---
 
-## Manage your account
+## Plans & billing
 
-Need to change your subscription or compare plans?
-
-The **Plans & Billing** guide explains the differences between Free, Premium, and Chosen Few, as well as how subscriptions and payments work.
+Compare Free, Premium, and Chosen Few, manage your subscription, and find answers to billing questions.
 
 ---
 
 ## Need help?
 
-If you can't find the answer you're looking for, we're happy to help.
+Can't find what you're looking for?
 
-Email **[farid@stickynotes.club](mailto:farid@stickynotes.club)** and we'll get back to you as soon as possible.
+Email **[farid@stickynotes.club](mailto:farid@stickynotes.club)** and we'll be happy to help.
