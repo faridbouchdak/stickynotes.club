@@ -1,3 +1,8 @@
+---
+layout: default
+title: Collaboration
+nav_order: 5
+---
 # Collaboration
 
 Premium board owners can work together with others in two ways: **email invitations** and **share links**.
