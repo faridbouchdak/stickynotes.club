@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting started
-description: Create your account and manage your StickyNotes.club profile and settings.
+nav_order: 2
 ---
 # Getting started
 
