@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tags and due dates
+nav_order: 6
+---
 # Tags & due dates
 
 Organize your board notes with free-form tags and due dates. Setting them is a Premium feature; viewing and filtering is open to everyone with access to the board.
