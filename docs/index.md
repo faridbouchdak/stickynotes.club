@@ -2,7 +2,7 @@
 layout: home
 title: Home
 nav_order: 1
-------------
+---
 
 # StickyNotes.club Documentation
 
