@@ -2,31 +2,95 @@
 layout: default
 title: Getting started
 nav_order: 2
+permalink: /getting-started/
 ---
+
 # Getting started
+
+Welcome to StickyNotes.club.
+
+Creating an account takes less than a minute. Once you're signed in, you can immediately post sticky notes, create private boards, and collaborate with others.
+
+---
+
+## What you'll learn
+
+In this guide you'll learn how to:
+
+- create your account;
+- verify your email address;
+- complete your profile;
+- change your account settings;
+- permanently delete your account.
+
+---
 
 ## Create an account
 
-Register at [stickynotes.club/register](https://stickynotes.club/register) with your email address and a password. You'll receive a verification email — click the link to activate your account. Didn't receive it? You can resend the verification email from the login page.
+1. Open **StickyNotes.club**.
+2. Select **Sign up**.
+3. Enter your email address and choose a password.
+4. Accept the Terms of Service and Privacy Policy.
+5. Select **Create account**.
 
-## Your profile
+You'll receive a verification email within a few minutes.
 
-Visit your profile page to update your display information. Your liked notes are collected on your personal Wall of Likes.
+---
+
+## Verify your email address
+
+Open the verification email and select **Verify email address**.
+
+After verification, you can sign in and start using all available features.
+
+If you don't receive the email, check your spam folder before requesting a new verification email.
+
+---
+
+## Complete your profile
+
+Open **Profile** to personalize your account.
+
+You can:
+
+- upload a profile picture;
+- choose your display name;
+- write a short bio;
+- update your email address;
+- change your password.
+
+Your profile helps other people recognize you when you collaborate on boards or interact on the worldwide wall.
+
+---
 
 ## Account settings
 
-In **Settings** you can:
+From **Settings**, you can manage your account preferences and security.
 
-* Change your password
-* Change your email address (confirmed via a verification email to the new address)
-* Review your active sessions and revoke individual sessions or all other sessions — useful if you logged in on a shared device
+Depending on your subscription, you may also find your billing information and subscription settings here.
 
-## Forgot your password?
+---
 
-Use the **Forgot password** link on the login page. You'll receive an email with a reset link.
+## Delete your account
 
-## Deleting your account
+You can permanently delete your account at any time.
 
-You can delete your account at any time from your settings. This permanently removes your notes, boards, comments, and uploaded photos. This cannot be undone.
+Deleting your account permanently removes your profile and personal data associated with your account. This action cannot be undone.
 
-Next: [Sticky notes](notes.md)
+If you have an active subscription, cancel it before deleting your account.
+
+---
+
+## Good to know
+
+- You only need one StickyNotes.club account.
+- Your email address must be verified before you can use all features.
+- Keep your password secure and never share it with others.
+
+---
+
+## Related guides
+
+- [Sticky notes](/sticky-notes/)
+- [Private boards](/private-boards/)
+- [Plans & billing](/plans-and-billing/)
