@@ -2,6 +2,7 @@
 layout: default
 title: Private boards
 nav_order: 4
+permalink: /private-boards/
 ---
 # Private boards
 
