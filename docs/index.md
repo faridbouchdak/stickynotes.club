@@ -20,9 +20,9 @@ New here?
 
 Start with these guides:
 
-* **Getting started** — Create your account and set up your profile.
-* **Sticky notes** — Publish your first sticky note on the worldwide wall.
-* **Private boards** — Create your first collaborative board.
+- **[Getting started](/getting-started/)** — Create your account and set up your profile.
+- **[Sticky notes](/sticky-notes/)** — Publish your first sticky note on the worldwide wall.
+- **[Private boards](/private-boards/)** — Create your first collaborative board.
 
 ---
 
@@ -32,12 +32,12 @@ Invite others, share boards, collect ideas, and make decisions together.
 
 Learn about:
 
-* invitations
-* share links
-* comments
-* dot voting
+- invitations;
+- share links;
+- comments;
+- dot voting.
 
-Everything you need is covered in **Collaboration**.
+Everything you need is covered in **[Collaboration](/collaboration/)**.
 
 ---
 
@@ -45,11 +45,15 @@ Everything you need is covered in **Collaboration**.
 
 As your boards grow, tags, due dates, layouts, and filters help you keep everything organized.
 
+Learn more in **[Tags & due dates](/tags-and-due-dates/)**.
+
 ---
 
 ## Plans & billing
 
-Compare Free, Premium, and Chosen Few, manage your subscription, and find answers to billing questions.
+Compare **Free**, **Premium**, and **Chosen Few**, manage your subscription, and find answers to billing questions.
+
+Read the **[Plans & billing](/plans-and-billing/)** guide.
 
 ---
 
