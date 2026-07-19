@@ -92,6 +92,6 @@ If you no longer need the board, you can permanently delete it.
 
 ## Related guides
 
-* Collaboration
-* Sticky notes
-* Tags & due dates
+- [Collaboration](/collaboration/)
+- [Sticky notes](/sticky-notes/)
+- [Tags & due dates](/tags-and-due-dates/)
