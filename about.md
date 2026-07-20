@@ -1,20 +1,55 @@
 # About StickyNotes.club
-Welcome to StickyNotes.club, a simple and intuitive web-based sticky notes application. My mission is to provide a secure and reliable platform for you to jot down your thoughts, ideas, and reminders — and to share them with the world or collaborate privately.
 
-StickyNotes.club was initially inspired by Matthew's project [Subway Therapy](http://www.subwaytherapy.com/), but as the need for digital note-taking and mental wellness tools has grown, it has evolved into a platform for anyone looking to jot down their thoughts, ideas, and feelings in an online space.
+StickyNotes.club is a place where ideas can grow together.
 
-## What you can do
-* **Public sticky notes** — post colorful sticky notes to the worldwide wall, like and share notes from others, and browse notes by country.
-* **Instant photos** — premium members can attach photos with colorful frames to their notes.
-* **Private boards** — your own space for notes, with grid or column layouts, backgrounds, and drag & drop ordering. Premium members can collaborate: invite others by email or share a link (view-only or post access), add comments, tags and due dates, and run dot-voting rounds to prioritize ideas together.
+Sometimes an idea starts as a quick thought you want to share. Sometimes it needs a private space where you can explore it, organise it and develop it with other people.
 
-Curious about all features? Visit [docs.stickynotes.club](https://docs.stickynotes.club) for the full documentation.
+StickyNotes.club supports both.
 
-## Who is behind this
-StickyNotes.club is still a one man team dedicated to building a high-quality service that meets your needs. My Service is hosted on Cloudflare and a server, with backups, on Hetzner to ensure maximum security and uptime.
+## From a thought to something real
 
-I am offering a free plan with limited features, as well as a paid Premium plan (and the ultra-exclusive one-time Chosen Few upgrade) with additional features. Paid plans are billed through [Creem](https://www.creem.io/), and you can manage or cancel your subscription at any time via the customer portal.
+On the worldwide wall, you can share sticky notes and discover ideas from people around the world.
 
-I am committed to protecting your personal data and complying with the General Data Protection Regulation (GDPR). The Privacy Policy sets out how I collect, use, and protect your personal data.
+When an idea needs more attention, a private board gives you a dedicated space to collect thoughts, invite others and work towards a shared outcome.
 
-If you have any questions or feedback, please don't hesitate to contact me at farid@stickynotes.club . I am always here to help.
+The goal is simple: make it easy to capture an idea before it disappears, without forcing you to organise everything in advance.
+
+## Public inspires. Private builds.
+
+Public sticky notes are for sharing, discovering and starting conversations.
+
+Private boards are for brainstorming, organising, collaborating and making decisions.
+
+Together, they support the natural journey of an idea:
+
+**Capture → Share → Discuss → Organise → Collaborate → Execute**
+
+## Keeping things simple
+
+StickyNotes.club is designed to feel calm and straightforward.
+
+You should not need to understand a complicated system before writing something down. Sticky notes remain familiar, boards can grow naturally and additional tools are introduced only when they help you move an idea forward.
+
+StickyNotes.club is not intended to replace full project-management software, document editors or social networks. It sits between personal thinking and lightweight collaboration.
+
+## How it started
+
+StickyNotes.club was initially inspired by Matthew Chavez's [Subway Therapy](https://www.subwaytherapy.com/), where handwritten notes created unexpected connections between people.
+
+That same idea inspired a digital space where people can share thoughts publicly while also having a private place to develop ideas together.
+
+## Who is behind StickyNotes.club
+
+StickyNotes.club is an independent product created and maintained by Farid Bouchdak in the Netherlands.
+
+It is intentionally being developed as a small, focused service. New features are considered carefully and should make it easier for ideas to grow without making the product unnecessarily complicated.
+
+The service uses Cloudflare and Hetzner infrastructure. More information about the handling and protection of personal data is available in the [Privacy Policy](/privacy/).
+
+## Learn more
+
+Visit the [Help Center](https://docs.stickynotes.club/) to learn how sticky notes, private boards and collaboration work.
+
+Information about the available plans can be found under [Plans & subscriptions](/plans-and-subscriptions/).
+
+Questions, feedback and ideas are welcome at [farid@stickynotes.club](mailto:farid@stickynotes.club).
