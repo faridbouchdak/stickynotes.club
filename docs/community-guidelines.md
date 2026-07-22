@@ -5,81 +5,54 @@ nav_order: 10
 permalink: /community-guidelines/
 ---
 
-# Community guidelines
+# Help keep StickyNotes.club welcoming
 
-StickyNotes.club is built for sharing ideas.
-
-Whether you're posting a single sticky note or collaborating with others, we ask everyone to help make the community welcoming, respectful and inspiring.
-
----
+Ideas grow better in a place where people feel safe to share them. Be thoughtful with what you post and respectful of the people you meet.
 
 ## What you'll learn
 
-In this guide you'll learn:
+- What you can share on StickyNotes.club.
+- How to respect other people's rights and privacy.
+- How to report something that feels unsafe.
+- What can happen after a report.
 
-- what is encouraged;
-- what isn't allowed;
-- what happens when content is reported.
+## Share ideas without causing harm
 
----
+Ideas, questions, creativity and constructive disagreement are welcome. Personal attacks, threats, harassment, hate and intimidation are not.
 
-## Share ideas, not harm
+Do not use StickyNotes.club for spam, scams, impersonation, illegal or dangerous activity, sexual abuse or exploitation, or content that puts another person at risk.
 
-We encourage ideas, questions, creativity and constructive discussions.
+## Respect rights and privacy
 
-Different opinions are welcome.
+Share only text and images you own or have permission to use. Respect copyright, trademarks, privacy and personal data. Never expose another person's private information.
 
-Personal attacks, harassment and intimidation are not.
+Public sticky notes and Instant Photos can be copied, indexed and used outside StickyNotes.club. Keep sensitive information in a Draft or private board—and share it there only with people who should see it.
 
----
+## Report a concern
 
-## Respect other people
+Use **Report** on the relevant sticky note, comment or board. Choose the reason that best fits: spam or scams, threats or harassment, privacy or personal data, impersonation, illegal or dangerous content, sexual content or child safety, or another concern. Copyright has its own reporting route.
 
-Treat others the way you would like to be treated.
+StickyNotes.club does not have a general user-to-user blocking control. If you own a private board, you can remove a Participant's access. Use **Report** when content or behaviour may break these guidelines or put someone at risk.
 
-Be respectful, even when you disagree.
+You will receive a receipt and case reference. A human makes the final moderation decision, taking the severity and repetition of the problem into account.
 
-Healthy discussions help ideas grow.
+## Understand what can happen next
 
----
+StickyNotes.club may take no action, issue a warning, limit content visibility or product features, temporarily suspend an account or permanently exclude an account.
 
-## Only share content you have the right to share
+Content removal is a separate decision. Restricting an account does not automatically erase its existing contributions. Moderators may hide, remove or restore content, but they must not silently rewrite an author's words. A narrowly necessary redaction—such as removing exposed personal data from otherwise permitted content—must be recorded.
 
-Only publish content that belongs to you or that you have permission to use.
-
-Respect copyrights, trademarks and the privacy of others.
-
----
-
-## Keep StickyNotes.club safe
-
-Do not use StickyNotes.club for spam, scams or illegal activities.
-
-Content that puts other people at risk may be removed.
-
-Accounts that repeatedly violate these guidelines may be restricted or removed.
-
----
-
-## Reporting content
-
-If you find content that doesn't follow these guidelines, please report it.
-
-Every report is reviewed carefully.
-
----
+People affected by an action receive a reason and an appeal route unless safety or law temporarily prevents immediate notice. Appeals are free and remain available for six months.
 
 ## Good to know
 
-- Respect other people.
-- Share ideas responsibly.
-- Report content that violates these guidelines.
-- Help keep StickyNotes.club welcoming for everyone.
-
----
+- Disagreement is welcome; intimidation and harassment are not.
+- Public content can travel beyond StickyNotes.club.
+- A human, not an automated system alone, makes the final moderation decision.
+- Use the separate copyright route for copyright concerns.
 
 ## Related guides
 
-- [Privacy & safety](/privacy-and-safety/)
-- [Share ideas](/sticky-notes/)
-- [Contact & support](/contact-and-support/)
+- [Understand privacy and stay safe](/privacy-and-safety/)
+- [Create and share a sticky note](/sticky-notes/)
+- [Contact support](/contact-and-support/)

@@ -153,7 +153,7 @@ Avoid shipping a partial flow that creates a dead end. “Small” still include
 
 Keep public routes technically indexable and available to ordinary search and AI crawlers. Include eligible Public sticky notes and Instant Photos in public discovery mechanisms such as sitemaps and do not emit a `noindex` or product-level AI exclusion for them. Drafts, private-board content and removed Public content must never be exposed through those routes. After a Public object returns to Draft, is deleted or is removed through moderation, stop serving its content publicly and remove it from current discovery mechanisms; do not promise that third parties will erase prior copies or uses.
 
-Publishing does not transfer ownership to StickyNotes.club, but the Terms and Privacy Policy must transparently describe public availability, crawler access, search indexing, caching and external AI use and must define the necessary author assurances and platform permissions. Require legal review before treating that wording as final, especially for images, personal data, third-party rights and use involving minors.
+Publishing does not transfer ownership to StickyNotes.club. Instead, the user explicitly relinquishes ownership of the Public sticky note or Instant Photo. The Terms and Privacy Policy must transparently describe that consequence, public availability, crawler access, search indexing, caching and external AI use, and must define the necessary assurances and platform permissions. Require legal review before treating that wording as final, especially for images, personal data, third-party rights and use involving minors.
 
 > **[QUESTION Q-05] Resolved on 22 July 2026; implementation, policy and legal verification required** — Test indexability, sitemap inclusion, crawler metadata and the Publish warning for both Public forms. Test removal from public routes and discovery mechanisms after Return to Draft, deletion and moderation. Confirm that de-attributed Public content retained after account deletion remains indexable. Align the Terms and Privacy Policy and avoid any promise that search or AI use can be recalled.
 
@@ -530,7 +530,7 @@ For commercial positioning, make **Grow ideas together** the lead paid-value pil
 
 Prefer “Capture ideas before they’re forgotten” over “Create sticky notes”, and “Give every project its own place to think” over “Private boards”. Support claims with recognisable situations such as a writer collecting angles, friends planning a trip or a neighbourhood initiative organising suggestions.
 
-Do not position the product as a heavy company platform or promise public boards. Boards are private and access-controlled; public distribution happens through individual sticky notes on the worldwide wall. Public content must preserve attribution, creator control and deliberate sharing.
+Do not position the product as a heavy company platform or promise public boards. Boards are private and access-controlled; public distribution happens through individual sticky notes on the worldwide wall. Private-board content preserves ownership and attribution. Public content follows the explicit relinquishment, anonymous presentation and limited internal-control relationship defined in D-28.
 
 Do not promise or design a direct Public → Private transfer. There is no planned action to copy, move, reference, create a board from or add a Public sticky note to a private board. Viewing, sharing and saving an eligible sticky note as an image are separate actions and must not be described as board transfer or collaboration.
 

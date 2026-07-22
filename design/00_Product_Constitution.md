@@ -77,9 +77,10 @@ On the worldwide wall, a user publishes either a text sticky note or an **Instan
 
 ### 4. Trust users by default
 
-Users own their content and should remain in control of it.
+Users own the content they create or share inside private boards and should remain in control of it. Publishing to the worldwide wall is a deliberate exception: by publishing a sticky note or Instant Photo, the user explicitly relinquishes ownership of that Public content. The worldwide wall shows no name, profile or public contribution history; its only origin information is the stored country snapshot. Publication date, share count and heart count may also appear. While the account exists, a private internal relationship remains only for author controls and authorised moderation. It is not public attribution and does not preserve ownership after publication.
 
 - Privacy and access must be understandable before sharing.
+- The ownership consequence of publishing must be clear before **Publish**.
 - Editing, deletion and account controls should be easy to find.
 - Deleting a sticky note, comment or private board is immediately permanent after confirmation; the warning must name what disappears and state that it cannot be undone. Sticky-note deletion also removes its comments, hearts and dot votes. Comment deletion removes only that comment. Board deletion removes all board content and interactions and revokes Participant access and pending invitations without deleting participant accounts.
 - Public sticky notes remain available without an automatic expiry until their author returns them to Draft or deletes them, subject to proportionate moderation.

@@ -4,61 +4,40 @@ title: Home
 nav_order: 1
 ---
 
-# StickyNotes.club
+# How can we help?
 
-StickyNotes.club is a place to capture ideas, share thoughts, and collaborate with others.
+Whether you want to capture a thought, share it with the world or develop it with others, you can start here.
 
-You can post sticky notes on the worldwide wall or create private boards for your own projects, team, classroom, or workshop.
+## What you'll learn
 
-Whether you're here to brainstorm on your own or work together, these guides will help you get the most out of StickyNotes.club.
+- A quick route to your first sticky note or private board.
+- Practical guides for sharing and working together.
+- Clear answers about your account, privacy and plans.
+- Help when something does not work as expected.
 
----
+## Get started
 
-## Getting started
+- **[Get started with StickyNotes.club](/getting-started/)** — Create your account and choose the right place for an idea.
+- **[Create and share a sticky note](/sticky-notes/)** — Keep an idea as a Draft or publish it on the worldwide wall.
+- **[Create a private board](/private-boards/)** — Give your own ideas, or a group's ideas, room to grow.
 
-New here?
+## Work together
 
-Start with these guides:
+- **[Work together on a board](/collaboration/)** — Invite Participants, discuss ideas and vote together.
+- **[Organise your work](/organise-your-work/)** — Use layouts, colours, tags and due dates without making things complicated.
 
-- **[Getting started](/getting-started/)** — Create your account and set up your profile.
-- **[Sticky notes](/sticky-notes/)** — Publish your first sticky note on the worldwide wall.
-- **[Private boards](/private-boards/)** — Create your first collaborative board.
+## Manage your account
 
----
+- **[Manage your profile and account](/manage-your-profile/)** — Update your details, secure your account or understand what deletion means.
+- **[Choose a plan](/plans-and-subscriptions/)** — Compare Free, Premium and Chosen Few.
+- **[Understand privacy and safety](/privacy-and-safety/)** — Know who can see your content and how to report a concern.
 
-## Working together
+## Good to know
 
-Invite others, share boards, collect ideas, and make decisions together.
+Not sure where to look? Try the **[frequently asked questions](/faq/)** or **[solve a problem](/troubleshooting/)**. If you still need help, you can [contact support](/contact-and-support/).
 
-Learn about:
+## Related guides
 
-- invitations;
-- share links;
-- comments;
-- dot voting.
-
-Everything you need is covered in **[Collaboration](/collaboration/)**.
-
----
-
-## Stay organised
-
-As your boards grow, tags, due dates, layouts, and filters help you keep everything organised.
-
-Learn more in **[Organise your work](/organise-your-work/)**.
-
----
-
-## Plans & subscriptions
-
-Compare **Free**, **Premium**, and **Chosen Few**, manage your subscription, and find answers to billing questions.
-
-Read the **[Plans & subscriptions](/plans-and-subscriptions/)** guide.
-
----
-
-## Need help?
-
-Can't find what you're looking for?
-
-Email **[farid@stickynotes.club](mailto:farid@stickynotes.club)** and we'll be happy to help.
+- [Get started with StickyNotes.club](/getting-started/)
+- [Frequently asked questions](/faq/)
+- [Contact support](/contact-and-support/)

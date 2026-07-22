@@ -5,77 +5,78 @@ nav_order: 9
 permalink: /privacy-and-safety/
 ---
 
-# Privacy & safety
+# Understand privacy and stay safe
 
-Your ideas matter.
-
-StickyNotes.club is designed to help you share and collaborate while giving you control over your information.
-
-This guide explains how to manage your privacy and keep your account secure.
-
----
+Before sharing an idea, pause for a moment and check who should see it. Public content is made for broad discovery; Drafts and private boards are access-controlled spaces.
 
 ## What you'll learn
 
-In this guide you'll learn how to:
+- Who can see Public content, Drafts and private boards.
+- How ownership differs between private boards and the worldwide wall.
+- What happens to copies of Public content.
+- How to report a concern or make a privacy request.
+- How to protect your account.
 
-- understand who can see your content;
-- manage your privacy settings;
-- keep your account secure;
-- report inappropriate content.
+## Know what happens to Public content
 
----
+A Public sticky note or Instant Photo appears on the worldwide wall without your profile details. It stays public until you return it to Draft, delete it or authorised moderation removes it.
 
-## Public and private content
+Search engines may crawl, index, cache and show Public content. External AI services may process or use its text and images to train, improve, evaluate or operate AI systems. There is no separate opt-out for search indexing or external AI use.
 
-Public sticky notes can be discovered by other people.
+Returning content to Draft or deleting it stops StickyNotes.club from showing it publicly. This cannot necessarily remove copies, screenshots, saved images, search results, caches, AI datasets, model training or other third-party uses that already exist.
 
-Private boards are only visible to the people you invite.
+For the full explanation, read the [Privacy Policy](https://stickynotes.club/privacy/) and [Terms of Service](https://stickynotes.club/tos/).
 
-Before sharing an idea, always check whether it belongs on a public sticky note or a private board.
+## Keep work private
 
----
+Drafts and private-board content are not intentionally made available to public search or AI crawlers.
 
-## Your personal information
+Access to a private board is personal and tied to an account. The Owner invites someone by email; that person signs in or creates an account before becoming a Participant. There are no private-board share links, anonymous visitors or guest roles.
 
-You control the information shown on your profile.
+Remember that private access cannot stop an authorised Participant from copying information they can see.
 
-Only share information that you're comfortable making available to others.
+Authorised moderators and administrators may access Drafts and private-board content only when genuine moderation, support, security or legal work requires it. Access should be limited and recorded. They may hide, remove or restore content, but must not silently rewrite someone's words. Only a narrowly necessary, recorded redaction is allowed.
 
----
+## Understand ownership in each space
 
-## Keep your account secure
+You keep ownership of the sticky notes, comments and images you create or share on a private board. Giving Participants access to the board does not transfer that ownership.
 
-Help protect your account by:
+Publishing to the worldwide wall is different. When you publish a sticky note or Instant Photo, you explicitly give up ownership of that Public content. The worldwide wall does not connect it to your name, profile or contribution history. The only origin information shown is the country saved when the content was created; the publication date, share count and heart count may also appear.
 
-- using a strong password;
-- keeping your email address up to date;
-- signing out on shared devices.
+While your account exists, StickyNotes.club keeps a private internal connection so you can edit, return to Draft or delete the Public content and so authorised moderation can act. This connection is not shown on the worldwide wall and does not preserve ownership of the published content.
 
-If you think someone else has accessed your account, change your password immediately.
+Read the [Terms of Service](https://stickynotes.club/tos/) for the formal conditions that apply when you publish.
 
----
+## Report content or behaviour
 
-## Report inappropriate content
+Use **Report** on the relevant sticky note, comment or board. Choose the closest reason, explain what happened when needed, and keep the receipt and case reference.
 
-If you find content that violates our community guidelines, you can report it for review.
+Copyright concerns use a separate reporting route. If the Report control is unavailable or the problem concerns your account, email [farid@stickynotes.club](mailto:farid@stickynotes.club).
 
-We investigate reports as quickly as possible to help keep StickyNotes.club welcoming for everyone.
+A human makes the final moderation decision. The outcome may be no action, a warning, a content or feature restriction, a temporary suspension or permanent exclusion. Restricting an account does not automatically remove its existing contributions.
 
----
+If an action affects you, the notice should explain the reason, scope, duration and free appeal route. A recorded safety or legal reason may delay notice. You can appeal for six months.
+
+## Ask for your personal data
+
+Email [farid@stickynotes.club](mailto:farid@stickynotes.club) to exercise applicable privacy rights, including access or portability. This is a privacy request, not a bulk board or product-export feature.
+
+## Protect your account
+
+- Use a password you do not use elsewhere.
+- Keep your email address current.
+- Sign out when you use a shared device.
+- Change your password promptly if you think someone else accessed your account.
 
 ## Good to know
 
-- Public sticky notes are visible to everyone.
-- Private boards are only shared with invited collaborators.
-- You control your profile information.
-- Report content that makes the community unsafe or unwelcoming.
-
----
+- A Draft is not public, but a Public sticky note may travel beyond StickyNotes.club.
+- Private means access-controlled, not impossible to copy.
+- A human makes final moderation decisions.
+- Never send your password or payment-card details to support.
 
 ## Related guides
 
-- [Manage your profile](/manage-your-profile/)
-- [Community guidelines](/community-guidelines/)
-- [Share ideas](/sticky-notes/)
-- [Contact & support](/contact-and-support/)
+- [Follow the community guidelines](/community-guidelines/)
+- [Manage your profile and account](/manage-your-profile/)
+- [Contact support](/contact-and-support/)

@@ -478,7 +478,8 @@ Cancellation stops future renewal. Paid capabilities normally remain available u
 
 ## Ownership and control rules
 
-- Users retain ownership of the content they create or upload.
+- Users retain ownership of content they create or share inside private boards.
+- Publishing a sticky note or Instant Photo to the worldwide wall is an explicit relinquishment of ownership. The Public object has no visible relationship to a person; the stored country snapshot is its only origin information. The private internal account relationship retained while the account exists supports author controls and authorised moderation only and does not preserve ownership of the Public content.
 - Authors can edit their own public and board sticky notes using available controls.
 - Board owners control invitations, participant access and the board itself, including deletion of any sticky note on an active board.
 - Authors can delete their own board sticky notes and comments. Other Participants cannot edit or delete another author’s sticky note or comment. Board ownership never grants editing rights or separate deletion rights over another author’s comment; it grants the defined sticky-note deletion exception and its V-09 cascade.

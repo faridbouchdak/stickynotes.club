@@ -5,71 +5,62 @@ nav_order: 13
 permalink: /contact-and-support/
 ---
 
-# Contact & support
+# Contact support
 
-We're here to help.
+If the Help Centre does not answer your question, email [farid@stickynotes.club](mailto:farid@stickynotes.club). A little context will make it easier to understand what happened and help you well.
 
-If you can't find the answer in the Help Centre, our support team is happy to assist you.
+## What you'll learn
 
----
+- Where to look before contacting support.
+- What to include when asking for help or reporting a bug.
+- How to report unsafe content or make a privacy request.
+- How to share a product suggestion.
 
-## Before contacting us
+## Check the Help Centre first
 
-You may find your answer in one of these guides:
+You may find the answer straight away in:
 
-- [Getting started](/getting-started/)
-- [Frequently asked questions](/faq/)
-- [Troubleshooting](/troubleshooting/)
+- [Find a quick answer](/faq/)
+- [Solve a problem](/troubleshooting/)
+- [Understand privacy and stay safe](/privacy-and-safety/)
 
----
+## Ask for help or report a bug
 
-## Contact support
-
-When you contact us, please include as much information as possible.
-
-For example:
+Tell us:
 
 - what you were trying to do;
 - what happened instead;
-- any error message you received;
-- the browser or device you're using.
+- the exact error message;
+- the steps that make the problem happen again;
+- which browser and device you use; and
+- a relevant board or sticky-note link, only when it is safe to share.
 
-The more details you provide, the faster we can help.
+Do not email your password, payment-card details or sensitive content that is not needed to investigate the problem.
 
----
+## Report something unsafe
 
-## Report a problem
+Use **Report** on the relevant sticky note, comment or board whenever you can. This keeps the right context with your report and gives you a case reference.
 
-Found a bug?
+If there is no Report control, email support and clearly explain why the situation is urgent. Copyright concerns use the separate copyright reporting route provided by StickyNotes.club.
 
-Please tell us what happened and, if possible, how we can reproduce the issue.
+## Make a privacy request
 
-Every report helps us improve StickyNotes.club.
+Email [farid@stickynotes.club](mailto:farid@stickynotes.club) to exercise applicable rights to access, correct, delete or receive your personal data. This is a privacy process, not a bulk board or product-export feature.
 
----
+Read the [Privacy Policy](https://stickynotes.club/privacy/) for the full explanation.
 
-## Suggest an idea
+## Suggest an improvement
 
-StickyNotes.club is built around ideas.
-
-If you have an idea that could improve the product, we'd love to hear it.
-
-Many of our best improvements start with feedback from our community.
-
----
+Ideas are welcome. The most useful suggestions explain the problem you want to solve, who experiences it and what a good outcome would feel like.
 
 ## Good to know
 
-- Check the Help Centre first.
-- Include as much detail as possible when contacting support.
-- Feature ideas are always welcome.
-- We read every message.
-
----
+- Share only the information needed to understand the problem.
+- Use **Report** for unsafe content when that control is available.
+- Product suggestions are clearest when they begin with the problem, not a feature request.
 
 ## Related guides
 
-- [Frequently asked questions](/faq/)
-- [Troubleshooting](/troubleshooting/)
-- [Community guidelines](/community-guidelines/)
-- [Privacy & safety](/privacy-and-safety/)
+- [Follow the community guidelines](/community-guidelines/)
+- [Manage your profile and account](/manage-your-profile/)
+- [Choose and manage your plan](/plans-and-subscriptions/)

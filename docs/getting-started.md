@@ -5,92 +5,52 @@ nav_order: 2
 permalink: /getting-started/
 ---
 
-# Getting started
+# Get started with StickyNotes.club
 
-Welcome to StickyNotes.club.
-
-Creating an account takes less than a minute. Once you're signed in, you can immediately post sticky notes, create private boards, and collaborate with others.
-
----
+Start by creating an account and capturing one idea. You do not need to know yet whether you want to keep it to yourself, share it publicly or develop it with others.
 
 ## What you'll learn
 
-In this guide you'll learn how to:
+- How to create and verify your account.
+- Where to put your first idea.
+- How your profile is used.
 
-- create your account;
-- verify your email address;
-- complete your profile;
-- change your account settings;
-- permanently delete your account.
+## Create your account
 
----
+An account lets you create content, manage a private board and join a board when someone invites you.
 
-## Create an account
-
-1. Open **StickyNotes.club**.
+1. Open [StickyNotes.club](https://stickynotes.club).
 2. Select **Sign up**.
 3. Enter your email address and choose a password.
-4. Accept the Terms of Service and Privacy Policy.
+4. Accept the [Terms of Service](https://stickynotes.club/tos/) and acknowledge the [Privacy Policy](https://stickynotes.club/privacy/).
 5. Select **Create account**.
+6. Open the verification email and select **Verify email address**.
 
-You'll receive a verification email within a few minutes.
+If the email does not arrive, check your spam folder before requesting another one.
 
----
+## Choose the right place for your idea
 
-## Verify your email address
+Think about who should be able to see the idea:
 
-Open the verification email and select **Verify email address**.
+- Choose a **Draft** when it is not ready to be public.
+- Publish a **Public sticky note** or **Instant Photo** when you want it to appear on the worldwide wall.
+- Use an unshared **private board** as your own workspace.
+- Invite Participants to a private board when you want to develop ideas together.
 
-After verification, you can sign in and start using all available features.
+A Public sticky note and a sticky note on a private board are separate. You cannot move or copy one directly into the other context.
 
-If you don't receive the email, check your spam folder before requesting a new verification email.
+## Make your profile recognisable
 
----
-
-## Complete your profile
-
-Open **Profile** to personalise your account.
-
-You can:
-
-- upload a profile picture;
-- choose your display name;
-- write a short bio;
-- update your email address;
-- change your password.
-
-Your profile helps other people recognise you when you collaborate on boards or interact on the worldwide wall.
-
----
-
-## Account settings
-
-From **Settings**, you can manage your account preferences and security.
-
-Depending on your subscription, you may also find your billing information and subscription settings here.
-
----
-
-## Delete your account
-
-You can permanently delete your account at any time.
-
-Deleting your account permanently removes your profile and personal data associated with your account. This action cannot be undone.
-
-If you have an active subscription, cancel it before deleting your account.
-
----
+Open **Profile** to update the information available there, such as your name, profile picture or description. These details help current Participants recognise you on a private board. They do not appear with your Public sticky notes on the worldwide wall.
 
 ## Good to know
 
-- You only need one StickyNotes.club account.
-- Your email address must be verified before you can use all features.
-- Keep your password secure and never share it with others.
-
----
+- Every board is private, even when only its Owner uses it.
+- Public and private content have different visibility and deletion consequences. Read [Understand privacy and safety](/privacy-and-safety/) before publishing anything sensitive.
+- You can manage your profile, security and account deletion from your account settings.
 
 ## Related guides
 
-- [Sticky notes](/sticky-notes/)
-- [Private boards](/private-boards/)
-- [Plans & subscriptions](/plans-and-subscriptions/)
+- [Create and share a sticky note](/sticky-notes/)
+- [Create a private board](/private-boards/)
+- [Manage your profile and account](/manage-your-profile/)

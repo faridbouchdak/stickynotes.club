@@ -5,73 +5,54 @@ nav_order: 7
 permalink: /manage-your-profile/
 ---
 
-# Manage your profile
+# Manage your profile and account
 
-Your profile helps others recognise you and lets you personalise your StickyNotes.club experience.
-
-Most profile settings only take a few moments to update.
-
----
+Keep your details up to date so people can recognise you on private boards and important account emails can reach you.
 
 ## What you'll learn
 
-In this guide you'll learn how to:
+- Where to update your profile, email address and password.
+- Which profile details appear publicly.
+- What happens to each kind of content when you delete your account.
 
-- update your profile information;
-- change your account settings;
-- manage your preferences;
-- keep your account secure.
+## Update your details
 
----
+Open **Profile** or **Settings** to change the fields and security controls available for your account, such as your name, profile picture, description, email address or password.
 
-## Update your profile
+Keep your email address current. StickyNotes.club uses it for account verification, private-board invitations and collaboration notifications.
 
-Keep your profile information up to date so people can easily recognise you.
+## Understand where your identity appears
 
-Depending on your account, you may be able to update your:
+Your profile helps current Participants recognise you on private boards. Your Public sticky notes do not show your name, username, profile picture, biography, profile link or contribution history. They show only their publication date, country snapshot, share count and heart count.
 
-- display name;
-- profile picture;
-- short profile description.
-
----
-
-## Manage your preferences
-
-Personalise StickyNotes.club to match the way you like to work.
-
-For example, you can choose how and when you receive notifications or update other personal preferences.
-
----
-
-## Keep your account secure
-
-Use a strong password and keep your email address up to date.
-
-If you ever think your account may have been compromised, change your password as soon as possible.
-
----
+Your Wall of Love is private. Only you can see the Public sticky notes you have saved there with a heart.
 
 ## Delete your account
 
-If you no longer want to use StickyNotes.club, you can permanently delete your account.
+Account deletion cannot be undone, and different kinds of content are handled differently:
 
-Before doing so, make sure you understand what information will be removed and whether any shared boards or content will be affected.
+- Your profile, sign-in details, preferences, Drafts, personal hearts and Wall of Love are deleted.
+- Every private board you own is permanently deleted, including all content, access and pending invitations.
+- Your sticky notes and comments on someone else's board remain, with the author shown as **Deleted user**.
+- Your Public sticky notes remain without a connection to your account, profile or author controls. A strip of tape and the explanation **This sticky note remains after its author deleted their account.** mark this state.
+- Anonymous dot-vote totals may remain without a connection to your account.
+- Future subscription renewal ends.
 
----
+Before deleting your account, remove any contributions on other Owners' boards that you do not want to leave behind. You cannot transfer board ownership, so boards you own cannot pass to a successor.
+
+Deleted data may remain in protected technical backups for no more than **30 days**. You cannot access or recover it there. Billing, tax or legal records may be kept for the period required by law.
+
+Public sticky notes that remain can still be indexed and used by external AI services until authorised moderation removes them. Account deletion cannot recall saved images, screenshots, search results, caches, AI datasets, model training or other external copies and uses.
 
 ## Good to know
 
-- Keep your profile information current.
-- Review your preferences from time to time.
-- Use a unique password for your account.
-- Account deletion may permanently remove your data.
-
----
+- Your profile is not a public byline for sticky notes on the worldwide wall.
+- Deleting your account also deletes every private board you own.
+- Cancelling a subscription and deleting an account are different actions.
+- If you need help understanding the consequences, contact support before confirming deletion.
 
 ## Related guides
 
-- [Getting started](/getting-started/)
-- [Privacy & safety](/privacy-and-safety/)
-- [Plans & subscriptions](/plans-and-subscriptions/)
-- [Contact & support](/contact-and-support/)
+- [Understand privacy and safety](/privacy-and-safety/)
+- [Create and manage a private board](/private-boards/)
+- [Choose a plan](/plans-and-subscriptions/)

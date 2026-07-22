@@ -5,96 +5,88 @@ nav_order: 3
 permalink: /sticky-notes/
 ---
 
-# Sticky notes
+# Create and share a sticky note
 
-Sticky notes are at the heart of StickyNotes.club.
-
-Share ideas, questions, inspiration, or moments with people around the world. Every sticky note becomes part of the worldwide wall where others can discover, like, and share it.
-
----
+Capture an idea as a Draft first. When it is ready, you can share it on the worldwide wall—or keep it private for as long as you like.
 
 ## What you'll learn
 
-In this guide you'll learn how to:
+- How Drafts and Public sticky notes work.
+- What other people see after you publish.
+- How hearts, sharing, editing and deletion work.
+- How sticky notes on private boards are different.
 
-- create a sticky note;
-- add a photo;
-- publish your note;
-- interact with other people's notes;
-- share notes with others.
+## Capture an idea
 
----
+For the worldwide wall, you can create:
 
-## Create a sticky note
+- a text **sticky note**; or
+- an **Instant Photo**, with one image in a Polaroid-like frame and a caption.
 
-Creating a sticky note only takes a moment.
+Both begin as Drafts. Sticky-note text and Instant Photo captions cannot contain URLs. Images are the only files you can upload, and each image can be up to **5 MB**.
 
-1. Select **New sticky note**.
-2. Write your message.
-3. Choose a colour that fits your note.
-4. Optionally add a photo.
-5. Select **Publish**.
+Creating or editing a Draft does not use your daily publication allowance.
 
-Once published, your note becomes visible on the worldwide wall.
+## Publish when you're ready
 
----
+Before you select **Publish**, make sure you are comfortable sharing the content publicly. It will appear on the worldwide wall and will not expire automatically.
 
-## Add a photo
+Publishing also means that you explicitly give up ownership of that Public content. It is not linked to your name, profile or contribution history on the worldwide wall. StickyNotes.club keeps a private internal connection while your account exists so you can edit, return it to Draft or delete it.
 
-A picture can help tell your story.
+Public text and images may be copied, crawled, indexed or cached. External AI services may also process or use them to train, improve, evaluate or operate AI systems. There is no separate opt-out for search indexing or external AI use.
 
-Photos are optional, but they often make ideas easier to understand and more engaging to others.
+After publishing, you can view, share or edit the sticky note, or **Return to Draft**. Returning it to Draft stops StickyNotes.club from showing it publicly. It cannot recall copies, screenshots, saved images, search results, caches or earlier external AI use.
 
-Supported image formats and maximum file sizes are shown during upload.
+## See what appears publicly
 
----
+A Public sticky note shows:
 
-## Publish your note
+- its publication date in **YYYY/MM/DD** format;
+- the account country saved when the sticky note was created;
+- its share count; and
+- its active heart count.
 
-Publishing makes your sticky note available to the community.
+It does not show your name, username, profile picture, biography or profile link. Changing your account country later does not change the country already saved with that sticky note.
 
-After publishing, other people can discover your note while browsing the worldwide wall.
+## Save an idea with a heart
 
-Depending on your privacy settings and future product capabilities, additional visibility options may become available.
+When you are signed in, you can give a Public sticky note a heart. This adds one to its heart count and saves it to your private **Wall of Love**.
 
----
+Select the heart again to remove it. The count goes down by one and the sticky note disappears from your Wall of Love. Hearts on private boards are separate and never appear there.
 
-## Interact with other notes
+## Share a Public sticky note
 
-StickyNotes.club is designed for sharing ideas, not just collecting them.
+Choose the action that suits you:
 
-You can:
+- **Copy link** copies a direct link to your clipboard.
+- **Save as image** creates an independent image you can keep or share elsewhere.
 
-- like notes;
-- leave comments;
-- discover ideas from around the world;
-- explore notes by country.
+Each completed action adds one to the share count, including repeated actions. The count records completed actions, not unique people or confirmed shares elsewhere. **Save as image** is not available for Drafts.
 
-Every interaction helps interesting ideas reach more people.
+## Edit, return to Draft or delete
 
----
+You can edit your own sticky note. StickyNotes.club keeps the current accepted version, not an edit history or an earlier version you can restore.
 
-## Share a note
+Returning a Public sticky note to Draft removes its public hearts and Wall of Love connections, and resets its heart and share counts. If you publish it again, it starts with a new publication date and zero counts.
 
-Found something worth sharing?
+Delete a sticky note only when you no longer need it. After you confirm, deletion is immediate and permanent. Comments, hearts and dot votes on that sticky note are deleted too. There is no Undo, trash or recovery period.
 
-Open the note and select **Share** to copy or send a direct link.
+Deleting Public content stops StickyNotes.club from showing it, but cannot recall independent copies or earlier use by search engines, caches or external AI services.
 
-Sharing allows others to discover the same idea without searching for it.
+## Use sticky notes on a private board
 
----
+A sticky note on a private board belongs to that board only. It can include one optional image of up to **5 MB**, board tags and one optional due date. It is not an Instant Photo and cannot be assigned to a person.
 
 ## Good to know
 
-- Published sticky notes are visible on the worldwide wall.
-- Photos are optional.
-- Be respectful when sharing ideas with the community.
-- Community Guidelines apply to all public content.
-
----
+- A Draft is not public.
+- A Public sticky note stays public until you return it to Draft, delete it or authorised moderation removes it.
+- Public and private-board sticky notes are separate; there is no direct move or copy action between them.
+- Mentions are available only on private boards and draw someone's attention without assigning responsibility.
+- StickyNotes.club does not offer bulk, board-level or structured export. **Save as image** applies to one eligible sticky note and is not available for a Draft.
 
 ## Related guides
 
-- [Private boards](/private-boards/)
-- [Collaboration](/collaboration/)
-- [Getting started](/getting-started/)
+- [Understand privacy and safety](/privacy-and-safety/)
+- [Create a private board](/private-boards/)
+- [Choose a plan](/plans-and-subscriptions/)

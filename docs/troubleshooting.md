@@ -5,54 +5,65 @@ nav_order: 12
 permalink: /troubleshooting/
 ---
 
-# Troubleshooting
+# Solve a problem
 
-Sometimes things don't work as expected.
+Start with the section that matches what you were trying to do. Most common access, invitation, publication and upload problems can be checked in a few steps.
 
-Here are a few simple things you can check before contacting support.
+## What you'll learn
 
----
+- How to recover from common sign-in and invitation problems.
+- What to check when publishing, uploading or saving fails.
+- When deleted content can—and cannot—be recovered.
+- What to send if you need human help.
 
-## I can't sign in
+## I cannot sign in
 
-Make sure you're using the correct email address and password.
+Check that you are using the right email address and password. If you forgot your password, use the reset option on the sign-in page.
 
-If you've forgotten your password, reset it from the sign-in page.
+If a verification or reset email has not arrived, check your spam folder before requesting another one.
 
----
+## I cannot accept a board invitation
 
-## I can't see my sticky notes
+- Sign in with the email address that received the invitation, or create an account with that address.
+- Check whether the invitation is more than 14 days old.
+- Ask the Owner whether the invitation is still pending or your access was revoked.
 
-Check whether you're signed into the correct account.
+An expired invitation cannot be replaced with a private-board share link, because private boards do not have share links.
 
-If you're looking for content on a private board, make sure you still have access.
+## I cannot invite someone
 
----
+Only Owners on Premium or Chosen Few can send private-board invitations. If you use Free, you can still receive invitations and participate fully.
 
-## Something isn't loading
+## I cannot publish a Draft
 
-Refresh the page and try again.
+Check whether you reached your plan's daily publication allowance. Only successful moves from **Draft → Public** count. You can publish again after the daily reset, and you can keep creating and editing Drafts or private-board sticky notes while you wait.
 
-If the problem continues, try using a different browser or clearing your browser cache.
+Also check the content. Sticky-note text and Instant Photo captions cannot contain URLs, and an uploaded image cannot be larger than **5 MB**.
 
----
+## An image will not upload
 
-## Something doesn't look right
+Images are the only files you can upload, and each image can be up to **5 MB**. Remove unsupported files or choose a smaller image, then try again.
 
-If you think you've found a bug, we'd love to hear about it.
+Keep the page open while an upload or save is still in progress.
 
-Please include as much detail as possible when contacting support.
+## A board change is missing
 
----
+Check that StickyNotes.club confirmed the change was saved before you leave the page. Refresh to load the board's accepted state.
 
-## Still need help?
+If saving failed, keep a copy of your text and try again. Do not assume the change reached the board until you see confirmation.
 
-Visit our [Contact & support](/contact-and-support/) page.
+## I cannot find deleted content
 
----
+After you confirm deletion, a sticky note, comment or board is deleted immediately and permanently. There is no Undo, trash or recovery option.
+
+## Good to know
+
+- Keep the page open when an upload or save is still in progress.
+- Preserve a copy of important unsaved text before retrying.
+- Never send your password or payment-card details to support.
 
 ## Related guides
 
-- [Manage your profile](/manage-your-profile/)
-- [Contact & support](/contact-and-support/)
-- [Getting started](/getting-started/)
+- [Find a quick answer](/faq/)
+- [Contact support](/contact-and-support/)
+- [Understand privacy and stay safe](/privacy-and-safety/)
