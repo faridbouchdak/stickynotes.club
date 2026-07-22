@@ -9,7 +9,7 @@ permalink: /contact-and-support/
 
 We're here to help.
 
-If you can't find the answer in the Help Center, our support team is happy to assist you.
+If you can't find the answer in the Help Centre, our support team is happy to assist you.
 
 ---
 
@@ -60,7 +60,7 @@ Many of our best improvements start with feedback from our community.
 
 ## Good to know
 
-- Check the Help Center first.
+- Check the Help Centre first.
 - Include as much detail as possible when contacting support.
 - Feature ideas are always welcome.
 - We read every message.

@@ -44,11 +44,11 @@ StickyNotes.club is an independent product created and maintained by Farid Bouch
 
 It is intentionally being developed as a small, focused service. New features are considered carefully and should make it easier for ideas to grow without making the product unnecessarily complicated.
 
-The service uses Cloudflare and Hetzner infrastructure. More information about the handling and protection of personal data is available in the [Privacy Policy](/privacy/).
+The application, database and stored content are hosted by Fly.io in Amsterdam. The domain uses Cloudflare for DNS, network delivery and security. More information about the handling and protection of personal data is available in the [Privacy Policy](/privacy/).
 
 ## Learn more
 
-Visit the [Help Center](https://docs.stickynotes.club/) to learn how sticky notes, private boards and collaboration work.
+Visit the [Help Centre](https://docs.stickynotes.club/) to learn how sticky notes, private boards and collaboration work.
 
 Information about the available plans can be found under [Plans & subscriptions](/plans-and-subscriptions/).
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Organize your work
+title: Organise your work
 nav_order: 6
-permalink: /organize-your-work/
+permalink: /organise-your-work/
 ---
 
-# Organize your work
+# Organise your work
 
 As your board grows, keeping ideas organised becomes just as important as capturing them.
 
@@ -75,4 +75,4 @@ Remove outdated notes, update tags when needed and archive completed work to kee
 
 - [Private boards](/private-boards/)
 - [Collaboration](/collaboration/)
-- [Plans & billing](/plans-and-billing/)
+- [Plans & subscriptions](/plans-and-subscriptions/)

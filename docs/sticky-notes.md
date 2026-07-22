@@ -31,7 +31,7 @@ Creating a sticky note only takes a moment.
 
 1. Select **New sticky note**.
 2. Write your message.
-3. Choose a color that fits your note.
+3. Choose a colour that fits your note.
 4. Optionally add a photo.
 5. Select **Publish**.
 

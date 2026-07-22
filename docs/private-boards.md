@@ -20,7 +20,7 @@ In this guide you'll learn how to:
 
 * create a private board;
 * invite other people;
-* organize ideas;
+* organise ideas;
 * manage access;
 * archive or delete a board.
 
@@ -30,7 +30,7 @@ In this guide you'll learn how to:
 
 Create a board whenever you want a dedicated place to work on an idea.
 
-Whether you're planning a project, organizing an event, preparing a workshop or simply collecting inspiration, every board starts empty and grows with your ideas.
+Whether you're planning a project, organising an event, preparing a workshop or simply collecting inspiration, every board starts empty and grows with your ideas.
 
 1. Select **New board**.
 2. Give your board a name.
@@ -51,7 +51,7 @@ Everyone you invite sees the same board and can contribute according to the perm
 
 ---
 
-## Organize your ideas
+## Organise your ideas
 
 Move sticky notes around until your board reflects the way your team thinks.
 
@@ -94,4 +94,4 @@ If you no longer need the board, you can permanently delete it.
 
 - [Collaboration](/collaboration/)
 - [Sticky notes](/sticky-notes/)
-- [Tags & due dates](/tags-and-due-dates/)
+- [Organise your work](/organise-your-work/)

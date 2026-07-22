@@ -73,5 +73,5 @@ Before doing so, make sure you understand what information will be removed and w
 
 - [Getting started](/getting-started/)
 - [Privacy & safety](/privacy-and-safety/)
-- [Plans & billing](/plans-and-billing/)
+- [Plans & subscriptions](/plans-and-subscriptions/)
 - [Contact & support](/contact-and-support/)

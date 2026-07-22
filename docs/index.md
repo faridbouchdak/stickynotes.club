@@ -41,19 +41,19 @@ Everything you need is covered in **[Collaboration](/collaboration/)**.
 
 ---
 
-## Stay organized
+## Stay organised
 
-As your boards grow, tags, due dates, layouts, and filters help you keep everything organized.
+As your boards grow, tags, due dates, layouts, and filters help you keep everything organised.
 
-Learn more in **[Tags & due dates](/tags-and-due-dates/)**.
+Learn more in **[Organise your work](/organise-your-work/)**.
 
 ---
 
-## Plans & billing
+## Plans & subscriptions
 
 Compare **Free**, **Premium**, and **Chosen Few**, manage your subscription, and find answers to billing questions.
 
-Read the **[Plans & billing](/plans-and-billing/)** guide.
+Read the **[Plans & subscriptions](/plans-and-subscriptions/)** guide.
 
 ---
 

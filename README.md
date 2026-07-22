@@ -1,6 +1,6 @@
 # StickyNotes.club
 
-This repository contains the public website pages, Help Center documentation and product design documents for [StickyNotes.club](https://stickynotes.club).
+This repository contains the public website pages, Help Centre documentation and product design documents for [StickyNotes.club](https://stickynotes.club).
 
 StickyNotes.club is a place where ideas can grow together.
 
@@ -8,7 +8,7 @@ People can share thoughts on the worldwide wall or use private boards to collect
 
 ## Documentation website
 
-The Help Center is published at:
+The Help Centre is published at:
 
 **[docs.stickynotes.club](https://docs.stickynotes.club)**
 
@@ -18,16 +18,16 @@ It is built with [Jekyll](https://jekyllrb.com/) and the [Just the Docs](https:/
 
 The repository contains three types of documents.
 
-### Help Center pages
+### Help Centre pages
 
 These pages explain StickyNotes.club from the user's perspective:
 
-- `index.md` — Help Center homepage
+- `index.md` — Help Centre homepage
 - `getting-started.md` — account setup and first steps
 - `sticky-notes.md` — public sticky notes and the worldwide wall
 - `private-boards.md` — creating and managing private boards
 - `collaboration.md` — working together on boards
-- `organize-your-work.md` — tags, due dates and board organisation
+- `organise-your-work.md` — tags, due dates and board organisation
 - `manage-your-profile.md` — profile and account settings
 - `plans-and-subscriptions.md` — plans, payments and cancellation
 - `privacy-and-safety.md` — privacy controls and account safety
@@ -70,7 +70,7 @@ The main principles are:
 
 ## Writing and documentation
 
-Help Center pages should:
+Help Centre pages should:
 
 - start with the user's goal;
 - explain outcomes before actions;
@@ -88,7 +88,7 @@ When product behaviour changes:
 
 1. Start with the user problem.
 2. Describe the intended behaviour.
-3. Update the relevant Help Center page.
+3. Update the relevant Help Centre page.
 4. Build or change the feature.
 5. Test the documented workflow.
 6. Record new insights in the design documents.
@@ -97,7 +97,7 @@ Documentation should be updated as part of the product change, not afterwards.
 
 ## Local preview
 
-To preview the Help Center locally, use a Jekyll-compatible development environment and run:
+To preview the Help Centre locally, use a Jekyll-compatible development environment and run:
 
 ```bash
 bundle exec jekyll serve
@@ -114,7 +114,7 @@ The GitHub Pages configuration is stored in `_config.yml`.
 ## Links
 
 - [Open StickyNotes.club](https://stickynotes.club)
-- [Open the Help Center](https://docs.stickynotes.club)
+- [Open the Help Centre](https://docs.stickynotes.club)
 - [Report a problem or suggest an idea](mailto:farid@stickynotes.club)
 
 ## Status

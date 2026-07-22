@@ -49,7 +49,7 @@ If you don't receive the email, check your spam folder before requesting a new v
 
 ## Complete your profile
 
-Open **Profile** to personalize your account.
+Open **Profile** to personalise your account.
 
 You can:
 
@@ -59,7 +59,7 @@ You can:
 - update your email address;
 - change your password.
 
-Your profile helps other people recognize you when you collaborate on boards or interact on the worldwide wall.
+Your profile helps other people recognise you when you collaborate on boards or interact on the worldwide wall.
 
 ---
 
@@ -93,4 +93,4 @@ If you have an active subscription, cancel it before deleting your account.
 
 - [Sticky notes](/sticky-notes/)
 - [Private boards](/private-boards/)
-- [Plans & billing](/plans-and-billing/)
+- [Plans & subscriptions](/plans-and-subscriptions/)

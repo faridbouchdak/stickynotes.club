@@ -72,5 +72,5 @@ Instead of searching through long conversations, the board becomes the single pl
 ## Related guides
 
 - [Private boards](/private-boards/)
-- [Tags & due dates](/tags-and-due-dates/)
+- [Organise your work](/organise-your-work/)
 - [Sticky notes](/sticky-notes/)
