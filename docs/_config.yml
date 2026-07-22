@@ -1,4 +1,4 @@
-title: StickyNotes.club Docs
+title: StickyNotes.club Help Centre
 description: User guide for StickyNotes.club
 
 url: "https://docs.stickynotes.club"
@@ -6,7 +6,9 @@ baseurl: ""
 
 remote_theme: just-the-docs/just-the-docs
 
-color_scheme: light
+color_scheme: stickynotes
+
+favicon_ico: "/assets/images/favicon.svg"
 
 search_enabled: true
 search:
@@ -19,8 +21,8 @@ search:
   button: false
 
 aux_links:
-  "Open StickyNotes.club":
-    - "https://stickynotes.club"
+  "Open StickyNotes.club →":
+    - "https://www.stickynotes.club"
 
 aux_links_new_tab: true
 

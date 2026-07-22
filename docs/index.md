@@ -8,12 +8,24 @@ nav_order: 1
 
 Whether you want to capture a thought, share it with the world or develop it with others, you can start here.
 
-## What you'll learn
-
-- A quick route to your first sticky note or private board.
-- Practical guides for sharing and working together.
-- Clear answers about your account, privacy and plans.
-- Help when something does not work as expected.
+<div class="guide-grid">
+  <a class="guide-card guide-card--yellow" href="/getting-started/">
+    <span class="guide-card__title">Get started</span>
+    <p>Create your account and find the right place for your first idea.</p>
+  </a>
+  <a class="guide-card guide-card--pink" href="/sticky-notes/">
+    <span class="guide-card__title">Share a sticky note</span>
+    <p>Keep an idea as a Draft or publish it on the worldwide wall.</p>
+  </a>
+  <a class="guide-card guide-card--mint" href="/private-boards/">
+    <span class="guide-card__title">Use private boards</span>
+    <p>Give your own ideas, or a group's ideas, room to grow.</p>
+  </a>
+  <a class="guide-card guide-card--purple" href="/faq/">
+    <span class="guide-card__title">Find a quick answer</span>
+    <p>Browse common questions or solve a problem.</p>
+  </a>
+</div>
 
 ## Get started
 

@@ -1,0 +1,227 @@
+// StickyNotes.club brand layer for Just the Docs.
+$sticky-purple: #e0b0ff;
+$sticky-purple-dark: #7652a8;
+$sticky-pink: #ff7eb9;
+$sticky-yellow: #fff740;
+$sticky-mint: #98fb98;
+$sticky-ink: #1f2937;
+$sticky-muted: #4b5563;
+
+body {
+  background: rgba(255, 183, 197, 0.08);
+  color: $sticky-muted;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.side-bar {
+  background: #fff9fc;
+  border-right: 1px solid #f0e7f3;
+}
+
+.site-header,
+body .main-header {
+  background: $sticky-purple !important;
+  border-bottom: 0;
+  box-shadow: 0 4px 12px rgba(31, 41, 55, 0.12);
+}
+
+.site-header {
+  border-right: 1px solid rgba(31, 41, 55, 0.08);
+}
+
+.site-title {
+  align-items: center;
+  color: $sticky-ink;
+  display: flex;
+  font-size: 1rem !important;
+  font-weight: 700;
+  gap: 0.65rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  padding-right: 0.75rem;
+}
+
+.site-title::before {
+  background: url("/assets/images/stickynotes-mark.svg") center / contain no-repeat;
+  content: "";
+  flex: 0 0 2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.site-button {
+  border-radius: 0.375rem;
+  color: $sticky-ink;
+  font-weight: 650;
+  transition: background-color 160ms ease, box-shadow 160ms ease;
+}
+
+.site-button:hover {
+  background: rgba(255, 126, 185, 0.45);
+  color: $sticky-ink;
+  box-shadow: 0 2px 7px rgba(31, 41, 55, 0.12);
+}
+
+.search-input-wrap {
+  background: transparent;
+}
+
+.search-input {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(31, 41, 55, 0.12);
+  border-radius: 0.5rem;
+  color: $sticky-ink;
+  margin: 0.65rem 0;
+}
+
+.search-input:focus {
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(118, 82, 168, 0.22);
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  border-radius: 0.45rem;
+  color: $sticky-muted;
+  margin: 0.1rem 0.55rem;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover {
+  background: rgba(224, 176, 255, 0.28);
+  color: $sticky-ink;
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+  background: rgba(224, 176, 255, 0.55);
+  color: $sticky-ink;
+  font-weight: 700;
+}
+
+.main-content-wrap {
+  background: #ffffff;
+}
+
+.main-content {
+  color: $sticky-muted;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: $sticky-ink;
+  letter-spacing: -0.025em;
+}
+
+.main-content h1 {
+  font-size: clamp(2.35rem, 5vw, 3rem) !important;
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.main-content h2 {
+  font-weight: 700;
+}
+
+.main-content a:not(.btn):not(.guide-card) {
+  text-decoration-color: rgba(118, 82, 168, 0.35);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
+}
+
+.main-content a:not(.btn):not(.guide-card):hover {
+  color: #5f3f8c;
+  text-decoration-color: currentColor;
+}
+
+.guide-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 2rem 0 2.5rem;
+}
+
+.guide-card {
+  border: 1px solid rgba(31, 41, 55, 0.08);
+  border-radius: 0.65rem;
+  box-shadow: 0 2px 8px rgba(31, 41, 55, 0.07);
+  color: $sticky-ink !important;
+  display: block;
+  min-height: 8.5rem;
+  padding: 1.25rem;
+  text-decoration: none !important;
+  transition: box-shadow 160ms ease, transform 160ms ease;
+}
+
+.guide-card:hover {
+  box-shadow: 0 8px 20px rgba(31, 41, 55, 0.12);
+  transform: translateY(-2px);
+}
+
+.guide-card__title {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin: 0 0 0.35rem;
+}
+
+.guide-card p {
+  color: #374151;
+  margin: 0;
+}
+
+.guide-card--yellow { background: rgba(255, 247, 64, 0.58); }
+.guide-card--pink { background: rgba(255, 126, 185, 0.35); }
+.guide-card--mint { background: rgba(152, 251, 152, 0.45); }
+.guide-card--purple { background: rgba(224, 176, 255, 0.45); }
+
+blockquote {
+  background: rgba(255, 247, 64, 0.25);
+  border-left: 4px solid #d3c900;
+  border-radius: 0 0.5rem 0.5rem 0;
+  color: $sticky-ink;
+  padding: 0.85rem 1rem;
+}
+
+.site-footer {
+  color: #6b7280;
+}
+
+.nav-footer-note {
+  color: #6b7280;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  padding: 0 1rem 1rem;
+}
+
+.nav-footer-note strong {
+  color: $sticky-ink;
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+@media (max-width: 50rem) {
+  .guide-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-title {
+    font-size: 0.95rem !important;
+  }
+}
+
+@media print {
+  body,
+  .main-content-wrap {
+    background: #ffffff;
+  }
+
+  .site-header,
+  .main-header {
+    box-shadow: none;
+  }
+}
