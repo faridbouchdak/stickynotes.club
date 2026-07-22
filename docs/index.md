@@ -6,7 +6,9 @@ nav_order: 1
 
 # How can we help?
 
-Whether you want to capture a thought, share it with the world or develop it with others, you can start here.
+StickyNotes.club gives ideas two places to grow: the worldwide wall for sharing them publicly, and private boards for developing them on your own or with others.
+
+Whether you are capturing your first thought or deciding where it belongs, you can start here.
 
 <div class="guide-grid">
   <a class="guide-card guide-card--yellow" href="/getting-started/">
