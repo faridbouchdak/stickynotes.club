@@ -22,12 +22,14 @@ Choose the plan that fits how you want to use StickyNotes.club. Free is for capt
 | Public sticky-note publications per day | 2 | 12 | Unlimited |
 | Active, editable private boards you own | 1 | 5 | Unlimited |
 | Send private-board invitations | No | Yes | Yes |
+| Create View and Post links for boards you own | No | Yes | Yes |
 | Receive invitations and participate | Yes | Yes | Yes |
+| Add sticky notes through a Post link | Yes | Yes | Yes |
 | Comments, private-board hearts and dot voting | Yes | Yes | Yes |
 | Mention current board Participants | Yes | Yes | Yes |
 | Private-board sticky-note tags and due dates | Yes | Yes | Yes |
 
-If you use Free, you have the same contribution rights as other Participants on boards you join. Premium mainly lets you invite people to boards you own and gives you higher publication and board limits.
+If you use Free, you have the same contribution rights as other Participants on boards you join. You can also add sticky notes through a Post link. Premium mainly lets you invite people or create View and Post links for boards you own, and gives you higher publication and board limits.
 
 Chosen Few removes the documented plan-level limits for Public publications and active boards you own. Safety, content, file and technical boundaries still apply.
 
@@ -58,9 +60,12 @@ Open your account or billing settings to see when a change takes effect, how ren
 
 Cancelling future renewal does not delete your account. Account deletion ends future renewal too, but also has permanent consequences for your content. Read [Manage your profile and account](/manage-your-profile/) first.
 
+If your plan no longer includes collaboration, existing View and Post links become unavailable. You can still revoke them as the board Owner.
+
 ## Good to know
 
 - You do not need a paid plan to participate fully on a board someone else owns.
+- You do not need a paid plan to add sticky notes through a Post link.
 - Only successful publication uses the daily allowance.
 - Joined boards do not use your owned-board allowance.
 - A paid plan does not change privacy or safety rules.

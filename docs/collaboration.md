@@ -7,11 +7,12 @@ permalink: /collaboration/
 
 # Work together on a board
 
-Invite people to a private board when an idea is ready for more voices. Everyone who accepts joins as a Participant and can contribute in the same ways.
+Invite Participants when an idea is ready for ongoing collaboration, or use a View or Post link for narrower access.
 
 ## What you'll learn
 
 - How to invite someone and remove access.
+- How to share a board with a View or Post link.
 - What Owners and Participants can contribute.
 - How hearts, dot voting and mentions work.
 - Which emails StickyNotes.club sends.
@@ -26,7 +27,23 @@ If you own a board on Premium or Chosen Few, you can invite people by email.
 
 The person signs in or creates an account before gaining access. An invitation expires after **14 days**. If they decline, they do not gain access and you will see **Declined**. You will not receive a separate email.
 
-There are no private-board share links, anonymous visitors or contributions without an account.
+Use an invitation when someone should become a Participant with the complete collaboration rights described below.
+
+## Share a board with a link
+
+If you own a board on Premium or Chosen Few:
+
+1. Open **Share this board**.
+2. Create a **View link** or **Post link**.
+3. Copy the link and send it to the intended people.
+
+A View link shows a read-only version of the board to anyone with the link. No account is needed. A Post link provides the same viewing access and also lets a signed-in StickyNotes.club user on any plan add sticky notes.
+
+Link users do not become Participants. They cannot comment, use hearts or dot voting, invite people, manage access or change board settings. Only the Owner can create links.
+
+Revoke a link when it should no longer provide access. Revocation takes effect immediately and does not delete sticky notes that were already added. You can revoke an existing link after a downgrade. Existing links are unavailable while your plan does not include collaboration.
+
+Anyone who receives or is forwarded an active link may be able to read the board. Share links only with people who should see its content.
 
 ## Remove someone's access
 
@@ -36,7 +53,7 @@ Their existing sticky notes and comments stay on the board. If they later delete
 
 ## Contribute to the board
 
-Every Participant can:
+Every invited Participant can:
 
 - view the complete board;
 - create sticky notes;
@@ -90,6 +107,7 @@ Individual edits, comments, hearts and votes do not each produce a separate emai
 - Wait for the product to confirm that a change was saved before relying on someone else seeing it.
 - If saving fails, keep the page open and try again.
 - StickyNotes.club keeps the current accepted version and does not provide a version history.
+- A Post-link contributor can add sticky notes but does not receive the other Participant capabilities listed above.
 
 ## Related guides
 

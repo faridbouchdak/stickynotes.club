@@ -35,7 +35,7 @@ Think about who should be able to see the idea:
 - Choose a **Draft** when it is not ready to be public.
 - Publish a **Public sticky note** or **Instant Photo** when you want it to appear on the worldwide wall.
 - Use an unshared **private board** as your own workspace.
-- Invite Participants to a private board when you want to develop ideas together.
+- Invite Participants for ongoing collaboration, or share narrower access with a View or Post link.
 
 A Public sticky note and a sticky note on a private board are separate. You cannot move or copy one directly into the other context.
 

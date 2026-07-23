@@ -215,7 +215,18 @@ Access connects a person to a board. There are two board roles:
 
 There are no separate Viewer, Editor or Commenter board roles. Invitation always grants participation rather than read-only access. An Owner does not hand off an owned board: deleting the Owner’s account permanently deletes every board that account owns.
 
-Private-board access is granted only through an email invitation. The recipient must sign in to an existing account or create an account before becoming a Participant. An invitation expires after 14 days. Declining it grants no access and leaves the invitation marked **Declined** for the Owner without sending a separate email. There are no private-board share links, anonymous visitors or accountless viewing, comments, hearts, dot votes or sticky-note contributions. The Owner can revoke a Participant’s access; revocation takes effect immediately and sends the former Participant an immediate email.
+Participant access is granted through an email invitation. The recipient must sign in to an existing account or create an account before becoming a Participant. An invitation expires after 14 days. Declining it grants no access and leaves the invitation marked **Declined** for the Owner without sending a separate email. The Owner can revoke a Participant’s access; revocation takes effect immediately and sends the former Participant an immediate email.
+
+An Owner whose plan includes initiating collaboration — Premium or Chosen Few under D-13 — may separately create controlled private-board share links. Participants cannot create links, regardless of their own plan:
+
+- A **View link** shows a read-only version of the board to anyone with the link and requires no account.
+- A **Post link** provides the same viewing access and additionally lets a signed-in StickyNotes.club user on any plan add sticky notes.
+
+A link visitor or link contributor is not a Participant. Link access does not grant comments, hearts, dot votes, invitations, access management or board settings. A signed-in link contributor remains the author of a sticky note they add and retains the ordinary author controls defined under D-26 while the link remains active. Revoking the link immediately prevents further viewing or contribution through that link without deleting existing contributions.
+
+Use **Share this board** as the interface heading with this canonical explanation: **View links show a read-only version of this board to anyone with the link — no account needed. Post links also let signed-in StickyNotes.club users on any plan add sticky notes. Revoke a link at any time to disable it.**
+
+“Any plan” applies to the signed-in Post-link contributor. Link creation is Owner-only and requires the D-13 collaboration entitlement. The `canShareBoard()` implementation applies both `isOwner()` and `canCollaborate()` to View and Post creation, matching that rule. Revocation uses the plan-independent `canManageBoard()` Owner check, so an Owner can explicitly disable an existing link after downgrade. `isShareLinkActive()` and `loadShareLinkOr404()` already make links inaccessible while the Owner lacks the collaboration entitlement. Verify whether an unrevoked link remains inactive or automatically becomes usable again after a later upgrade before documenting restoration behaviour.
 
 Revoking or otherwise ending a Participant’s access does not remove that person’s existing sticky notes from the board. If the Participant later deletes their account, those sticky notes remain on boards owned by somebody else and their displayed author becomes **Deleted user**. The author can avoid this persistence by deleting their sticky notes before account deletion.
 
@@ -225,7 +236,7 @@ On an active board, the Owner can permanently delete any sticky note, including 
 
 > **[DECISION D-22] Resolved on 20 July 2026** — A board has exactly one non-transferable Owner. Neither a Participant nor a moderator or administrator can receive ownership through transfer. Owner-account deletion deletes all boards owned by that account and therefore all content and access attached to those boards.
 
-> **[DECISION D-23] Resolved on 20 July 2026** — Require an account for all private-board access and participation. Use email invitations only; do not create or document private-board share links or accountless roles. Public sticky-note sharing remains a separate Public action.
+> **[DECISION D-23] Resolved on 20 July 2026; revised on 23 July 2026; creation and revocation authorisation verified on 23 July 2026** — Keep Participant access personal, account-based and invitation-led, while also supporting controlled board links. Only the Owner of a board with a Premium or Chosen Few collaboration entitlement can create a View or Post link; Participants cannot create links. A **View link** gives anyone with the active link accountless, read-only access. A **Post link** additionally lets a signed-in StickyNotes.club user on any plan add sticky notes without becoming a Participant. Link access grants no comments, hearts, dot votes or board-management rights. Links become inaccessible when the Owner loses the collaboration entitlement, while the Owner retains the plan-independent ability to revoke them explicitly. Public sticky-note sharing remains a separate Public action.
 
 ### Interaction
 

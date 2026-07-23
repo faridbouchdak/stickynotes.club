@@ -31,9 +31,16 @@ For the full explanation, read the [Privacy Policy](https://stickynotes.club/pri
 
 Drafts and private-board content are not intentionally made available to public search or AI crawlers.
 
-Access to a private board is personal and tied to an account. The Owner invites someone by email; that person signs in or creates an account before becoming a Participant. There are no private-board share links, anonymous visitors or guest roles.
+Private boards are access-controlled. The Owner can invite someone by email; that person signs in or creates an account before becoming a Participant.
 
-Remember that private access cannot stop an authorised Participant from copying information they can see.
+An Owner on Premium or Chosen Few can also share a board with a link:
+
+- A **View link** shows a read-only version of the board to anyone with the link. No account is needed.
+- A **Post link** also lets a signed-in StickyNotes.club user on any plan add sticky notes.
+
+Link access does not make someone a Participant. Link users cannot comment, use hearts or dot voting, invite people, manage access or change the board. The Owner can revoke a link at any time, including after a downgrade. Existing links are unavailable while the Owner's plan does not include collaboration.
+
+Treat a board link as private information. Anyone who receives or is forwarded an active View link can read the board. Access controls cannot stop a Participant or link visitor from independently copying information they can see.
 
 Authorised moderators and administrators may access Drafts and private-board content only when genuine moderation, support, security or legal work requires it. Access should be limited and recorded. They may hide, remove or restore content, but must not silently rewrite someone's words. Only a narrowly necessary, recorded redaction is allowed.
 
@@ -72,11 +79,14 @@ Email [farid@stickynotes.club](mailto:farid@stickynotes.club) to exercise applic
 
 - A Draft is not public, but a Public sticky note may travel beyond StickyNotes.club.
 - Private means access-controlled, not impossible to copy.
+- Revoke a board link when it should no longer provide access.
 - A human makes final moderation decisions.
 - Never send your password or payment-card details to support.
 
 ## Related guides
 
+- [Create and manage a private board](/private-boards/)
+- [Work together on a board](/collaboration/)
 - [Follow the community guidelines](/community-guidelines/)
 - [Manage your profile and account](/manage-your-profile/)
 - [Contact support](/contact-and-support/)

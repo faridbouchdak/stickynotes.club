@@ -28,11 +28,22 @@ If a verification or reset email has not arrived, check your spam folder before 
 - Check whether the invitation is more than 14 days old.
 - Ask the Owner whether the invitation is still pending or your access was revoked.
 
-An expired invitation cannot be replaced with a private-board share link, because private boards do not have share links.
+Ask the Owner to send a new invitation if you need Participant access. A View or Post link provides narrower access and does not make you a Participant.
 
 ## I cannot invite someone
 
 Only Owners on Premium or Chosen Few can send private-board invitations. If you use Free, you can still receive invitations and participate fully.
+
+The same Owner and plan requirement applies when creating a View or Post link.
+
+## A board link does not work
+
+- Ask the Owner whether the link was revoked.
+- Check whether the complete link was copied.
+- Sign in if you are trying to add a sticky note through a Post link.
+- Ask the Owner whether their current plan still includes collaboration.
+
+A View link does not require an account. Existing links become unavailable if the Owner's plan no longer includes collaboration. The Owner can still revoke such a link.
 
 ## I cannot publish a Draft
 
@@ -64,6 +75,7 @@ After you confirm deletion, a sticky note, comment or board is deleted immediate
 
 ## Related guides
 
+- [Work together on a board](/collaboration/)
 - [Find a quick answer](/faq/)
 - [Contact support](/contact-and-support/)
 - [Understand privacy and stay safe](/privacy-and-safety/)

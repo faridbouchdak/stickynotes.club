@@ -37,7 +37,7 @@ Whether you are capturing your first thought or deciding where it belongs, you c
 
 ## Work together
 
-- **[Work together on a board](/collaboration/)** — Invite Participants, discuss ideas and vote together.
+- **[Work together on a board](/collaboration/)** — Invite Participants or share controlled access with a View or Post link.
 - **[Organise your work](/organise-your-work/)** — Use layouts, colours, tags and due dates without making things complicated.
 
 ## Manage your account

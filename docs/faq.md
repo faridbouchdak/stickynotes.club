@@ -20,9 +20,11 @@ These are short answers to the questions people ask most often. Follow the links
 
 You need an account to create content, manage a private board, accept an invitation or give a Public sticky note a heart. To accept an invitation, sign in or create an account with the invited email address.
 
+You do not need an account to open a private board through an active View link. A Post link also lets you read the board without an account, but you must sign in before you can add a sticky note.
+
 ## What is the difference between a Draft, a Public sticky note and a private-board sticky note?
 
-A **Draft** is not public. A **Public sticky note** or **Instant Photo** appears on the worldwide wall. A sticky note on a **private board** is visible only to the Owner, current Participants and authorised platform staff when genuinely necessary.
+A **Draft** is not public. A **Public sticky note** or **Instant Photo** appears on the worldwide wall. A sticky note on a **private board** is visible to its Owner and current Participants, anyone using an active View or Post link, and authorised platform staff when genuinely necessary.
 
 Public and private-board sticky notes are separate. You cannot move or copy one directly into the other context.
 
@@ -42,9 +44,11 @@ No. It stays Public until you return it to Draft, delete it or authorised modera
 
 Returning it to Draft cannot recall external copies, search results, caches or earlier external AI use.
 
-## Can I invite someone with a private link?
+## Can I share a private board with a link?
 
-No. Access to a private board starts with an email invitation and requires an account. Invitations expire after 14 days. There are no private-board share links or anonymous guests.
+Yes, if you own the board and use Premium or Chosen Few. A **View link** lets anyone with the link read the board without an account. A **Post link** also lets a signed-in StickyNotes.club user on any plan add sticky notes.
+
+Link users do not become Participants and do not receive comments, hearts, dot voting or board-management rights. You can revoke a link at any time. Use an email invitation when someone should join as a Participant; invitations expire after 14 days.
 
 ## Can I transfer board ownership?
 
@@ -77,11 +81,14 @@ Yes. Free includes two Public publications per day, one active editable private 
 ## Good to know
 
 - Public content and private-board content follow different rules.
+- Anyone with an active View or Post link can read the linked board.
 - Deletion is permanent after confirmation.
 - Free users can participate fully on boards they join.
 
 ## Related guides
 
+- [Create and manage a private board](/private-boards/)
+- [Work together on a board](/collaboration/)
 - [Solve a problem](/troubleshooting/)
 - [Get started with StickyNotes.club](/getting-started/)
 - [Contact support](/contact-and-support/)

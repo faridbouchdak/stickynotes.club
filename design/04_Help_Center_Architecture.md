@@ -128,11 +128,11 @@ Board-role terminology is also resolved:
 - member, collaborator, Editor, Viewer and Commenter are not canonical role labels;
 - Moderator and Admin are separate platform roles, not board roles.
 
-> **[DECISION D-07 / DECISION D-15 / DECISION D-23] Resolved on 20 July 2026; [ERROR E-02] source cleanup remains** — Apply these labels, British English, **Plans & subscriptions** and British-English permalinks consistently across interface copy, Help Centre pages and policies. Existing uses of members, collaborators, configurable permissions and private-board share links require removal or correction.
+> **[DECISION D-07 / DECISION D-15 / DECISION D-23] Resolved on 20 July 2026; D-23 revised on 23 July 2026; [ERROR E-02] source cleanup remains** — Apply the canonical role labels, British English, **Plans & subscriptions** and British-English permalinks consistently across interface copy, Help Centre pages and policies. Existing uses of members, collaborators and configurable Participant permissions require removal or correction. Document View and Post links as access capabilities, never as additional board roles.
 
 ### Pages that overpromise detail
 
-The Home page names invitations, private-board share links, comments, dot voting, layouts and filters, but the linked pages do not always explain how to perform those actions. D-23 confirms that private-board share links do not exist, so remove that claim. Comments, hearts and dot voting now have confirmed contexts; add verified workflows and rules or narrow the remaining promises.
+The Home page names invitations, private-board share links, comments, dot voting, layouts and filters, but the linked pages do not always explain how to perform those actions. Revised D-23 confirms View and Post links. Add verified guidance that distinguishes accountless read-only viewing, signed-in sticky-note contribution, Participant access and link revocation. Comments, hearts and dot voting remain Participant capabilities and must not be promised to link users.
 
 Product filtering is bounded: private boards filter sticky notes by tags, while the worldwide wall filters Public sticky notes by country. Product search is unavailable and not planned. The search built into the Help Centre is separate and must not be used as evidence that the product itself supports search.
 
@@ -240,13 +240,19 @@ Deleting the Owner’s account permanently deletes every board that account owns
 
 The account-deletion guide and confirmation must distinguish every outcome: owned boards and Drafts are permanently deleted; sticky notes and comments on other Owners’ boards remain under **Deleted user**; Public sticky notes remain without an account relationship or author controls, receive the tape and accessible explanation, and remain indexable and available for external AI use; personal heart relationships and the private Wall of Love are removed; dot-vote totals remain only without the account relationship; and future subscription renewal ends. Explain that deleted data may remain in protected technical backups for no more than 30 days, without ordinary product access or a user-facing recovery path, and that separately required billing, tax or legal records may use a legally mandated period while containing as little product content as practicable. Explain that independent copies, saved images, screenshots, search results, caches, AI datasets, model training and other external uses cannot be recalled. Do not publish exact required-record periods until they have been legally verified or promise complete backend erasure before backup expiry has been tested.
 
-### Invitation-only, account-based board access
+### Invitations and controlled board links
 
-The Private boards, Collaboration and Privacy & safety guides must state that access starts with an email invitation. The recipient signs in or creates an account before becoming a Participant. There are no anonymous visitors, guest roles, accountless contributions or private-board share links.
+The Private boards, Collaboration and Privacy & safety guides must distinguish three access paths:
 
-Document that an invitation expires after 14 days, that declining grants no access and appears as **Declined** to the Owner without a separate Owner email, and that revoking Participant access takes effect immediately and sends the former Participant an immediate email. Sharing a Public sticky note remains a separate action and must not be presented as private-board access.
+- **Participant invitation:** the recipient signs in or creates an account before becoming a Participant with the D-07 capability set. The invitation expires after 14 days. Declining grants no access and appears as **Declined** to the Owner without a separate Owner email. Revoking Participant access takes effect immediately and sends the former Participant an immediate email.
+- **View link:** an Owner with a Premium or Chosen Few collaboration entitlement can create a link that lets anyone with it see a read-only version of the board without an account.
+- **Post link:** the same eligible Owner can create a link that anyone may use to view the board; a signed-in StickyNotes.club user on any plan can additionally add sticky notes.
 
-> **[DECISION D-23] Resolved on 20 July 2026** — Remove private-board share-link claims from Help Centre pages and policies. Do not document accountless viewing, commenting, voting or contribution.
+Explain that Participants cannot create links, regardless of their plan, and that link access does not make somebody a Participant or grant comments, hearts, dot votes, invitations, access management or board settings. Link creation requires the Owner’s current collaboration entitlement. Existing links become inaccessible when the Owner loses that entitlement, but the Owner can still revoke them. Existing sticky notes are not deleted by link revocation. Do not publish later-upgrade behaviour until it is verified whether an unrevoked link remains disabled or becomes active again. Sharing a Public sticky note remains a separate action and must not be presented as private-board access.
+
+Use the interface heading **Share this board** and keep the adjacent explanation aligned with the canonical Product Model copy. Use **signed-in StickyNotes.club users**, not **members**, because link contribution is not a board role and **Participant** remains reserved for invited access.
+
+> **[DECISION D-23] Resolved on 20 July 2026; revised on 23 July 2026; Help Centre source aligned on 23 July 2026** — The Private boards, Collaboration, Privacy & safety, FAQ, Troubleshooting, Plans & subscriptions, Getting started and Help Centre home sources now distinguish View links, Post links and Participant access. Publish these claims only after authentication, permissions and revocation behaviour have been verified. Privacy and safety guidance makes link forwarding risk explicit: anyone who obtains an active View link can read the board, while contribution through a Post link still requires sign-in.
 
 ### Sticky notes after a Participant leaves or deletes their account
 
@@ -320,7 +326,7 @@ Make clear that Free Participants retain full collaboration rights on boards the
 
 `docs/private-boards.md` currently says that a user can archive a board, and `docs/organise-your-work.md` advises archiving completed work. Whole-board archiving is only a proposed future feature. Until it ships, remove both current-capability claims.
 
-> **[DECISION D-05 / VERIFY V-02] Resolved design; not yet available** — When implemented, explain that archiving preserves the entire private board, including sticky notes, comments, hearts and dot votes, indefinitely. The board remains visible but read-only for the Owner and existing Participants; the Owner can revoke access, pending invitations are cancelled, new invitations and routine activity or daily-digest notifications stop, and cancelled invitations do not revive after restoration. Only the Owner or an authorised platform moderator or administrator may archive, restore or permanently delete it. Necessary privileged moderation remains available under D-24. Private-board share links do not exist under D-23.
+> **[DECISION D-05 / VERIFY V-02] Resolved design; not yet available; link boundary revised under D-23 on 23 July 2026** — When implemented, explain that archiving preserves the entire private board, including sticky notes, comments, hearts and dot votes, indefinitely. The board remains visible but read-only for the Owner and existing Participants; the Owner can revoke access, pending invitations are cancelled, new invitations and routine activity or daily-digest notifications stop, and cancelled invitations do not revive after restoration. Active View and Post links may show only the read-only archive, Post links cannot accept new sticky notes and the Owner may revoke either link. Only the Owner or an authorised platform moderator or administrator may archive, restore or permanently delete it. Necessary privileged moderation remains available under D-24.
 
 ### Infrastructure and cross-site consistency
 
