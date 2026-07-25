@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Plans & subscriptions
+description: Compare the StickyNotes.club Free, Premium and Chosen Few plans and learn how publication limits, boards and subscriptions work.
 nav_order: 8
 permalink: /plans-and-subscriptions/
 ---

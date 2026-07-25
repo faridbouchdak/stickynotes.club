@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Troubleshooting
+description: Solve common StickyNotes.club sign-in, invitation, publishing, upload and saving problems and learn when to contact support.
 nav_order: 12
 permalink: /troubleshooting/
 ---

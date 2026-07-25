@@ -1,8 +1,10 @@
 title: StickyNotes.club Help Centre
-description: User guide for StickyNotes.club
+description: Guides and support for using StickyNotes.club, from sharing ideas publicly to organising and collaborating on private boards.
 
 url: "https://docs.stickynotes.club"
 baseurl: ""
+lang: en-GB
+locale: en_GB
 
 remote_theme: just-the-docs/just-the-docs
 
@@ -37,3 +39,14 @@ nav_sort: case_sensitive
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/stickynotes-help-centre-og.png
+        width: 1200
+        height: 630
+        alt: StickyNotes.club Help Centre

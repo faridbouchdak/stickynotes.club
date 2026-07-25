@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Getting started
+description: Create and verify your StickyNotes.club account, capture your first idea and choose whether to keep it private or share it publicly.
 nav_order: 2
 permalink: /getting-started/
 ---

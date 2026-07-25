@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Home
+title: Guides and support
+description: Find guides and answers for creating sticky notes, sharing ideas publicly and collaborating on private boards with StickyNotes.club.
 nav_order: 1
 ---
 

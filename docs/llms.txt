@@ -1,0 +1,40 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# StickyNotes.club Help Centre
+
+> Official user documentation for StickyNotes.club, a web application for sharing ideas publicly and developing them on private boards.
+
+The Help Centre describes implemented StickyNotes.club behaviour in plain English. Use these pages to answer questions about accounts, Public sticky notes, private boards, collaboration, plans, privacy, safety and support. Capitalised product terms such as Draft, Public, Owner, Participant, View link and Post link have specific meanings in the documentation.
+
+## Start here
+
+- [Help Centre](https://docs.stickynotes.club/): Overview of the available guides and support topics.
+- [Getting started](https://docs.stickynotes.club/getting-started/): Create and verify an account, capture a first idea and choose where it belongs.
+- [Frequently asked questions](https://docs.stickynotes.club/faq/): Short answers about accounts, content, sharing, invitations and plans.
+
+## Create and organise ideas
+
+- [Sticky notes](https://docs.stickynotes.club/sticky-notes/): Create, publish, share, edit and delete sticky notes and Instant Photos.
+- [Private boards](https://docs.stickynotes.club/private-boards/): Create and manage private boards, templates, access and board content.
+- [Organise your work](https://docs.stickynotes.club/organise-your-work/): Use layouts, colours, tags and due dates on private boards.
+
+## Collaboration and accounts
+
+- [Collaboration](https://docs.stickynotes.club/collaboration/): Invite Participants, share board links and use collaborative features.
+- [Manage your profile](https://docs.stickynotes.club/manage-your-profile/): Update profile and security details and understand account deletion.
+- [Plans and subscriptions](https://docs.stickynotes.club/plans-and-subscriptions/): Compare Free, Premium and Chosen Few and understand plan limits.
+
+## Privacy, safety and support
+
+- [Privacy and safety](https://docs.stickynotes.club/privacy-and-safety/): Understand content visibility, ownership, external indexing and account safety.
+- [Community guidelines](https://docs.stickynotes.club/community-guidelines/): Rules for respectful, lawful and safe participation.
+- [Troubleshooting](https://docs.stickynotes.club/troubleshooting/): Resolve common sign-in, invitation, publication, upload and saving problems.
+- [Contact and support](https://docs.stickynotes.club/contact-and-support/): Ask for help, report a bug or concern, make a privacy request or share feedback.
+
+## Optional
+
+- [StickyNotes.club](https://stickynotes.club/): Open the web application.
+- [Privacy Policy](https://stickynotes.club/privacy/): Legal information about personal data and privacy.
+- [Terms of Service](https://stickynotes.club/tos/): Rules and conditions governing use of the service.
