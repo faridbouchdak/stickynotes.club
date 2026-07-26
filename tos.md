@@ -20,7 +20,7 @@ Dutch Chamber of Commerce number: 30221015
 Muntelbolwerk 1 P  
 5213 SZ 's-Hertogenbosch  
 The Netherlands  
-Email: [farid@stickynotes.club](mailto:farid@stickynotes.club)
+Email: farid﹫stickynotes.club
 
 In these Terms, “StickyNotes.club”, “we”, “us” and “our” refer to this service provider.
 
@@ -120,7 +120,7 @@ If you are a consumer in the European Union or another jurisdiction with a statu
 
 For a service contract, the withdrawal period normally begins on the day the contract is concluded.
 
-To exercise this right, send a clear statement to [farid@stickynotes.club](mailto:farid@stickynotes.club) before the withdrawal period expires. Include enough information to identify the purchase.
+To exercise this right, send a clear statement to farid﹫stickynotes.club before the withdrawal period expires. Include enough information to identify the purchase.
 
 You may use the following wording, but you are not required to:
 
@@ -377,7 +377,7 @@ The Privacy Policy does not form a contractual limitation of your statutory priv
 
 Questions, complaints and notices concerning these Terms can be sent to:
 
-[farid@stickynotes.club](mailto:farid@stickynotes.club)
+farid﹫stickynotes.club
 
 Please include enough information for us to understand and respond to your concern.
 

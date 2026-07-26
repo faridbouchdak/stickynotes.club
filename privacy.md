@@ -18,7 +18,7 @@ Dutch Chamber of Commerce number: 30221015
 Muntelbolwerk 1 P  
 5213 SZ 's-Hertogenbosch  
 The Netherlands  
-Email: [farid@stickynotes.club](mailto:farid@stickynotes.club)
+Email: farid﹫stickynotes.club
 
 ## 3. Minimum age
 
@@ -270,7 +270,7 @@ Subject to the conditions and exceptions in the GDPR, you may have the right to:
 
 You can update or delete much of your information directly through StickyNotes.club.
 
-There is currently no automatic data-export tool. You can submit an access or data-portability request by emailing [farid@stickynotes.club](mailto:farid@stickynotes.club).
+There is currently no automatic data-export tool. You can submit an access or data-portability request by emailing farid﹫stickynotes.club.
 
 We may ask for information needed to verify your identity. We will normally respond within one month. This period may be extended by up to two additional months for complex or numerous requests, in which case we will inform you.
 
@@ -295,7 +295,7 @@ If you have an active paid subscription, cancel it before deleting your account.
 
 Please contact us first if you have a question or concern about how your personal data is handled:
 
-[farid@stickynotes.club](mailto:farid@stickynotes.club)
+farid﹫stickynotes.club
 
 You also have the right to lodge a complaint with the Dutch supervisory authority:
 

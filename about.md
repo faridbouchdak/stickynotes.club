@@ -52,4 +52,4 @@ Visit the [Help Centre](https://docs.stickynotes.club/) to learn how sticky note
 
 Information about the available plans can be found under [Plans & subscriptions](/plans-and-subscriptions/).
 
-Questions, feedback and ideas are welcome at [farid@stickynotes.club](mailto:farid@stickynotes.club).
+Questions, feedback and ideas are welcome at farid﹫stickynotes.club.
