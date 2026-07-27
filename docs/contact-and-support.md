@@ -8,7 +8,7 @@ permalink: /contact-and-support/
 
 # Contact support
 
-If the Help Centre does not answer your question, email [farid@stickynotes.club](mailto:farid@stickynotes.club). A little context will make it easier to understand what happened and help you well.
+If the Help Centre does not answer your question, email farid﹫stickynotes.club. A little context will make it easier to understand what happened and help you well.
 
 ## What you'll learn
 
@@ -46,7 +46,7 @@ If there is no Report control, email support and clearly explain why the situati
 
 ## Make a privacy request
 
-Email [farid@stickynotes.club](mailto:farid@stickynotes.club) to exercise applicable rights to access, correct, delete or receive your personal data. This is a privacy process, not a bulk board or product-export feature.
+Email farid﹫stickynotes.club to exercise applicable rights to access, correct, delete or receive your personal data. This is a privacy process, not a bulk board or product-export feature.
 
 Read the [Privacy Policy](https://stickynotes.club/privacy/) for the full explanation.
 

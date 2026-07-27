@@ -59,7 +59,7 @@ Read the [Terms of Service](https://stickynotes.club/tos/) for the formal condit
 
 Use **Report** on the relevant sticky note, comment or board. Choose the closest reason, explain what happened when needed, and keep the receipt and case reference.
 
-Copyright concerns use a separate reporting route. If the Report control is unavailable or the problem concerns your account, email [farid@stickynotes.club](mailto:farid@stickynotes.club).
+Copyright concerns use a separate reporting route. If the Report control is unavailable or the problem concerns your account, email farid﹫stickynotes.club.
 
 A human makes the final moderation decision. The outcome may be no action, a warning, a content or feature restriction, a temporary suspension or permanent exclusion. Restricting an account does not automatically remove its existing contributions.
 
@@ -67,7 +67,7 @@ If an action affects you, the notice should explain the reason, scope, duration 
 
 ## Ask for your personal data
 
-Email [farid@stickynotes.club](mailto:farid@stickynotes.club) to exercise applicable privacy rights, including access or portability. This is a privacy request, not a bulk board or product-export feature.
+Email farid﹫stickynotes.club to exercise applicable privacy rights, including access or portability. This is a privacy request, not a bulk board or product-export feature.
 
 ## Protect your account
 
