@@ -184,7 +184,7 @@ Do not publish information that you want to keep confidential.
 
 You can edit and delete your public sticky notes using the available controls. Removing content from StickyNotes.club may not immediately remove independent copies, search-engine results or caches controlled by third parties.
 
-Interactions with public content must comply with these Terms and the [Community Guidelines](/community-guidelines/).
+Interactions with public content must comply with these Terms and the [Community Guidelines](https://docs.stickynotes.club/community-guidelines/).
 
 ## 13. Private boards and sharing
 
@@ -221,7 +221,7 @@ You must not use the service to:
 - use automated means to scrape, overload or abuse the service without permission;
 - encourage or facilitate unlawful or seriously harmful conduct.
 
-The [Community Guidelines](/community-guidelines/) form part of these rules for public and collaborative use.
+The [Community Guidelines](https://docs.stickynotes.club/community-guidelines/) form part of these rules for public and collaborative use.
 
 ## 15. Moderation and content removal
 

@@ -50,6 +50,6 @@ The application, database and stored content are hosted by Fly.io in Amsterdam. 
 
 Visit the [Help Centre](https://docs.stickynotes.club/) to learn how sticky notes, private boards and collaboration work.
 
-Information about the available plans can be found under [Plans & subscriptions](/plans-and-subscriptions/).
+Information about the available plans can be found under [Plans & subscriptions](https://docs.stickynotes.club/plans-and-subscriptions/).
 
 Questions, feedback and ideas are welcome at farid﹫stickynotes.club.
