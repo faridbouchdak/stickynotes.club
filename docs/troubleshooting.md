@@ -2,7 +2,7 @@
 layout: default
 title: Troubleshooting
 description: Solve common StickyNotes.club sign-in, invitation, publishing, upload and saving problems and learn when to contact support.
-nav_order: 12
+nav_order: 13
 permalink: /troubleshooting/
 ---
 
@@ -62,7 +62,9 @@ Keep the page open while an upload or save is still in progress.
 
 Check that StickyNotes.club confirmed the change was saved before you leave the page. Refresh to load the board's accepted state.
 
-If saving failed, keep a copy of your text and try again. Do not assume the change reached the board until you see confirmation.
+If saving failed, keep the board open and select **Retry**. StickyNotes.club preserves unsaved sticky-note text on your device and tries connection failures again when you are back online. Do not assume the change reached the board until you see **Saved**.
+
+If two people changed the same sticky-note text, choose which version to keep in the editor. See [Work together in real time](/live-collaboration/) for autosave, restored text and simultaneous edits.
 
 ## I cannot find deleted content
 
@@ -71,12 +73,13 @@ After you confirm deletion, a sticky note, comment or board is deleted immediate
 ## Good to know
 
 - Keep the page open when an upload or save is still in progress.
-- Preserve a copy of important unsaved text before retrying.
+- Wait for **Saved** before relying on a board change.
 - Never send your password or payment-card details to support.
 
 ## Related guides
 
 - [Work together on a board](/collaboration/)
+- [Work together in real time](/live-collaboration/)
 - [Find a quick answer](/faq/)
 - [Contact support](/contact-and-support/)
 - [Understand privacy and stay safe](/privacy-and-safety/)

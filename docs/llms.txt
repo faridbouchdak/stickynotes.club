@@ -23,6 +23,7 @@ The Help Centre describes implemented StickyNotes.club behaviour in plain Englis
 ## Collaboration and accounts
 
 - [Collaboration](https://docs.stickynotes.club/collaboration/): Invite Participants, share board links and use collaborative features.
+- [Live collaboration](https://docs.stickynotes.club/live-collaboration/): See private-board changes live, understand autosave and recover safely from conflicts or connection problems.
 - [Manage your profile](https://docs.stickynotes.club/manage-your-profile/): Update profile and security details and understand account deletion.
 - [Plans and subscriptions](https://docs.stickynotes.club/plans-and-subscriptions/): Compare Free, Premium and Chosen Few and understand plan limits.
 

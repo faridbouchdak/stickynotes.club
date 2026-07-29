@@ -274,9 +274,9 @@ Neither sharing action creates another product object, moves the sticky note to 
 
 ### Real-time collaboration and saving
 
-Real-time collaboration is an important implementation requirement for the existing private-board model, not a separate candidate feature. It is reported as probably not implemented today and must not be presented as current until V-04 passes.
+Real-time collaboration is an implemented quality of the existing private-board model, not a separate candidate feature. V-04 passed on 29 July 2026.
 
-The intended behaviour is:
+The current behaviour is:
 
 - accepted creation, editing, deletion and movement of private-board sticky notes, plus comments, hearts, votes and voting-round state changes, synchronise to other active Participants without a page refresh;
 - editable sticky-note text autosaves and exposes a visible saving, saved or failed state;
@@ -284,9 +284,9 @@ The intended behaviour is:
 - when the server version of editable text has changed, the product preserves the local version and shows a conflict instead of silently applying last-write-wins;
 - hearts, votes and position changes use the server-accepted state as authoritative and correct any optimistic local display when necessary.
 
-The exact retry mechanism, conflict-resolution interface and status copy remain implementation details. Constant presence indicators are not required; protecting content matters more than showing continuous activity.
+The current interface stores unsaved text locally, automatically retries connection failures, offers a manual **Retry** action and lets the user choose **Save my version** or **Use theirs** after a simultaneous text edit. Constant presence indicators are not required; protecting content matters more than showing continuous activity.
 
-> **[VERIFY V-04] Requirement approved on 21 July 2026; implementation unverified** — Test each behaviour above across two browsers or sessions, connection loss, failed requests, simultaneous author/moderator editing and permission loss. Until those tests pass, remove or qualify claims that changes are visible in real time.
+> **[VERIFY V-04] Resolved on 29 July 2026** — Verified across two browsers and with an automated browser harness covering live changes, autosave, connection loss, failed requests, simultaneous edits and permission loss. The Help Centre may describe this as current behaviour.
 
 ### Tag and due date
 

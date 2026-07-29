@@ -39,6 +39,7 @@ Whether you are capturing your first thought or deciding where it belongs, you c
 ## Work together
 
 - **[Work together on a board](/collaboration/)** — Invite Participants or share controlled access with a View or Post link.
+- **[Work together in real time](/live-collaboration/)** — See live changes, understand autosave and resolve simultaneous edits safely.
 - **[Organise your work](/organise-your-work/)** — Use layouts, colours, tags and due dates without making things complicated.
 
 ## Manage your account

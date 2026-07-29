@@ -105,13 +105,14 @@ Individual edits, comments, hearts and votes do not each produce a separate emai
 
 ## Good to know
 
-- Wait for the product to confirm that a change was saved before relying on someone else seeing it.
-- If saving fails, keep the page open and try again.
+- Board changes normally appear to everyone viewing the board within a few seconds.
+- Sticky-note text saves automatically, and simultaneous edits are never silently overwritten. See [Work together in real time](/live-collaboration/) for saving, conflicts and connection problems.
 - StickyNotes.club keeps the current accepted version and does not provide a version history.
 - A Post-link contributor can add sticky notes but does not receive the other Participant capabilities listed above.
 
 ## Related guides
 
 - [Create and manage a private board](/private-boards/)
+- [Work together in real time](/live-collaboration/)
 - [Organise your work](/organise-your-work/)
 - [Choose a plan](/plans-and-subscriptions/)

@@ -2,7 +2,7 @@
 layout: default
 title: Privacy & safety
 description: Understand who can see your StickyNotes.club content, how public and private content differ and how to protect your account.
-nav_order: 9
+nav_order: 10
 permalink: /privacy-and-safety/
 ---
 

@@ -254,7 +254,7 @@ Treat real-time behaviour as a quality requirement for existing private-board co
 
 Never discard unsaved text after a connection or server failure. Preserve it locally and provide a safe retry path. When editable text has changed on the server, keep the local version and show a conflict instead of silently using last-write-wins. Let the server determine the accepted state of hearts, votes and position changes and correct any optimistic display when necessary. Constant presence indicators are optional; content protection is mandatory.
 
-> **[VERIFY V-04] Requirement approved on 21 July 2026; implementation unverified** — The capability is reported as probably not implemented. Verify it across separate sessions, connection loss, failed requests, simultaneous author/moderator editing and permission loss. Do not promise real-time collaboration in interface or Help Centre copy until it passes.
+> **[VERIFY V-04] Resolved on 29 July 2026** — Verified across two browsers and with an automated browser harness covering live changes, autosave, connection loss, failed requests, simultaneous edits and permission loss. Keep the interface and Help Centre aligned with the implemented saving, retry and conflict behaviour.
 
 Do not provide edit history for sticky notes or Instant Photos. After an accepted edit, text, caption, colour, tags and due date are current values only; no earlier value can be viewed, compared or restored. Tags and due dates apply only where supported and a due date must never be described as a Public expiry. Image replacement or removal and future alternative-text changes also update only the current object.
 

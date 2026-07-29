@@ -27,6 +27,7 @@ These pages explain StickyNotes.club from the user's perspective:
 - `sticky-notes.md` — public sticky notes and the worldwide wall
 - `private-boards.md` — creating and managing private boards
 - `collaboration.md` — working together on boards
+- `live-collaboration.md` — live changes, autosave and edit conflicts
 - `organise-your-work.md` — tags, due dates and board organisation
 - `manage-your-profile.md` — profile and account settings
 - `plans-and-subscriptions.md` — plans, payments and cancellation

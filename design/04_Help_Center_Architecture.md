@@ -48,6 +48,7 @@ Navigation follows user goals and the product journey. Labels should match page 
 
 - Private boards
 - Collaboration
+- Work together in real time
 - Organise your work
 
 ### Account and plans
@@ -90,6 +91,7 @@ Place practical concepts beside the task they support: explain Public versus Pri
 | Sticky notes | How do I create, publish and unpublish a sticky note? | `/sticky-notes/` | Exists; add and verify Draft/Public behaviour and external-copy warning |
 | Private boards | How do I create and manage a private board? | `/private-boards/` | Exists; currently presents proposed archiving as an available feature |
 | Collaboration | How do we work together on a board? | `/collaboration/` | Exists; needs concrete workflows |
+| Work together in real time | How are live changes saved and protected? | `/live-collaboration/` | Added after V-04 verification on 29 July 2026 |
 | Organise your work | How do I keep a board understandable? | `/organise-your-work/` | Exists; canonical British-English permalink |
 | Manage your profile | How do I update or remove my account information? | `/manage-your-profile/` | Exists; contains vague capability language |
 | Plans & subscriptions | Which plan do I need and how do I manage it? | `/plans-and-subscriptions/` | Exists; add the approved board, invitation, collaboration and Public-publication entitlements; verify pricing, UTC reset, counters and downgrade behaviour |
@@ -264,7 +266,7 @@ On an active board, the Owner can permanently delete any sticky note, including 
 
 > **[VERIFY V-03] Resolved on 20 July 2026** — Public response is limited to hearts from signed-in users. A Public sticky note can be shared through **Copy link**, which places its direct link on the clipboard, or **Save as image**, which generates an independent image suitable for storage or social media. Invited private-board Participants can post and delete their own comments but cannot edit them. A private-board heart is a personal toggle: the first click changes the light heart to red and adds one to the displayed count; the next click changes it back to light and subtracts one. Only the Owner starts and closes a voting round and chooses 1, 3, 5 or 10 dots per Participant, with 3 selected by default. A Participant may place at most one dot per sticky note, withdraw a vote while the round is active and see results only after the Owner closes the round. There is no reset or reopening. Document the active notice as **Voting is open — you have used 0 of 3 votes. Votes stay hidden until the round is closed.** and the latest-results notice as **Showing the results of the last voting round (closed 2026/07/20).**, substituting the current values and actual closing date. Each voted-on sticky note displays a voting-round icon and count. Starting a new round permanently makes the previous round and results unavailable without a warning. Digest presentation remains under D-08 and V-10 separately tracks the share counter.
 
-> **[VERIFY V-04] Requirement approved on 21 July 2026; implementation action required** — Real-time collaboration is reported as probably not implemented. Do not claim that changes appear immediately until testing confirms synchronisation without refresh for sticky-note creation, editing, deletion and movement, comments, hearts, votes and voting-round state. When implemented, document autosave and visible saving, saved and failed states; preservation and safe retry of unsaved text after failures; conflict handling that retains the local version instead of silently applying last-write-wins; and server-authoritative heart, vote and position state. Verify separate sessions, connection loss, failed requests, simultaneous author/moderator editing and permission loss before publishing the workflow.
+> **[VERIFY V-04] Resolved on 29 July 2026; Help Centre source aligned** — Real-time collaboration is implemented and verified across separate browsers and with an automated browser harness. The new **Work together in real time** guide documents synchronisation without refresh, autosave and visible saving states, local preservation and retry after failures, explicit simultaneous-edit choices and server-authoritative heart, vote and position state. Keep implementation details such as polling and browser storage out of ordinary user guidance unless they are needed for troubleshooting.
 
 ### No edit history
 
