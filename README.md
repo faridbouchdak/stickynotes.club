@@ -52,6 +52,8 @@ These documents record the principles and decisions behind the product:
 - `02_Product_Playbook.md` — practical product and writing rules
 - `03_Product_Design_Notes.md` — discoveries, open questions and future ideas
 - `04_Help_Center_Architecture.md` — documentation structure and page template
+- `05_Documentation_Specification.md` — standards for product documentation
+- `06_Public_Communication_Specification.md` — standards for public product communication
 
 ## Product principles
 
