@@ -54,7 +54,7 @@ If the sticky note was deleted, your access changed or your session expired, the
 
 - StickyNotes.club stores the current accepted version of a sticky note, not an edit history.
 - A View-link visitor sees live changes but cannot contribute.
-- A signed-in Post-link visitor can add sticky notes but does not gain Participant rights.
+- A signed-in Post-link visitor can manage their own notes, arrange notes, comment, use hearts and vote, but does not gain Participant or board-management rights.
 - If the board says you are making changes too quickly, wait for the time shown before trying again.
 
 ## Related guides

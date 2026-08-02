@@ -21,7 +21,7 @@ These are short answers to the questions people ask most often. Follow the links
 
 You need an account to create content, manage a private board, accept an invitation or give a Public sticky note a heart. To accept an invitation, sign in or create an account with the invited email address.
 
-You do not need an account to open a private board through an active View link. A Post link also lets you read the board without an account, but you must sign in before you can add a sticky note.
+You do not need an account to open a private board through an active View link. A Post link also lets you read the board without an account, but you must sign in before you can contribute.
 
 ## What is the difference between a Draft, a Public sticky note and a private-board sticky note?
 
@@ -47,9 +47,9 @@ Returning it to Draft cannot recall external copies, search results, caches or e
 
 ## Can I share a private board with a link?
 
-Yes, if you own the board and use Premium or Chosen Few. A **View link** lets anyone with the link read the board without an account. A **Post link** also lets a signed-in StickyNotes.club user on any plan add sticky notes.
+Yes, if you own the board and use Premium or Chosen Few. A **View link** lets anyone with the link read the board without an account. A **Post link** also lets a signed-in StickyNotes.club user on any plan contribute.
 
-Link users do not become Participants and do not receive comments, hearts, dot voting or board-management rights. You can revoke a link at any time. Use an email invitation when someone should join as a Participant; invitations expire after 14 days.
+A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They do not become Participants and do not receive invitation, mention or board-management rights. You can revoke a link at any time. Use an email invitation when someone should join as a Participant; invitations expire after 14 days.
 
 ## Can I transfer board ownership?
 

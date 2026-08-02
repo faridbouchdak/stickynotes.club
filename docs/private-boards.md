@@ -47,7 +47,7 @@ You can choose from nine backgrounds. Boards grow as you add material, but you c
 
 Every board has one **Owner**. Ownership cannot be transferred or reassigned.
 
-A person you invite becomes a **Participant** after accepting. Participants can see the complete board, create sticky notes, edit and delete their own sticky notes, add and delete their own comments, use hearts and take part in dot voting.
+A person you invite becomes a **Participant** after accepting. Participants can see the complete board, create sticky notes, edit and delete their own sticky notes, arrange notes, add and delete their own comments, use hearts and take part in dot voting.
 
 Participant access starts with an email invitation. The recipient signs in or creates an account before joining. There are no separate Viewer, Editor or Commenter Participant roles.
 
@@ -58,9 +58,9 @@ See [Work together on a board](/collaboration/) for invitations and access.
 If you own the board and use Premium or Chosen Few, open **Share this board** and choose:
 
 - **View link** to show a read-only version of the board to anyone with the link. No account is needed.
-- **Post link** to provide the same viewing access and also let signed-in StickyNotes.club users on any plan add sticky notes.
+- **Post link** to provide the same viewing access and also let signed-in StickyNotes.club users on any plan contribute.
 
-Link users are not Participants. They cannot comment, use hearts or dot voting, invite people, manage access or change board settings. Revoke a link when it should no longer work. You can still revoke an existing link after a downgrade, although links are unavailable while your plan does not include collaboration.
+Link users are not Participants. A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access, change board settings or edit other people's content. Revoke a link when it should no longer work. You can still revoke an existing link after a downgrade, although links are unavailable while your plan does not include collaboration.
 
 Anyone who receives or is forwarded an active link may be able to open the board, so share it only with people who should see the content.
 
@@ -68,7 +68,9 @@ Anyone who receives or is forwarded an active link may be able to open the board
 
 Each sticky note belongs to this board only. It can contain one optional image of up to **5 MB**. The image has the same audience as the board and is deleted with its sticky note.
 
-Reorder sticky notes in a grid, or move them within and between columns. Use tags or visible labels when a shared meaning matters. Colour can add expression, but it has no built-in meaning for status or priority.
+Reorder sticky notes in a grid, or move them within and between columns. Arranging changes a note's position, order or column; it does not change the note's author or give permission to rewrite its content.
+
+You can edit the text, colour, tags and due date of a sticky note you authored. The Owner can arrange or delete another author's note, but cannot rewrite it. Use tags or visible labels when a shared meaning matters. Colour can add expression, but it has no built-in meaning for status or priority.
 
 ## See when a board changed
 

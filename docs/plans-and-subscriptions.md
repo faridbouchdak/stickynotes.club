@@ -25,12 +25,16 @@ Choose the plan that fits how you want to use StickyNotes.club. Free is for capt
 | Send private-board invitations | No | Yes | Yes |
 | Create View and Post links for boards you own | No | Yes | Yes |
 | Receive invitations and participate | Yes | Yes | Yes |
-| Add sticky notes through a Post link | Yes | Yes | Yes |
+| Contribute through a Post link | Yes | Yes | Yes |
 | Comments, private-board hearts and dot voting | Yes | Yes | Yes |
 | Mention current board Participants | Yes | Yes | Yes |
 | Private-board sticky-note tags and due dates | Yes | Yes | Yes |
 
-If you use Free, you have the same contribution rights as other Participants on boards you join. You can also add sticky notes through a Post link. Premium mainly lets you invite people or create View and Post links for boards you own, and gives you higher publication and board limits.
+If you use Free, you have the same contribution rights as other Participants on boards you join. You can also contribute through a paying Owner's Post link. Premium mainly lets you invite people or create View and Post links for boards you own, and gives you higher publication and board limits.
+
+The Owner's plan determines whether a board can host invitations and active View or Post links. Your own plan does not reduce the contribution rights you receive on somebody else's board. Your access type and board role determine what you can do there.
+
+Tags and due dates are part of ordinary sticky-note editing on private boards. If you authored a sticky note, you may edit its text, colour, tags and due date. You cannot rewrite those fields on somebody else's sticky note. Arranging a sticky note by changing its position, order or column is a separate board action and does not change authorship.
 
 Chosen Few removes the documented plan-level limits for Public publications and active boards you own. Safety, content, file and technical boundaries still apply.
 
@@ -66,7 +70,7 @@ If your plan no longer includes collaboration, existing View and Post links beco
 ## Good to know
 
 - You do not need a paid plan to participate fully on a board someone else owns.
-- You do not need a paid plan to add sticky notes through a Post link.
+- You do not need a paid plan to contribute through a Post link, but you must sign in or create an account.
 - Only successful publication uses the daily allowance.
 - Joined boards do not use your owned-board allowance.
 - A paid plan does not change privacy or safety rules.

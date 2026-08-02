@@ -41,10 +41,10 @@ The same Owner and plan requirement applies when creating a View or Post link.
 
 - Ask the Owner whether the link was revoked.
 - Check whether the complete link was copied.
-- Sign in if you are trying to add a sticky note through a Post link.
+- Sign in if you are trying to contribute through a Post link.
 - Ask the Owner whether their current plan still includes collaboration.
 
-A View link does not require an account. Existing links become unavailable if the Owner's plan no longer includes collaboration. The Owner can still revoke such a link.
+A View link does not require an account. A Post link requires an account before you can create or manage your own notes, arrange notes, comment, use hearts or vote. Existing links become unavailable if the Owner's plan no longer includes collaboration. The Owner can still revoke such a link.
 
 ## I cannot publish a Draft
 

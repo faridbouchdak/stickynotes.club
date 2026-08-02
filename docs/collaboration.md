@@ -14,7 +14,7 @@ Invite Participants when an idea is ready for ongoing collaboration, or use a Vi
 
 - How to invite someone and remove access.
 - How to share a board with a View or Post link.
-- What Owners and Participants can contribute.
+- What Owners, Participants and Post-link contributors can contribute.
 - How hearts, dot voting and mentions work.
 - Which emails StickyNotes.club sends.
 
@@ -38,9 +38,9 @@ If you own a board on Premium or Chosen Few:
 2. Create a **View link** or **Post link**.
 3. Copy the link and send it to the intended people.
 
-A View link shows a read-only version of the board to anyone with the link. No account is needed. A Post link provides the same viewing access and also lets a signed-in StickyNotes.club user on any plan add sticky notes.
+A View link shows a read-only version of the board to anyone with the link. No account is needed. A Post link provides the same viewing access and lets a signed-in StickyNotes.club user on any plan contribute.
 
-Link users do not become Participants. They cannot comment, use hearts or dot voting, invite people, manage access or change board settings. Only the Owner can create links.
+Link users do not become Participants. A signed-in Post-link contributor can create and manage their own sticky notes, arrange sticky notes, post and delete their own comments, use hearts and take part in dot voting. They cannot invite people, manage access, create or revoke share links, change board settings or edit other people's content. Only the Owner can create links.
 
 Revoke a link when it should no longer provide access. Revocation takes effect immediately and does not delete sticky notes that were already added. You can revoke an existing link after a downgrade. Existing links are unavailable while your plan does not include collaboration.
 
@@ -58,14 +58,20 @@ Every invited Participant can:
 
 - view the complete board;
 - create sticky notes;
-- edit and delete their own sticky notes;
+- edit the text, colour, tags and due date of their own sticky notes;
+- delete their own sticky notes;
+- arrange sticky notes in the grid or move them within and between columns;
 - post and delete their own comments;
 - use private-board hearts; and
 - take part in dot voting.
 
+Signed-in Post-link contributors have the same sticky-note, arranging, comment, heart and dot-voting capabilities while the link remains active. They do not gain Participant or board-management rights.
+
 You cannot edit a comment after posting it, but you can delete your own comment. This leaves the sticky note and other comments in place.
 
-The Owner can permanently delete any sticky note on an active board, but cannot edit another author's text or delete another author's comment separately. Deleting a sticky note also deletes its comments, hearts and dot votes. It cannot be undone.
+Arranging is separate from editing a sticky note's content. Someone with contribution access can change a sticky note's position, order or column without becoming its author or gaining permission to rewrite it.
+
+The Owner can arrange and permanently delete any sticky note on an active board, but cannot edit another author's text, colour, tags or due date, or delete another author's comment separately. Deleting a sticky note also deletes its comments, hearts and dot votes. It cannot be undone.
 
 ## Show appreciation with a heart
 
@@ -75,7 +81,7 @@ Private-board hearts stay on that board. They do not add anything to the Wall of
 
 ## Make a decision with dot voting
 
-The Owner starts and closes each round and chooses **1**, **3**, **5** or **10** dots per Participant. The default is **3**.
+The Owner starts and closes each round and chooses **1**, **3**, **5** or **10** dots per eligible contributor. The default is **3**. Invited Participants and signed-in Post-link contributors can vote while they have access.
 
 - You can place no more than one dot on a sticky note.
 - You can withdraw a vote while the round is open.
@@ -88,7 +94,7 @@ While voting is open, the board shows how many dots you have used and reminds yo
 
 ## Draw someone's attention with a mention
 
-You can mention one or more current Participants on a private board. Each mentioned person receives an email.
+You can mention one or more current Participants on a private board. Each mentioned person receives an email. A Post-link contributor does not become a Participant and cannot be mentioned as one.
 
 A mention is a gentle way to draw attention. It does not assign the sticky note, change its author, give access, alter edit or deletion rights, set a due date, transfer ownership or make someone responsible. Sticky notes do not have assignees.
 
@@ -108,7 +114,7 @@ Individual edits, comments, hearts and votes do not each produce a separate emai
 - Board changes normally appear to everyone viewing the board within a few seconds.
 - Sticky-note text saves automatically, and simultaneous edits are never silently overwritten. See [Work together in real time](/live-collaboration/) for saving, conflicts and connection problems.
 - StickyNotes.club keeps the current accepted version and does not provide a version history.
-- A Post-link contributor can add sticky notes but does not receive the other Participant capabilities listed above.
+- A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting, but does not receive Participant or board-management rights.
 
 ## Related guides
 

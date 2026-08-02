@@ -37,9 +37,9 @@ Private boards are access-controlled. The Owner can invite someone by email; tha
 An Owner on Premium or Chosen Few can also share a board with a link:
 
 - A **View link** shows a read-only version of the board to anyone with the link. No account is needed.
-- A **Post link** also lets a signed-in StickyNotes.club user on any plan add sticky notes.
+- A **Post link** also lets a signed-in StickyNotes.club user on any plan contribute.
 
-Link access does not make someone a Participant. Link users cannot comment, use hearts or dot voting, invite people, manage access or change the board. The Owner can revoke a link at any time, including after a downgrade. Existing links are unavailable while the Owner's plan does not include collaboration.
+Link access does not make someone a Participant. A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access, change the board or edit other people's content. The Owner can revoke a link at any time, including after a downgrade. Existing links are unavailable while the Owner's plan does not include collaboration.
 
 Treat a board link as private information. Anyone who receives or is forwarded an active View link can read the board. Access controls cannot stop a Participant or link visitor from independently copying information they can see.
 

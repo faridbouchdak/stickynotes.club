@@ -21,6 +21,8 @@ Let structure emerge as your board grows. A simple layout, a few clear tags and 
 
 Boards use a grid or columns, depending on the template. You can reorder sticky notes in their current row and, in a column layout, move them between columns.
 
+Arranging a sticky note changes only its position, order or column. It does not change authorship or give you permission to edit another author's text, colour, tags or due date. The Owner, Participants and signed-in Post-link contributors can arrange notes while they have contribution access.
+
 Blank and Brainstorm begin as grids and can later change to columns. Retro, Kanban and Week planner begin with columns. Choose from nine backgrounds to give the board a look that fits the work.
 
 ## Use colour for expression
@@ -33,15 +35,17 @@ Your group can agree on a colour convention. When the meaning matters, add a vis
 
 Tags help you bring related sticky notes together and filter a private board.
 
-A sticky note can have several tags. Tags automatically become lower case and are available only inside their board. The Owner and current Participants can create, rename and delete them.
+A sticky note can have several tags. Tags automatically become lower case and are available only inside their board. Participants and signed-in Post-link contributors can create tags and apply them to sticky notes they authored. Only the author can change the tags attached to their sticky note.
 
-You cannot merge tags. Deleting one removes that label from the affected sticky notes; it does not delete the sticky notes themselves.
+You cannot merge tags. Changing a tag on your sticky note does not change another author's note.
 
 Tags are not available on a board itself, a worldwide-wall Draft, a Public sticky note or an Instant Photo.
 
 ## Add a due date when timing matters
 
 A sticky note on a private board can have one optional due date. After the date passes, the sticky note shows a red clock icon and the expired date.
+
+Only the sticky note's author can add, change or remove its due date. The Owner may arrange or delete another author's note, but cannot change its due date.
 
 Use it as a visual reminder to pay attention. A due date does not:
 
