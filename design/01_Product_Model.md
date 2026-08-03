@@ -1,6 +1,6 @@
 # Product Model
 
-> Status: v1.2
+> Status: v1.3
 > Role: shared model of the current product
 > Source of truth: implemented product behaviour, verified Help Centre content and current policies
 
@@ -365,6 +365,10 @@ The daily sticky-note allowance counts only successful **Draft → Public** tran
 The product should treat plan rules as entitlements attached to an account, not as separate user types. A downgrade is a deliberate choice to reduce functionality. Moving to Free leaves one owned board active and editable; moving to Premium leaves up to five; Chosen Few has no active-board limit. Before confirmation, the Owner selects which allowed number of owned boards remain active and sees the others listed for archival. The downgrade cannot complete until the selection fits the new allowance. The listed excess boards are then archived automatically with the Owner’s authorisation and remain owned, preserved and read-only under V-02. They do not count towards the active-board allowance. Restoration is blocked when it would exceed the current allowance; the Owner must first create capacity or upgrade. No content is deleted solely because a paid plan ends.
 
 > **[DECISION D-13] Resolved on 22 July 2026** — The entitlement matrix and Owner-selected automatic archival of owned boards above a downgraded active-board allowance are approved. Daily Public publication limits reset at **00:00:01 UTC** and count only successful **Draft → Public** transitions, including republication; other creation and editing actions and failed attempts do not count. **[VERIFY V-05]** must compare all limits and entitlements with the application and checkout and confirm the dependency on V-02 archiving.
+
+The approved future public tier order is **Club Member → Club Host → Club Facilitator → Chosen Few**. Club Member replaces Free, Club Host replaces Premium, Club Facilitator is a new tier between Club Host and Chosen Few, and Chosen Few keeps its name. Until the new tier's entitlements, pricing and implementation are resolved and verified, the entitlement matrix above remains the source of truth for current product behaviour and public Help Centre claims.
+
+> **[DECISION D-29] Resolved on 3 August 2026; entitlements and implementation pending** — Adopt **Club Member**, **Club Host**, **Club Facilitator** and **Chosen Few**, in that order, as the planned public plan names. This is a naming and ordering decision only and does not itself change D-13 or D-27 entitlements.
 
 ### Public identity
 

@@ -1,6 +1,6 @@
 # Product Playbook
 
-> Status: v1.2
+> Status: v1.3
 > Role: practical rules for product, design, writing and release decisions
 
 ## Purpose
@@ -397,6 +397,10 @@ Count only a successful **Draft → Public** transition against the daily sticky
 Treat a downgrade as a deliberate reduction in functionality. When the new plan’s active-board allowance is lower than the number of active boards the user owns, require the Owner to select which allowed number remain active: one for Free or up to five for Premium. Before confirmation, show the selected active boards and every other owned board that will be archived; do not complete the downgrade until the selection fits. Archive the listed excess boards with the Owner’s authorisation. Preserve them indefinitely as read-only under V-02; do not delete them, and do not count them towards the active allowance. Block restoration when it would exceed that allowance and offer an upgrade or a way to create capacity.
 
 > **[DECISION D-13] Resolved on 22 July 2026** — The Free, Premium and Chosen Few entitlements, **00:00:01 UTC** reset, successful-publication counter scope, treatment of republication and exclusion of failed attempts are approved. Do not enable the downgrade path until V-02 archiving and the V-05 entitlement flow are implemented and tested.
+
+The approved future plan-name ladder is **Club Member → Club Host → Club Facilitator → Chosen Few**. Treat Club Member as the successor to Free and Club Host as the successor to Premium. Club Facilitator is a new tier between Club Host and Chosen Few. Do not publish the new ladder, mechanically rename entitlement identifiers or rewrite current Help Centre claims until Club Facilitator pricing and entitlements are decided and the complete migration has been implemented and verified.
+
+> **[DECISION D-29] Resolved on 3 August 2026; rollout pending** — Use the four plan names and order above. The decision changes naming and hierarchy only; it does not silently change existing entitlements.
 
 ## Functional guardrails
 
