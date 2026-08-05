@@ -2,7 +2,7 @@
 layout: default
 title: Organise your work
 description: Arrange private boards and use layouts, colours, tags and due dates to keep ideas organised without unnecessary complexity.
-nav_order: 7
+nav_order: 9
 permalink: /organise-your-work/
 ---
 

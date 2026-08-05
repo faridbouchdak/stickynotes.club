@@ -2,7 +2,7 @@
 layout: default
 title: Troubleshooting
 description: Solve common StickyNotes.club sign-in, invitation, publishing, upload and saving problems and learn when to contact support.
-nav_order: 13
+nav_order: 15
 permalink: /troubleshooting/
 ---
 
@@ -33,7 +33,7 @@ Ask the Owner to send a new invitation if you need Participant access. A View or
 
 ## I cannot invite someone
 
-Only Owners on Premium or Chosen Few can send private-board invitations. If you use Free, you can still receive invitations and participate fully.
+Only Owners on Club Host, Club Facilitator or Chosen Few can send private-board invitations. If you use Club Member, you can still receive invitations and participate fully.
 
 The same Owner and plan requirement applies when creating a View or Post link.
 
@@ -45,6 +45,10 @@ The same Owner and plan requirement applies when creating a View or Post link.
 - Ask the Owner whether their current plan still includes collaboration.
 
 A View link does not require an account. A Post link requires an account before you can create or manage your own notes, arrange notes, comment, use hearts or vote. Existing links become unavailable if the Owner's plan no longer includes collaboration. The Owner can still revoke such a link.
+
+## I cannot add a note to a workshop board
+
+Check the bar at the top of the board. If it says the workshop has not started, wait — the board appears by itself when the facilitator opens it. If input is closed, the collecting phase is over; you can still comment, use hearts and vote. If you are asked for your name again, your link expired or was revoked, and you need a fresh one from the facilitator.
 
 ## I cannot publish a Draft
 

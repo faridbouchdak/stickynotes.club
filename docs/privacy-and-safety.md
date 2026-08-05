@@ -2,7 +2,7 @@
 layout: default
 title: Privacy & safety
 description: Understand who can see your StickyNotes.club content, how public and private content differ and how to protect your account.
-nav_order: 10
+nav_order: 12
 permalink: /privacy-and-safety/
 ---
 
@@ -13,6 +13,7 @@ Before sharing an idea, pause for a moment and check who should see it. Public c
 ## What you'll learn
 
 - Who can see Public content, Drafts and private boards.
+- How someone can take part in a workshop without an account.
 - How ownership differs between private boards and the worldwide wall.
 - What happens to copies of Public content.
 - How to report a concern or make a privacy request.
@@ -34,12 +35,15 @@ Drafts and private-board content are not intentionally made available to public 
 
 Private boards are access-controlled. The Owner can invite someone by email; that person signs in or creates an account before becoming a Participant.
 
-An Owner on Premium or Chosen Few can also share a board with a link:
+An Owner on a paid plan can also share a board with a link:
 
 - A **View link** shows a read-only version of the board to anyone with the link. No account is needed.
 - A **Post link** also lets a signed-in StickyNotes.club user on any plan contribute.
+- A **workshop link** lets someone take part without an account at all. They choose a nickname and can contribute for as long as the session runs. Only an Owner on Club Facilitator can create one, and it always has an expiry time.
 
 Link access does not make someone a Participant. A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access, change the board or edit other people's content. The Owner can revoke a link at any time, including after a downgrade. Existing links are unavailable while the Owner's plan does not include collaboration.
+
+A participant without an account can add, edit and delete their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access or change anyone else's content. Because there is no account behind the nickname, StickyNotes.club cannot verify who is taking part — the link itself is the access. Revoke it, or select **New link**, as soon as it should no longer work.
 
 Treat a board link as private information. Anyone who receives or is forwarded an active View link can read the board. Access controls cannot stop a Participant or link visitor from independently copying information they can see.
 
@@ -78,6 +82,8 @@ Email farid﹫stickynotes.club to exercise applicable privacy rights, including 
 
 ## Good to know
 
+- A workshop link lets people take part without an account and always expires; the nickname they choose is visible to everyone with access to that board.
+- The nickname of a participant without an account is removed 30 days after their last activity on the board. What they contributed stays, under a neutral name.
 - A Draft is not public, but a Public sticky note may travel beyond StickyNotes.club.
 - Private means access-controlled, not impossible to copy.
 - Revoke a board link when it should no longer provide access.

@@ -2,7 +2,7 @@
 layout: default
 title: Frequently asked questions
 description: Find quick answers about StickyNotes.club accounts, public and private content, editing, deletion, sharing, invitations and plans.
-nav_order: 12
+nav_order: 14
 permalink: /faq/
 ---
 
@@ -47,9 +47,17 @@ Returning it to Draft cannot recall external copies, search results, caches or e
 
 ## Can I share a private board with a link?
 
-Yes, if you own the board and use Premium or Chosen Few. A **View link** lets anyone with the link read the board without an account. A **Post link** also lets a signed-in StickyNotes.club user on any plan contribute.
+Yes, if you own the board and use Club Host, Club Facilitator or Chosen Few. A **View link** lets anyone with the link read the board without an account. A **Post link** also lets a signed-in StickyNotes.club user on any plan contribute.
 
 A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They do not become Participants and do not receive invitation, mention or board-management rights. You can revoke a link at any time. Use an email invitation when someone should join as a Participant; invitations expire after 14 days.
+
+## Can people join a workshop without an account?
+
+Yes. An Owner on Club Facilitator can create a workshop link. Anyone with that link picks a nickname and can contribute right away. The link always has an expiry time and can be revoked at any moment.
+
+## Does everyone in my workshop need a paid plan?
+
+No. Only the person running the session needs Club Facilitator. Everyone taking part does so for free, with or without an account.
 
 ## Can I transfer board ownership?
 
@@ -77,14 +85,14 @@ There is no general user-to-user blocking control. An Owner can remove a Partici
 
 ## Is StickyNotes.club free?
 
-Yes. Free includes two Public publications per day, one active editable private board you own and full participation on boards you are invited to. See [Choose and manage your plan](/plans-and-subscriptions/) for the full comparison.
+Yes. Club Member is free and includes two Public publications per day, one active editable private board you own and full participation on boards you are invited to. See [Choose and manage your plan](/plans-and-subscriptions/) for the full comparison.
 
 ## Good to know
 
 - Public content and private-board content follow different rules.
 - Anyone with an active View or Post link can read the linked board.
 - Deletion is permanent after confirmation.
-- Free users can participate fully on boards they join.
+- Club Members can participate fully on boards they join.
 
 ## Related guides
 

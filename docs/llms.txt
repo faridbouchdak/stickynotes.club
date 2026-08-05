@@ -6,7 +6,7 @@ permalink: /llms.txt
 
 > Official user documentation for StickyNotes.club, a web application for sharing ideas publicly and developing them on private boards.
 
-The Help Centre describes implemented StickyNotes.club behaviour in plain English. Use these pages to answer questions about accounts, Public sticky notes, private boards, collaboration, plans, privacy, safety and support. Capitalised product terms such as Draft, Public, Owner, Participant, View link and Post link have specific meanings in the documentation.
+The Help Centre describes implemented StickyNotes.club behaviour in plain English. Use these pages to answer questions about accounts, Public sticky notes, private boards, collaboration, workshops, plans, privacy, safety and support. Capitalised product terms such as Draft, Public, Owner, Participant, View link, Post link and workshop link have specific meanings in the documentation.
 
 ## Start here
 
@@ -24,8 +24,10 @@ The Help Centre describes implemented StickyNotes.club behaviour in plain Englis
 
 - [Collaboration](https://docs.stickynotes.club/collaboration/): Invite Participants, share board links and use collaborative features.
 - [Live collaboration](https://docs.stickynotes.club/live-collaboration/): See private-board changes live, understand autosave and recover safely from conflicts or connection problems.
+- [Run a workshop](https://docs.stickynotes.club/run-a-workshop/): Turn a private board into a guided session with accountless participation, a shared instruction, a timer and silent brainstorming.
+- [Take part in a workshop](https://docs.stickynotes.club/join-a-workshop/): Join a workshop with a link or QR code, without an account or installation.
 - [Manage your profile](https://docs.stickynotes.club/manage-your-profile/): Update profile and security details and understand account deletion.
-- [Plans and subscriptions](https://docs.stickynotes.club/plans-and-subscriptions/): Compare Free, Premium and Chosen Few and understand plan limits.
+- [Plans and subscriptions](https://docs.stickynotes.club/plans-and-subscriptions/): Compare Club Member, Club Host, Club Facilitator and Chosen Few and understand plan limits.
 
 ## Privacy, safety and support
 

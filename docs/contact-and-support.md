@@ -2,7 +2,7 @@
 layout: default
 title: Contact & support
 description: Contact StickyNotes.club support, report a bug or unsafe content, make a privacy request or share a product suggestion.
-nav_order: 14
+nav_order: 16
 permalink: /contact-and-support/
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Plans & subscriptions
-description: Compare the StickyNotes.club Free, Premium and Chosen Few plans and learn how publication limits, boards and subscriptions work.
-nav_order: 9
+description: Compare the StickyNotes.club Club Member, Club Host, Club Facilitator and Chosen Few plans and learn how publication limits, boards and subscriptions work.
+nav_order: 11
 permalink: /plans-and-subscriptions/
 ---
 
 # Choose and manage your plan
 
-Choose the plan that fits how you want to use StickyNotes.club. Free is for capturing and joining. Premium is for bringing people together around your own ideas. Chosen Few is for people who want no practical plan-level volume limits.
+Choose the plan that fits how you want to use StickyNotes.club. Club Member is for capturing and joining. Club Host is for bringing people together around your own ideas. Club Facilitator adds guided workshops. Chosen Few is for people who want no practical plan-level volume limits.
 
 ## What you'll learn
 
@@ -18,19 +18,22 @@ Choose the plan that fits how you want to use StickyNotes.club. Free is for capt
 
 ## Compare the plans
 
-| Capability | Free | Premium | Chosen Few |
-| --- | --- | --- | --- |
-| Public sticky-note publications per day | 2 | 12 | Unlimited |
-| Active, editable private boards you own | 1 | 5 | Unlimited |
-| Send private-board invitations | No | Yes | Yes |
-| Create View and Post links for boards you own | No | Yes | Yes |
-| Receive invitations and participate | Yes | Yes | Yes |
-| Contribute through a Post link | Yes | Yes | Yes |
-| Comments, private-board hearts and dot voting | Yes | Yes | Yes |
-| Mention current board Participants | Yes | Yes | Yes |
-| Private-board sticky-note tags and due dates | Yes | Yes | Yes |
+| Capability | Club Member | Club Host | Club Facilitator | Chosen Few |
+| --- | --- | --- | --- | --- |
+| Public sticky-note publications per day | 2 | 12 | 12 | Unlimited |
+| Active, editable private boards you own | 1 | 5 | 15 | Unlimited |
+| Send private-board invitations | No | Yes | Yes | Yes |
+| Create View and Post links for boards you own | No | Yes | Yes | Yes |
+| Run workshops | No | No | Yes | Yes |
+| Receive invitations and participate | Yes | Yes | Yes | Yes |
+| Contribute through a Post link | Yes | Yes | Yes | Yes |
+| Comments, private-board hearts and dot voting | Yes | Yes | Yes | Yes |
+| Mention current board Participants | Yes | Yes | Yes | Yes |
+| Private-board sticky-note tags and due dates | Yes | Yes | Yes | Yes |
 
-If you use Free, you have the same contribution rights as other Participants on boards you join. You can also contribute through a paying Owner's Post link. Premium mainly lets you invite people or create View and Post links for boards you own, and gives you higher publication and board limits.
+If you use Club Member, you have the same contribution rights as other Participants on boards you join. You can also contribute through a paying Owner's Post link. Club Host mainly lets you invite people or create View and Post links for boards you own, and gives you higher publication and board limits.
+
+Everything in Club Host, plus workshop mode: run a guided session, let people take part without an account, share a QR code, use a shared instruction and timer, collect ideas silently and reveal them together. Participants never need a paid plan.
 
 The Owner's plan determines whether a board can host invitations and active View or Post links. Your own plan does not reduce the contribution rights you receive on somebody else's board. Your access type and board role determine what you can do there.
 
@@ -69,6 +72,7 @@ If your plan no longer includes collaboration, existing View and Post links beco
 
 ## Good to know
 
+- Only the person running a workshop needs Club Facilitator. Everyone taking part does so for free, with or without an account.
 - You do not need a paid plan to participate fully on a board someone else owns.
 - You do not need a paid plan to contribute through a Post link, but you must sign in or create an account.
 - Only successful publication uses the daily allowance.

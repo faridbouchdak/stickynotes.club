@@ -20,7 +20,7 @@ Invite Participants when an idea is ready for ongoing collaboration, or use a Vi
 
 ## Invite a Participant
 
-If you own a board on Premium or Chosen Few, you can invite people by email.
+If you own a board on Club Host, Club Facilitator or Chosen Few, you can invite people by email.
 
 1. Open the board's Participant or invitation controls.
 2. Enter the person's email address.
@@ -32,7 +32,7 @@ Use an invitation when someone should become a Participant with the complete col
 
 ## Share a board with a link
 
-If you own a board on Premium or Chosen Few:
+If you own a board on Club Host, Club Facilitator or Chosen Few:
 
 1. Open **Share this board**.
 2. Create a **View link** or **Post link**.
@@ -111,6 +111,7 @@ Individual edits, comments, hearts and votes do not each produce a separate emai
 
 ## Good to know
 
+- A workshop link goes one step further than a Post link: it lets someone take part without an account at all. See [Run a workshop](/run-a-workshop/).
 - Board changes normally appear to everyone viewing the board within a few seconds.
 - Sticky-note text saves automatically, and simultaneous edits are never silently overwritten. See [Work together in real time](/live-collaboration/) for saving, conflicts and connection problems.
 - StickyNotes.club keeps the current accepted version and does not provide a version history.

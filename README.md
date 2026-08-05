@@ -28,6 +28,8 @@ These pages explain StickyNotes.club from the user's perspective:
 - `private-boards.md` — creating and managing private boards
 - `collaboration.md` — working together on boards
 - `live-collaboration.md` — live changes, autosave and edit conflicts
+- `run-a-workshop.md` — setting up and facilitating a guided workshop
+- `join-a-workshop.md` — taking part in a workshop without an account
 - `organise-your-work.md` — tags, due dates and board organisation
 - `manage-your-profile.md` — profile and account settings
 - `plans-and-subscriptions.md` — plans, payments and cancellation

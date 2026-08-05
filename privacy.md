@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: 20 July 2026**
+**Last updated: 4 August 2026**
 
 ## 1. About this Privacy Policy
 
@@ -22,7 +22,7 @@ Email: farid﹫stickynotes.club
 
 ## 3. Minimum age
 
-You must be at least 16 years old to create and use a StickyNotes.club account.
+You must be at least 16 years old to create and use a StickyNotes.club account, or to take part in a workshop without an account.
 
 StickyNotes.club is not intended for children under the age of 16. If you believe that a child under 16 has provided personal data, please contact us so that we can investigate and, where appropriate, delete the data.
 
@@ -39,6 +39,18 @@ Depending on how you use StickyNotes.club, we may process the following personal
 - your profile photo;
 - your selected profile location;
 - your account settings and preferences.
+
+### Participation without an account
+
+When you join a workshop through a workshop link, you take part without creating an account. In that case we process:
+
+- the nickname you choose when you join;
+- the sticky notes, comments, hearts and votes you add to that board;
+- a random participation token stored in your browser and in your session, which lets you return to the same board as the same participant;
+- the date and time you joined and were last active on the board;
+- the technical and security information described below.
+
+We do not ask for your email address, and you do not create an account. Your nickname is visible to everyone with access to that board.
 
 ### Content and activity
 
@@ -90,6 +102,7 @@ We process the information needed to:
 - publish and manage sticky notes;
 - create and manage private boards;
 - support invitations, permissions and collaboration;
+- let people take part in a workshop without an account;
 - store and display the content you create;
 - provide paid features and manage subscriptions.
 
@@ -156,6 +169,18 @@ Board owners are responsible for managing invitations, permissions and share lin
 You can edit and delete your own content using the available controls. Board owners can manage access to their boards.
 
 No online system can guarantee absolute confidentiality. Only add information to a private board that is appropriate to share with everyone who has access to it.
+
+### Workshops and participants without an account
+
+A board Owner with access to workshop mode can create a **workshop link**. Anyone with that link can choose a nickname and take part in the session without an account.
+
+A workshop link always has an expiry time and can be revoked by the Owner at any moment. When the link expires or is revoked, access ends.
+
+A participant without an account can add, edit and delete their own sticky notes and take part in comments, hearts and dot voting. They cannot change anyone else's content or manage the board.
+
+Treat a workshop link as private information. Anyone who receives or is forwarded an active link can take part in the session.
+
+Because participation is not tied to an account, we cannot verify who is behind a nickname. Clearing your browser data means you take part as a new participant, and any earlier contributions stay on the board under the nickname you used at the time.
 
 ## 7. Cookies and analytics
 
@@ -224,6 +249,7 @@ We keep personal data only for as long as necessary for the purposes described i
 Unless a longer period is required by law or needed for a legal dispute, the following periods apply:
 
 - **Account information and content:** for as long as your account exists.
+- **Participation without an account:** the nickname and participation token of a participant without an account are removed 30 days after their last activity on the board. Their contributions remain on the board and are shown under a neutral name from that moment on.
 - **Deleted accounts and active production data:** removed from the active environment when account deletion is completed.
 - **Backups:** deleted data may remain in protected backups for up to 30 days before being overwritten.
 - **Security, server and error logs:** up to 90 days.
@@ -232,6 +258,8 @@ Unless a longer period is required by law or needed for a legal dispute, the fol
 - **Legal claims and disputes:** for as long as reasonably necessary to establish, exercise or defend the claim.
 
 StickyNotes.club does not currently delete accounts automatically because of inactivity.
+
+Contributions are made anonymous rather than deleted. The result of a workshop is what the facilitator works with afterwards, and it should not disappear from a report a month later. Deleting a board removes its participants as well.
 
 Some public information may remain temporarily available in third-party caches or copies that StickyNotes.club does not control.
 

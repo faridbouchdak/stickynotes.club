@@ -2,7 +2,7 @@
 layout: default
 title: Manage your profile
 description: Update your StickyNotes.club profile, email address and password, understand what appears publicly and learn what account deletion removes.
-nav_order: 8
+nav_order: 10
 permalink: /manage-your-profile/
 ---
 

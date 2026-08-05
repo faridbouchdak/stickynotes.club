@@ -55,7 +55,7 @@ See [Work together on a board](/collaboration/) for invitations and access.
 
 ## Share controlled access with a link
 
-If you own the board and use Premium or Chosen Few, open **Share this board** and choose:
+If you own the board and use Club Host, Club Facilitator or Chosen Few, open **Share this board** and choose:
 
 - **View link** to show a read-only version of the board to anyone with the link. No account is needed.
 - **Post link** to provide the same viewing access and also let signed-in StickyNotes.club users on any plan contribute.

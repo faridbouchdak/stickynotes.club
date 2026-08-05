@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Guides and support
-description: Find guides and answers for creating sticky notes, sharing ideas publicly and collaborating on private boards with StickyNotes.club.
+description: Find guides and answers for creating sticky notes, sharing ideas publicly, collaborating on private boards and running workshops with StickyNotes.club.
 nav_order: 1
 ---
 
@@ -40,12 +40,14 @@ Whether you are capturing your first thought or deciding where it belongs, you c
 
 - **[Work together on a board](/collaboration/)** — Invite Participants or share controlled access with a View or Post link.
 - **[Work together in real time](/live-collaboration/)** — See live changes, understand autosave and resolve simultaneous edits safely.
+- **[Run a workshop](/run-a-workshop/)** — Guide a session with accountless participation, a shared instruction, a timer and silent brainstorming.
+- **[Take part in a workshop](/join-a-workshop/)** — Join with a link or QR code, without an account or installation.
 - **[Organise your work](/organise-your-work/)** — Use layouts, colours, tags and due dates without making things complicated.
 
 ## Manage your account
 
 - **[Manage your profile and account](/manage-your-profile/)** — Update your details, secure your account or understand what deletion means.
-- **[Choose a plan](/plans-and-subscriptions/)** — Compare Free, Premium and Chosen Few.
+- **[Choose a plan](/plans-and-subscriptions/)** — Compare Club Member, Club Host, Club Facilitator and Chosen Few.
 - **[Understand privacy and safety](/privacy-and-safety/)** — Know who can see your content and how to report a concern.
 
 ## Good to know
