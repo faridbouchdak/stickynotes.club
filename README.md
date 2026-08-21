@@ -41,9 +41,15 @@ These pages explain StickyNotes.club from the user's perspective:
 
 ### Public information and policies
 
+These pages are no longer kept here. They live in the application repository, in
+`app/resources/pages/`, and are rendered by `PageController` at `/about`,
+`/privacy` and `/terms`. The reason is deliberate: legal text belongs to the code
+it describes, so a change in behaviour and the change in wording ship in the same
+commit and it stays provable which terms applied on which date.
+
 - `about.md` — the purpose and story of StickyNotes.club
 - `privacy.md` — Privacy Policy
-- `tos.md` — Terms of Service
+- `terms.md` — Terms of Service
 
 ### Product and documentation design
 

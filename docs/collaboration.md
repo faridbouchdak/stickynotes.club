@@ -71,7 +71,9 @@ You cannot edit a comment after posting it, but you can delete your own comment.
 
 Arranging is separate from editing a sticky note's content. Someone with contribution access can change a sticky note's position, order or column without becoming its author or gaining permission to rewrite it.
 
-The Owner can arrange and permanently delete any sticky note on an active board, but cannot edit another author's text, colour, tags or due date, or delete another author's comment separately. Deleting a sticky note also deletes its comments, hearts and dot votes. It cannot be undone.
+The Owner can arrange and delete any sticky note on an active board, but cannot edit another author's text, colour, tags or due date, or delete another author's comment separately. Deleting a sticky note also removes its comments, hearts and dot votes.
+
+Deleting is not instantly final. Whoever deleted the sticky note sees an **Undo** for a few seconds and can bring it back with everything attached to it. After that moment the sticky note stays gone.
 
 ## Show appreciation with a heart
 

@@ -70,7 +70,7 @@ You can edit your own sticky note. StickyNotes.club keeps the current accepted v
 
 Returning a Public sticky note to Draft removes its public hearts and Wall of Love connections, and resets its heart and share counts. If you publish it again, it starts with a new publication date and zero counts.
 
-Delete a sticky note only when you no longer need it. After you confirm, deletion is immediate and permanent. Comments, hearts and dot votes on that sticky note are deleted too. There is no Undo, trash or recovery period.
+Delete a sticky note only when you no longer need it. For a Draft or a Public sticky note, deletion is immediate and permanent after you confirm: its hearts go with it and there is no Undo, trash or recovery period. On a private board it works differently — see [Work together on a board](/collaboration/).
 
 Deleting Public content stops StickyNotes.club from showing it, but cannot recall independent copies or earlier use by search engines, caches or external AI services.
 

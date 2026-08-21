@@ -1,6 +1,6 @@
 # Product Constitution
 
-> Status: v1.2
+> Status: v1.5
 > Role: enduring product principles
 > Review when: the product promise, audience or boundaries materially change
 
@@ -30,13 +30,16 @@ The product should make the first action feel effortless while leaving room for 
 
 StickyNotes.club is for people who want to:
 
-- quickly capture and share a thought;
-- discover ideas from other people;
+- run a focused session with a group and reach a shared result;
+- take part in someone else's session without an account or an install;
 - brainstorm alone or with others;
+- quickly capture and share a thought;
 - organise a growing collection of ideas;
-- turn loose thoughts into a shared outcome.
+- discover ideas from other people.
 
-It should work for an individual without feeling like team software and for a small group without requiring project-management training.
+It should work for one person leading a room without requiring facilitation training, for a participant who joined thirty seconds ago from a link, and for an individual capturing a thought alone. It should never feel like project-management software.
+
+The person who leads a session and the person who joins one have different needs and both are served. The leader needs control and a result worth keeping; the participant needs to contribute within seconds of arriving.
 
 ## Principles
 
@@ -178,6 +181,8 @@ StickyNotes.club is not intended to become:
 
 It sits between personal thinking and lightweight collaboration. It may connect to adjacent workflows, but should not absorb all of them.
 
+Running a session does not change those boundaries; leading with sessions only makes the comparison more tempting. A session here is small, temporary and led by one person. It is not a facilitation suite: no video, no chat, no integration catalogue, no infinite canvas, no template library for every framework, no analytics across sessions. The product is deliberately smaller than the tools it will be compared with, and that is the reason a facilitator can start one in minutes.
+
 ## Decision hierarchy
 
 When principles appear to compete, use this order:
@@ -233,6 +238,22 @@ Reconsider a change when:
 
 Material changes to this document should include a version change and a short rationale in the Design Notes.
 
-## Resolved decision
+### When a document and the code disagree
+
+For **behaviour** — what the product actually does — the implementation is authoritative. A difference between a design document and the code is a documentation defect and is corrected in the document, unless the implementation crosses an explicit boundary set in this Constitution or the Product Model.
+
+For **intent** — purpose, positioning, product boundaries, plan promises and release gates — the documents are authoritative. A difference is a product finding, is recorded in the Design Notes and is resolved by a decision, not by the code that shipped first.
+
+To tell the two apart, ask what the document was doing. A passage that *describes* how something works is behaviour. A passage that *permits, forbids, promises or gates* is intent; sentences built on **do not**, **only**, **never**, **until** or a price almost always are. When it stays unclear, treat it as intent and record it: a correction delayed by a day costs little, a promise revised without noticing costs trust.
+
+Code that outruns intent does not have to be reverted or blocked — the same person builds and decides here, and a rule that stops the work will be ignored. Record it as a **CONFLICT** in the Design Notes and settle it before the next release that touches the same area.
+
+## Resolved decisions
 
 > **[DECISION D-01] Resolved on 20 July 2026** — Use **A place where ideas can grow together.** as the official product promise and tagline. Use the full sentence with “StickyNotes.club is” only when normal prose requires it.
+
+> **[DECISION D-31] Resolved on 21 August 2026** — When a design document and the implementation disagree, split the question by what the document was doing. The implementation is authoritative for behaviour; the documents are authoritative for intent, meaning purpose, positioning, product boundaries, plan promises and release gates. The full rule, its tiebreaker and the handling of code that outruns intent are in *Governance*.
+
+> **[DECISION D-30] Resolved on 21 August 2026** — Facilitated sessions are the primary use of StickyNotes.club and the lead commercial story. **A place where ideas can grow together** remains the product promise and tagline; it is not replaced. Public-facing surfaces may lead with the session outcome — *Run a focused workshop in minutes* — provided the promise remains the umbrella under which sessions, capture, private boards and the worldwide wall all sit. This supersedes the audience description in *Who we serve* and the pillar order in the Playbook's *Marketing and positioning*. It does not change D-01, and it does not make the worldwide wall a secondary product: it makes it a different one, serving discovery rather than facilitation.
+>
+> A campaign headline and a product promise are allowed to be different sentences, but they must not contradict each other. A workshop is the sharpest form of ideas growing together, which is why the promise survives the change of emphasis. Replacing D-01 would require re-framing the wall, the private board and the whole Help Centre, at no demonstrable gain.

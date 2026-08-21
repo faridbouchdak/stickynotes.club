@@ -37,7 +37,7 @@ Good:
 
 - Create a board
 - Share an idea
-- Organize your work
+- Organise your work
 
 Avoid:
 
@@ -117,7 +117,7 @@ Search complements navigation but never replaces it.
 
 # 7. Standard Page Structure
 
-Every Help Center page follows the same structure.
+Every Help Centre page follows the same structure.
 
 ```text
 Title

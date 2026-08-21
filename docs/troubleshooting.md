@@ -72,7 +72,11 @@ If two people changed the same sticky-note text, choose which version to keep in
 
 ## I cannot find deleted content
 
-After you confirm deletion, a sticky note, comment or board is deleted immediately and permanently. There is no Undo, trash or recovery option.
+It depends on what was deleted.
+
+When you delete a sticky note on a private board, an **Undo** appears for a few seconds. Select it and the sticky note returns with its comments, hearts and votes. Once that moment passes, you cannot restore the sticky note yourself.
+
+A comment, a board and a Public sticky note are deleted immediately and permanently after you confirm. There is no Undo, trash or recovery option for them.
 
 ## Good to know
 

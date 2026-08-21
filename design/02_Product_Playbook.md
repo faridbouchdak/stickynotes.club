@@ -1,6 +1,6 @@
 # Product Playbook
 
-> Status: v1.3
+> Status: v1.8
 > Role: practical rules for product, design, writing and release decisions
 
 ## Purpose
@@ -140,7 +140,10 @@ Avoid shipping a partial flow that creates a dead end. “Small” still include
 - Let an author unpublish a Public sticky note by returning it to Draft. Explain that this removes it from the worldwide wall and intentional public discovery surfaces but cannot recall independent copies, screenshots, search results, caches, AI datasets, model training or other external uses that already occurred.
 - Keep a Public sticky note published without an automatic or author-selected expiry until the author returns it to Draft or deletes it, or authorised moderation removes it.
 - Present a Public sticky note without the author’s name, username, profile picture, biography, links or contribution history. Show its publication date, country of origin, share count and heart count. Internal account attribution remains available for author controls and moderation while the account exists. After account deletion, remove that relationship, retain the Public sticky note and add the tape and accessible deleted-account state defined by V-06.
-- Keep Participant access personal and invitation-led. Let only an Owner with a Premium or Chosen Few collaboration entitlement create a **View link** for accountless, read-only board access or a **Post link** that additionally lets a signed-in StickyNotes.club user on any plan add sticky notes. Participants cannot create links. Explain that link users are not Participants, receive no comments, hearts, dot votes or board-management rights and lose link access immediately when the Owner revokes the link. Revocation is an Owner safety control and must remain available after downgrade. Sharing a Public sticky note remains a separate Public action.
+- Keep Participant access personal and invitation-led. Let only an Owner with a Club Host or higher collaboration entitlement create a **View link** for accountless, read-only board access or a **Post link** that additionally lets a signed-in StickyNotes.club user on any plan add sticky notes. Participants cannot create links. Explain that View and Post link users are not Participants, receive no comments, hearts, dot votes or board-management rights and lose link access immediately when the Owner revokes the link. Revocation is an Owner safety control and must remain available after downgrade. Sharing a Public sticky note remains a separate Public action.
+- Treat a **workshop link** as a separate, deliberate act. Only an Owner who can facilitate creates one; it always carries an expiry; and guest access is chosen when the link is made, never acquired by an existing link when a board setting changes. Inside the session a guest contributes on the same terms as a Participant — own sticky notes, arranging, comments, hearts and dot voting — because a session where half the room can only watch is not a session. Outside that one board a guest has nothing: no invitations, no access management, no board settings, no other board.
+- Say plainly what a guest identity is. It lives in the browser, not in an account: nobody is verified, the link is the access, and clearing browser data means joining again as somebody new. Do not present a nickname as an identity, and never build a right on top of one.
+- Removing a guest ends their access and keeps their contributions. Say so where the control lives, so that removing someone from a session is not mistaken for erasing what they added.
 - Make board ownership and permission changes visible to affected users.
 - Ask for confirmation when an action widens access or is difficult to reverse.
 - Explain that Drafts and private boards are hidden from other ordinary users but remain accessible to authorised platform moderators and administrators.
@@ -182,12 +185,14 @@ Store the Public publication timestamp in UTC and display the date as **YYYY/MM/
 - Use precise verbs: **Delete board**, not **Continue**.
 - Explain what will be removed and who will be affected.
 - Distinguish archive, remove access and permanent deletion.
-- Do not promise Undo, trash, a recovery period or restoration for deleted sticky notes, comments or boards; deletion is immediately permanent after confirmation.
+- Deletion is layered by object. A sticky note on a private board is removed from view immediately and can be restored by the same person for a short period; after that period it is purged and cannot be recovered. A Public sticky note, a comment and a board are deleted permanently at confirmation, with no Undo, trash or recovery period. Moderation deletion is always immediate and permanent. Never describe a restore period as a bin, an archive or a backup, and never promise recovery after it has passed.
+- State that a restore period exists; do not state its exact length in copy that would become wrong when the setting changes.
 - Never use colour alone to communicate risk.
 
 Use object-specific cascade rules and confirmations:
 
-- Deleting a sticky note permanently deletes its comments, hearts and dot votes. Use **Delete this sticky note?** with **This permanently deletes the sticky note and all its comments, hearts and votes. This cannot be undone.** and actions **Cancel** / **Delete sticky note**.
+- Deleting a sticky note on a private board removes it from view together with its comments, hearts and dot votes, and offers a way back. Use no confirmation dialog; afterwards show **Sticky note deleted.** with the action **Undo**. Do not claim the deletion is permanent, because until the restore period passes it is not.
+- Deleting a Public sticky note permanently deletes its comments and hearts. Use **Delete this sticky note?** with **This permanently deletes the sticky note and all its comments and hearts. This cannot be undone.** and actions **Cancel** / **Delete sticky note**.
 - Deleting a comment deletes only that comment. Use **Delete this comment?** with **This permanently deletes the comment. This cannot be undone.** and actions **Cancel** / **Delete comment**.
 - Deleting a board permanently deletes all its sticky notes, comments, hearts and dot votes and removes Participant access and pending invitations without deleting participant accounts. Use **Delete this board?** with **This permanently deletes the board and all its sticky notes, comments, hearts and votes. It also removes all participants and pending invitations. This cannot be undone.** and actions **Cancel** / **Delete board**.
 
@@ -199,7 +204,7 @@ For every retained Public sticky note, place a small strip of tape at the top an
 
 The account-deletion confirmation must identify owned boards that will be permanently deleted and explain the different treatment of Drafts, contributions on other Owners’ boards and retained Public sticky notes. It must also state that retained Public content remains indexable and available for external AI use and that independent copies, saved images, screenshots, search results, caches, AI datasets, model training and other external uses cannot be recalled. Test subscription non-renewal and deletion from protected backups within 30 days before publishing a complete deletion promise. Do not publish exact billing, tax or legal-record periods until they have been legally verified.
 
-> **[DECISION D-21] Partly resolved on 20 July 2026; [VERIFY V-09] cascade and copy approved on 21 July 2026; technical-backup period resolved on 22 July 2026** — Sticky-note, comment and board deletion has no Undo or recovery period and becomes final immediately after confirmation. Protected technical backups expire within 30 days and cannot be used as a product recovery path. V-09 remains open for deletion implementation and counter verification; V-06 must verify backup expiry and separately required records.
+> **[DECISION D-21] Partly resolved on 20 July 2026; [VERIFY V-09] cascade and copy approved on 21 July 2026; technical-backup period resolved on 22 July 2026; amended on 21 August 2026** — Private-board sticky-note deletion offers a short restore window and is final only after it passes. Public sticky-note, comment and board deletion has no Undo or recovery period and becomes final immediately after confirmation, as does moderation deletion of any object. Protected technical backups expire within 30 days and cannot be used as a product recovery path. V-09 remains open for deletion implementation, the restore path and counter verification; V-06 must verify backup expiry and separately required records.
 
 Individual sticky notes do not have **Completed** or **Archived** states. The only future archive feature under consideration applies to a complete private board, including its sticky notes, comments, hearts and dot votes. Only the Owner or an authorised platform moderator or administrator may archive, restore or permanently delete it.
 
@@ -228,7 +233,7 @@ An email invitation should make the board name, inviter, required account, 14-da
 
 When Participant access ends, preserve that person’s existing sticky notes on the board. If the person deletes their account, retain those sticky notes on boards owned by somebody else and replace their displayed author with **Deleted user**. Explain before account deletion that the author can permanently delete their sticky notes first.
 
-On an active board, allow the Owner to permanently delete any sticky note, including a Participant’s, without granting permission to edit another author’s text or separately delete another author’s comment. Use the V-09 warning and cascade. Log actor, board, sticky note, author, time and cascade outcome without retaining the deleted content body. Include the event in the affected author’s conditional daily digest while they still have access; do not send an immediate deletion email. Moderator and administrator deletion remains governed by D-24’s stricter audit and notification rules.
+On an active board, allow the Owner to delete any sticky note, including a Participant’s, without granting permission to edit another author’s text or separately delete another author’s comment. Use the private-board deletion behaviour above: the sticky note leaves the board with its comments, hearts and dot votes, and the Owner keeps a short way back. Record who removed it. Log actor, board, sticky note, author, time and cascade outcome without retaining the deleted content body. Include the event in the affected author’s conditional daily digest while they still have access; do not send an immediate deletion email. Moderator and administrator deletion remains governed by D-24’s stricter audit and notification rules.
 
 Comments are supporting discussion, not sticky notes. They do not use Draft/Public statuses. Do not introduce public comments or public dot voting without a new product decision.
 
@@ -240,13 +245,45 @@ For dot voting, only the Owner starts and closes a round. Let the Owner choose *
 
 Do not offer or document voting-round reset or reopening. After the Owner closes a round, show a voting-round icon and vote count on each sticky note that received at least one vote. Starting a new round immediately and permanently makes the previous round and its results unavailable; there is no replacement warning or recoverable voting history.
 
-Display the active-round notice above the sticky notes. Its used-vote and allowance values update for the Participant, while the default initial state reads:
+Display the active-round notice above the sticky notes. Its remaining-vote value updates for the Participant, while the state after two votes in a three-vote round reads:
 
-> Voting is open — you have used 0 of 3 votes. Votes stay hidden until the round is closed.
+> Voting is open — you have **2 votes left**. Votes stay hidden until the round is closed.
+
+Show what remains, not what has been used. A participant needs to know how many decisions are still theirs to make, not how many they have already made.
+
+Dim a vote control once the Participant is out of votes, but only on sticky notes they have not voted on: withdrawing a vote must always remain possible, or a person is stuck with their first picks. Dimming is display only; the server still enforces the allowance.
 
 After closure, show the latest results and place this notice above the sticky notes, substituting the actual closing date:
 
 > Showing the results of the last voting round (closed 2026/07/20).
+
+### Workshop rules
+
+A session is the same board with a facilitator steering it. Nothing here creates a second product; every rule below is about *who may act right now*, not about a new kind of content.
+
+**The owner is the facilitator.** Facilitating requires the entitlement, ownership of the board and a board the owner can still write to. Do not design a separate facilitator role: it would need invitation, transfer, revocation and its own rights model, for something one person does for one afternoon.
+
+**Steering controls belong to the session bar; looking controls belong next to the content.** Hiding what has already been discussed is looking, so it sits with the filters and is per person. Spotlighting a sticky note is steering, so it sits in the bar and applies to the room. Get this wrong and the facilitator describes one board while the room sees another.
+
+**Only the facilitator gets a control that changes what the room sees.** A participant filtering their own view would be looking at a different board from the one being talked about. Showing a participant that something has been discussed is information; letting them hide it is not.
+
+**Closing input must not switch off anything else.** Voting, hearts and comments happen precisely after input closes, because that is when the room discusses. Treat "may I add something new" and "may I respond to what is there" as separate rights that happen to be off at different moments.
+
+**Silent brainstorm removes other people's contributions before the page exists.** Never hide them in the browser. A rule that only holds in the interface is not a rule.
+
+**While contributions are hidden, only the facilitator may rearrange.** Dragging rewrites the order of the whole list, including notes the person cannot see. Editing your own note stays allowed: that touches one sticky note, and the person can see it.
+
+**The timer is a signal.** At zero the product does nothing. If a timer also closed input, "may I write" would have two answers that diverge the first time someone pauses or extends it. Show the same countdown to everyone, and make it survive a participant with a wrong clock.
+
+**Finishing freezes taking part, not stepping in.** After a session is finished, nobody contributes, edits or interacts — the facilitator included, since he gave the end signal. Moderation continues, because abusive content must come off a shared result precisely after the fact.
+
+**Anonymity is one rule for everyone.** If contributions are anonymous, they are anonymous to the facilitator too. Anything else is a promise that fails the moment somebody discovers it, and it needs a second version of every screen.
+
+**Removing someone ends access and keeps their contributions.** Say so at the control. Presence follows recent activity rather than a sign-in, so nobody is marked absent for thinking.
+
+**Design the participant's screen first.** They arrive from a QR code on a phone, thirty seconds before it starts, in a room where somebody is already talking. If a control needs explaining out loud, it is the wrong control.
+
+**A result is what remains.** It outlives the session, stays available to everyone who was in it, and never changes because someone later edited the board. Do not reorder the board itself by votes afterwards: the ranking belongs to the result, and the board keeps the arrangement the room built.
 
 ### Real-time collaboration and saving
 
@@ -270,7 +307,9 @@ Keep exactly one non-transferable Owner per board. Ownership cannot be handed to
 
 > **[DECISION D-26] Resolved on 21 July 2026; [VERIFY V-11] implementation required** — Preserve a former Participant’s board sticky notes and use **Deleted user** after their account is deleted. The author may delete them beforehand. The Owner may delete any sticky note on an active owned board under the limits above; authorised moderators and administrators may delete under D-24. Verify Owner controls, V-09 cascade, technical logging and digest inclusion end to end.
 
-> **[DECISION D-23] Resolved on 20 July 2026; invitation lifecycle completed under D-08 on 21 July 2026; share-link model and authorisation verified on 23 July 2026** — Email invitation plus sign-in or account creation remains the path to Participant status. Invitations expire after 14 days; declined invitations grant no access; Participant access revocation is immediate and triggers an email to the former Participant. Only an Owner with a Premium or Chosen Few collaboration entitlement may create a View or Post link. A View link gives anyone with the active link read-only access without an account. A Post link additionally lets a signed-in StickyNotes.club user on any plan add sticky notes. Link access never creates Participant status or grants comments, hearts, dot votes or board-management rights. Losing the collaboration entitlement makes existing links inaccessible, but the Owner retains a plan-independent revocation control. Verify the later-upgrade behaviour before promising whether an unrevoked link stays disabled or becomes active again.
+> **[DECISION D-23] Resolved on 20 July 2026; invitation lifecycle completed under D-08 on 21 July 2026; share-link model and authorisation verified on 23 July 2026** — Email invitation plus sign-in or account creation remains the path to Participant status. Invitations expire after 14 days; declined invitations grant no access; Participant access revocation is immediate and triggers an email to the former Participant. Only an Owner with a Club Host or higher collaboration entitlement may create a View or Post link. A View link gives anyone with the active link read-only access without an account. A Post link additionally lets a signed-in StickyNotes.club user on any plan add sticky notes. View and Post link access never creates Participant status or grants comments, hearts, dot votes or board-management rights. Losing the collaboration entitlement makes existing links inaccessible, but the Owner retains a plan-independent revocation control. Verify the later-upgrade behaviour before promising whether an unrevoked link stays disabled or becomes active again.
+
+> **[DECISION D-23] Amended on 21 August 2026 under C-09** — A **workshop link** is a third link type: it lets a person take part in a session without an account, and inside that session a guest contributes on the same terms as a Participant, including comments, hearts and dot voting. A guest never becomes a Participant and reaches nothing outside that board. Guest access is chosen when the link is created, never acquired by an existing link, and a workshop link always carries an expiry. Removing a guest ends access and keeps their contributions.
 
 ### Activity and notifications
 
@@ -317,7 +356,8 @@ Use these consistently:
 - **private board** or **board** for an access-controlled workspace;
 - **board owner** for the person controlling a board;
 - **participant** for a person who has accepted an invitation to a board;
-- **plan** for Free, Premium or Chosen Few;
+- **plan** for Club Member, Club Host, Club Facilitator or Chosen Few;
+- **facilitator** for the person running a workshop session, and **guest** for someone taking part without an account;
 - **subscription** for a recurring paid agreement.
 
 **Sticky note** is mandatory in titles, navigation, buttons, first mentions and formal definitions. **Note** is allowed only as a natural shorthand after the object is clear. Do not use **post**, **card**, **item** or **content** as interchangeable product names.
@@ -382,23 +422,29 @@ Use layered transparency for external copies, search indexing, caches and AI use
 - Make cancellation available through the account or customer portal.
 - Treat entitlements as product rules that require the same documentation and testing as other behaviour.
 
-Free includes one active, editable owned private board and full participation on boards to which the user is invited. Premium includes up to five active, editable owned private boards; Chosen Few includes unlimited active owned private boards. Archived owned boards and joined boards do not consume the active-board allowance.
+Club Member includes one active, editable owned private board and full participation on boards to which the user is invited. Club Host includes up to five, Club Facilitator up to fifteen and Chosen Few unlimited. Boards joined as a Participant never consume the allowance. The numbers are settings: read them from the product in any copy that states them, so a changed limit cannot leave a promise standing that the product refuses.
 
-Only Premium and Chosen Few Owners can send private-board invitations. Free users can receive invitations and participate fully. Comments, private-board hearts, dot voting and private-board sticky-note tags and due dates are available on all plans.
+Only Club Host and above can send private-board invitations or create View and Post links. Only Club Facilitator and above can run a workshop session, which is the one entitlement that lets people take part without an account, up to the configured session limit. Club Members can receive invitations and participate fully. Comments, private-board hearts, dot voting and private-board sticky-note tags and due dates are available on all plans.
 
-Lead paid-plan explanations with the ability to initiate and scale private collaboration. Use higher publication and board volume and additional personalisation as supporting value, not the main story. The concise tier narrative is **Free is for capturing and joining. Premium is for bringing people together around your own ideas. Chosen Few is for people who want no practical plan-level volume limits.** Always pair this narrative with the exact entitlement table where a person is choosing or purchasing a plan.
+Club Facilitator has the same daily publication allowance as Club Host. That is a decision, not an oversight: a facilitation plan sells sessions, not volume on the worldwide wall. Do not present the higher price as buying more publishing.
 
-Do not frame Free as intentionally frustrating, suggest that Free Participants collaborate less fully after joining, or imply that Chosen Few removes safety, content, file, technical or other non-plan boundaries.
+Lead paid-plan explanations with the ability to get a group thinking together. Use higher board volume and additional personalisation as supporting value, not the main story. The concise tier narrative is **Club Member is for capturing and joining. Club Host is for bringing people together around your own ideas. Club Facilitator is for running the session. Chosen Few is for people who want no practical plan-level volume limits.** Always pair this narrative with the exact entitlement table where a person is choosing or purchasing a plan.
+
+Do not frame the free tier as intentionally frustrating, suggest that Club Members collaborate less fully after joining, or imply that Chosen Few removes safety, content, file, technical or other non-plan boundaries.
 
 > **[QUESTION Q-07] Resolved on 22 July 2026; content and commercial verification required** — Audit marketing, pricing, paywalls, checkout and onboarding for the collaboration-first value story. Preserve the D-13 and D-27 entitlements and verify that supporting volume, organisation and personalisation claims are accurate.
 
 Count only a successful **Draft → Public** transition against the daily sticky-note allowance, including republication after a sticky note has returned to Draft. Do not count creating or editing Drafts, creating or editing private-board sticky notes, editing an existing Public sticky note or failed publication attempts. When the limit is reached, disable only publication, explain what happened and preserve the rest of the product. State that publication becomes available again at **00:00:01 UTC on the next day** and show the wait in the user’s local time. Do not delete, hide or invalidate existing work.
 
-Treat a downgrade as a deliberate reduction in functionality. When the new plan’s active-board allowance is lower than the number of active boards the user owns, require the Owner to select which allowed number remain active: one for Free or up to five for Premium. Before confirmation, show the selected active boards and every other owned board that will be archived; do not complete the downgrade until the selection fits. Archive the listed excess boards with the Owner’s authorisation. Preserve them indefinitely as read-only under V-02; do not delete them, and do not count them towards the active allowance. Block restoration when it would exceed that allowance and offer an upgrade or a way to create capacity.
+Treat a downgrade as a deliberate reduction in functionality. When the new plan allows fewer owned boards than the person has, require the Owner to select which boards remain editable: one for Club Member, up to five for Club Host, up to fifteen for Club Facilitator. Show the selection and every board that will become read-only before confirmation, and do not complete the downgrade until the selection fits. The remaining boards stay visible, owned and read-only; nothing is archived, moved or deleted, and upgrading restores editing on all of them. Warn before the downgrade, not after it.
 
-> **[DECISION D-13] Resolved on 22 July 2026** — The Free, Premium and Chosen Few entitlements, **00:00:01 UTC** reset, successful-publication counter scope, treatment of republication and exclusion of failed attempts are approved. Do not enable the downgrade path until V-02 archiving and the V-05 entitlement flow are implemented and tested.
+Never let the product choose those boards on the person's behalf. Picking by creation date is the kind of decision a user experiences as data loss, even when nothing is lost.
 
-The approved future plan-name ladder is **Club Member → Club Host → Club Facilitator → Chosen Few**. Treat Club Member as the successor to Free and Club Host as the successor to Premium. Club Facilitator is a new tier between Club Host and Chosen Few. Do not publish the new ladder, mechanically rename entitlement identifiers or rewrite current Help Centre claims until Club Facilitator pricing and entitlements are decided and the complete migration has been implemented and verified.
+Say on the board itself that it is read-only and why. A plan boundary that is only visible in account settings reads as a bug.
+
+> **[DECISION D-13] Resolved on 22 July 2026; downgrade route revised on 21 August 2026 under C-07** — The four-tier entitlements, **00:00:01 UTC** reset, successful-publication counter scope, treatment of republication and exclusion of failed attempts are approved. On downgrade the Owner selects which owned boards remain editable and the remainder become read-only; the earlier rule required automatic archival under V-02 and could not be built while archiving does not exist. V-05 must verify the selection step, the read-only state on the board and restoration after upgrade.
+
+The plan-name ladder **Club Member → Club Host → Club Facilitator → Chosen Few** is live. Club Member succeeded Free and Club Host succeeded Premium without a change in entitlements; Club Facilitator is the new tier between Club Host and Chosen Few, and its entitlements are recorded in the Product Model. The stored role identifiers remain `user`, `premium`, `pro` and `chosen_few`: they are data, not labels, and renaming them would touch roles, permissions, billing and live sessions for no functional gain. Never compare against a display label in code or copy rules.
 
 > **[DECISION D-29] Resolved on 3 August 2026; rollout pending** — Use the four plan names and order above. The decision changes naming and hierarchy only; it does not silently change existing entitlements.
 
@@ -411,6 +457,14 @@ Board creation requires a **Name**, allows an optional **Description** and prese
 The template choice offers **Blank**, **Retro**, **Kanban**, **Week planner** or **Brainstorm**, with **Blank** selected by default. Blank and Brainstorm use the same grid structure and can later change to columns; they differ only in default background and product framing. Retro, Kanban and Week planner start with columns.
 
 > **[VERIFY V-01] Resolved on 20 July 2026** — Keep the board-creation workflow and its Help Centre instructions limited to **Name**, **Description** and template selection.
+
+Duplicating a board copies its setup and never its content. Keep that as a **named list of copied fields**, not as everything-except: a field added later must be added to the list before it travels. Forgetting to include a setting produces an incomplete copy; forgetting to exclude content produces a leak, and only one of those two mistakes is recoverable.
+
+Route a duplicate through the same gate as creating a board, with the same messages. A copy is a new board and counts against the allowance; without that, duplication is the way around the limit.
+
+A duplicated workshop starts in **preparing**, never running: participants see the waiting room, so a half-configured copy shows nobody anything. A duplicate of an ordinary board stays ordinary — a facilitator bar nobody asked for is a surprise, not a feature.
+
+Suggest a name and do not let the suffix stack. Someone duplicating twice in a row is someone in a hurry, and *(copy) (copy)* is the product laughing at them.
 
 Users can reorder sticky notes within their current row and move them between columns where columns exist. A board offers nine backgrounds, cannot be duplicated and currently grows without a product-defined spatial or content limit. Describe this as a structured grid/column workspace, not as a freeform unlimited canvas.
 
@@ -514,7 +568,9 @@ A visible feature does not automatically outrank reliability or clarity work.
 
 ## Marketing and positioning
 
-Marketing should explain the human outcome rather than count features. The core story is that ideas often disappear, become scattered or are forced into a heavy system too early; StickyNotes.club lets people begin small and add structure or collaboration when it becomes useful.
+Marketing should explain the human outcome rather than count features. The core story is that getting a group to think together usually costs more setup than the thinking is worth: accounts, installs, a licence per seat, a tool nobody opens again afterwards. StickyNotes.club lets one person start a session in minutes, lets everyone else join with a link, and leaves a result that outlives the meeting.
+
+Under that story sits the older one, still true and still ours: ideas disappear, become scattered or are forced into a heavy system too early. People can begin small and add structure or collaboration when it becomes useful.
 
 The canonical product promise and tagline is:
 
@@ -522,19 +578,26 @@ The canonical product promise and tagline is:
 
 Use “StickyNotes.club is a place where ideas can grow together” only when a complete grammatical sentence is needed in ordinary prose.
 
-Use these narrative pillars where they are true:
+The promise is the umbrella, not the headline. Under D-30 a public surface may lead with the session outcome — *Run a focused workshop in minutes* — as long as it does not contradict the promise or replace it as the canonical description of the product.
 
+Use these narrative pillars where they are true, in this order:
+
+- **Get a room thinking together.**
+- **Take part without an account.**
+- **Turn loose ideas into a decision.**
+- **Keep the result after the session ends.**
 - **Capture before it disappears.**
-- **Give ideas room to grow.**
-- **Bring related thoughts together.**
-- **Grow ideas together.**
 - **Keep control of what is public.**
 
-For commercial positioning, make **Grow ideas together** the lead paid-value pillar. Free supports capturing and full participation on invited boards; Premium unlocks bringing people into owned boards; Chosen Few serves people who need no plan-level publication or active-board limits. Volume, organisation and personalisation provide evidence and differentiation underneath that collaboration story rather than competing with it.
+For commercial positioning, make **Get a room thinking together** the lead paid-value pillar. Club Member supports capturing and full participation on boards you were invited to; Club Host unlocks bringing people into your own boards; Club Facilitator unlocks running a session with people who have no account; Chosen Few serves people who need no plan-level publication or active-board limits. Volume, organisation and personalisation provide evidence and differentiation underneath that story rather than competing with it.
 
-Prefer “Capture ideas before they’re forgotten” over “Create sticky notes”, and “Give every project its own place to think” over “Private boards”. Support claims with recognisable situations such as a writer collecting angles, friends planning a trip or a neighbourhood initiative organising suggestions.
+Prefer “Run a focused workshop in minutes” over “Workshop mode”, “Everyone joins with a link or a QR code” over “Guest access”, and “Give every project its own place to think” over “Private boards”. Support claims with recognisable situations such as a team retrospective, a class collecting answers, a training group ranking priorities or a neighbourhood initiative organising suggestions.
 
-Do not position the product as a heavy company platform or promise public boards. Boards are private and access-controlled; public distribution happens through individual sticky notes on the worldwide wall. Private-board content preserves ownership and attribution. Public content follows the explicit relinquishment, anonymous presentation and limited internal-control relationship defined in D-28.
+Two claims carry the positioning and both must stay literally true, because both are checkable in a minute. **One facilitator, no seat licences** — participants never pay and never register. **No accounts or installs for participants** — a guest link must genuinely work on a phone, first try, without a download. If either stops being true, the positioning changes before the copy does.
+
+Do not position the product as a company-wide platform, a project-management system or a replacement for a whiteboard suite, and do not promise public boards. A session is small, temporary and led by one person; that is the boundary the product keeps and the reason it stays simple. Boards are private and access-controlled; public distribution happens through individual sticky notes on the worldwide wall. Private-board content preserves ownership and attribution. Public content follows the explicit relinquishment, anonymous presentation and limited internal-control relationship defined in D-28.
+
+Do not promise the things a facilitation suite would promise and this product does not do: video, chat, an integration catalogue, an infinite canvas, templates for every framework, or analytics across sessions. Leading with sessions raises the comparison; the answer is that this tool is deliberately smaller, not quietly behind.
 
 Do not promise or design a direct Public → Private transfer. There is no planned action to copy, move, reference, create a board from or add a Public sticky note to a private board. Viewing, sharing and saving an eligible sticky note as an image are separate actions and must not be described as board transfer or collaboration.
 
@@ -542,9 +605,12 @@ Treat a private-board sticky note as belonging to exactly one board. Do not desi
 
 The homepage should answer within a few seconds:
 
-1. What is StickyNotes.club?
-2. What can I do here?
-3. Where do I start?
+1. What is StickyNotes.club? A tool for running a focused session with a group.
+2. How do the others take part? With a link or a QR code, without an account or an install.
+3. What is left afterwards? Collected ideas, a shared priority and a result that stays available.
+4. Where do I start?
+
+The worldwide wall still belongs on the homepage, below the session story rather than in front of it. It shows what the product feels like; it does not explain what the product is for.
 
 Onboarding is part of marketing when it proves the promise without demanding profile completion or system configuration first.
 
