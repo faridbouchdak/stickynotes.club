@@ -1,28 +1,28 @@
 ---
 layout: home
 title: Guides and support
-description: Find guides and answers for creating sticky notes, sharing ideas publicly, collaborating on private boards and running workshops with StickyNotes.club.
+description: Find guides and answers for running and joining workshops, collaborating on private boards and sharing sticky notes publicly with StickyNotes.club.
 nav_order: 1
 ---
 
 # How can we help?
 
-StickyNotes.club gives ideas two places to grow: the worldwide wall for sharing them publicly, and private boards for developing them on your own or with others.
+StickyNotes.club is where a group thinks together. Run a session on a private board and come out with a shared result, keep working on that board afterwards, and share single ideas publicly on the worldwide wall.
 
-Whether you are capturing your first thought or deciding where it belongs, you can start here.
+Whether you are leading a room, joining someone else's session or capturing a thought on your own, you can start here.
 
 <div class="guide-grid">
-  <a class="guide-card guide-card--yellow" href="/getting-started/">
+  <a class="guide-card guide-card--yellow" href="/run-a-workshop/">
+    <span class="guide-card__title">Run a workshop</span>
+    <p>Prepare a board, open the room and reach a shared result.</p>
+  </a>
+  <a class="guide-card guide-card--pink" href="/join-a-workshop/">
+    <span class="guide-card__title">Take part in a workshop</span>
+    <p>Join with a link or a QR code. No account, no installation.</p>
+  </a>
+  <a class="guide-card guide-card--mint" href="/getting-started/">
     <span class="guide-card__title">Get started</span>
     <p>Create your account and find the right place for your first idea.</p>
-  </a>
-  <a class="guide-card guide-card--pink" href="/sticky-notes/">
-    <span class="guide-card__title">Share a sticky note</span>
-    <p>Keep an idea as a Draft or publish it on the worldwide wall.</p>
-  </a>
-  <a class="guide-card guide-card--mint" href="/private-boards/">
-    <span class="guide-card__title">Use private boards</span>
-    <p>Give your own ideas, or a group's ideas, room to grow.</p>
   </a>
   <a class="guide-card guide-card--purple" href="/faq/">
     <span class="guide-card__title">Find a quick answer</span>
@@ -30,19 +30,22 @@ Whether you are capturing your first thought or deciding where it belongs, you c
   </a>
 </div>
 
-## Get started
+## Run a session
 
-- **[Get started with StickyNotes.club](/getting-started/)** — Create your account and choose the right place for an idea.
-- **[Create and share a sticky note](/sticky-notes/)** — Keep an idea as a Draft or publish it on the worldwide wall.
-- **[Create a private board](/private-boards/)** — Give your own ideas, or a group's ideas, room to grow.
-
-## Work together
-
-- **[Work together on a board](/collaboration/)** — Invite Participants or share controlled access with a View or Post link.
-- **[Work together in real time](/live-collaboration/)** — See live changes, understand autosave and resolve simultaneous edits safely.
 - **[Run a workshop](/run-a-workshop/)** — Guide a session with accountless participation, a shared instruction, a timer and silent brainstorming.
 - **[Take part in a workshop](/join-a-workshop/)** — Join with a link or QR code, without an account or installation.
+- **[Work together in real time](/live-collaboration/)** — See live changes, understand autosave and resolve simultaneous edits safely.
+
+## Build on a board
+
+- **[Create a private board](/private-boards/)** — Give your own ideas, or a group's ideas, room to grow.
+- **[Work together on a board](/collaboration/)** — Invite Participants or share controlled access with a View or Post link.
 - **[Organise your work](/organise-your-work/)** — Use layouts, colours, tags and due dates without making things complicated.
+
+## Share an idea publicly
+
+- **[Create and share a sticky note](/sticky-notes/)** — Keep an idea as a Draft or publish it on the worldwide wall.
+- **[Get started with StickyNotes.club](/getting-started/)** — Create your account and choose the right place for an idea.
 
 ## Manage your account
 

@@ -2,7 +2,7 @@
 layout: default
 title: Take part in a workshop
 description: Join a workshop with a link or QR code. No account, no install — pick a name and start adding ideas.
-nav_order: 8
+nav_order: 3
 permalink: /join-a-workshop/
 ---
 

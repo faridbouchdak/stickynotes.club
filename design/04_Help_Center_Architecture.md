@@ -1,6 +1,6 @@
 # Help Centre Architecture
 
-> Status: v1.3
+> Status: v1.4
 > Role: information architecture, templates and governance for docs.stickynotes.club
 
 ## Purpose
@@ -11,45 +11,58 @@ The Help Centre is not a roadmap. It describes verified, available behaviour onl
 
 ## Audience and top tasks
 
-The primary audiences are:
+The primary audiences are, in order of how the product is used (D-30):
 
-- someone considering or starting with StickyNotes.club;
+- a facilitator preparing and leading a session;
+- someone taking part in a session, usually without an account and usually on a phone;
+- a board Owner setting up collaboration that outlives a session;
+- a Participant contributing to a board;
 - a user sharing a public sticky note;
-- a board owner setting up collaboration;
-- a participant contributing to a board;
 - an account holder managing security, privacy or payment;
 - a user trying to solve a problem or contact support.
 
+**The second audience is the largest by headcount and the least served by a Help Centre.** A participant arrives through a QR code, has no account, did not choose this tool and has about a minute of patience. Whatever they need must be answerable on one page, on a phone, without signing in — and that page must be findable from the top of the navigation, because they will not browse.
+
 Their top tasks are:
 
-1. Create and verify an account.
-2. Create a draft and publish a first sticky note.
-3. Create a private board.
-4. Invite someone and control their access.
-5. Organise a growing board.
-6. Understand plans and limits.
-7. Fix access, email or billing problems.
-8. Delete content or an account safely.
+1. Run a session and reach a shared result.
+2. Take part in someone else's session without an account.
+3. Keep and share the result after the session ends.
+4. Create and verify an account.
+5. Create a private board.
+6. Invite someone and control their access.
+7. Organise a growing board.
+8. Create a draft and publish a first sticky note.
+9. Understand plans and limits.
+10. Fix access, email or billing problems.
+11. Delete content or an account safely.
 
 ## Navigation model
 
 Navigation follows user goals and the product journey. Labels should match page titles and product language.
 
+The order below was capture-first until 21 August 2026: Sticky notes came third and the two session pages sat halfway down, inside *Build ideas together*. That contradicted D-30, which makes facilitated sessions the primary use and allows public-facing surfaces to lead with the session outcome. The Help Centre is such a surface, so the running of a session now comes first and capture keeps its place further down. Nothing was renamed and no permalink changed; only `nav_order` and the ordering of the sections on the Help Centre home.
+
 ### Start here
 
 - Home
+
+### Run a session
+
+- Run a workshop
+- Take part in a workshop
+- Work together in real time
+
+### Build on a board
+
 - Getting started
+- Private boards
+- Collaboration
+- Organise your work
 
 ### Share ideas
 
 - Sticky notes
-
-### Build ideas together
-
-- Private boards
-- Collaboration
-- Work together in real time
-- Organise your work
 
 ### Account and plans
 
@@ -68,6 +81,8 @@ Navigation follows user goals and the product journey. Labels should match page 
 - Contact & support
 
 This is the current single-level architecture. Add subpages when a page serves multiple distinct goals or becomes difficult to scan; do not add hierarchy merely to make the Help Centre look larger.
+
+**Take part in a workshop is a special case and stays first-level.** It is the only page written for a reader without an account, and it is the only page that may be reached with no context at all — a QR code on a wall, a link in a chat message. It must be one page, answer the whole task, and never assume the reader has read anything else. Do not fold it into *Run a workshop*: a facilitator and a participant have opposite questions.
 
 ### Conceptual content placement
 
@@ -92,6 +107,8 @@ Place practical concepts beside the task they support: explain Public versus Pri
 | Private boards | How do I create and manage a private board? | `/private-boards/` | Exists; currently presents proposed archiving as an available feature |
 | Collaboration | How do we work together on a board? | `/collaboration/` | Exists; needs concrete workflows |
 | Work together in real time | How are live changes saved and protected? | `/live-collaboration/` | Added after V-04 verification on 29 July 2026 |
+| Run a workshop | How do I lead a session and keep the result? | `/run-a-workshop/` | Exists; recorded in this architecture on 21 August 2026 under C-05. Covers preparing the board, the lobby, opening and closing input, the instruction, the timer, silent brainstorming, dot voting, closing the session and the results page |
+| Take part in a workshop | How do I join and contribute without an account? | `/join-a-workshop/` | Exists; recorded in this architecture on 21 August 2026 under C-05. The only page written for a reader with no account; keep it answerable on a phone in one screenful |
 | Organise your work | How do I keep a board understandable? | `/organise-your-work/` | Exists; canonical British-English permalink |
 | Manage your profile | How do I update or remove my account information? | `/manage-your-profile/` | Exists; contains vague capability language |
 | Plans & subscriptions | Which plan do I need and how do I manage it? | `/plans-and-subscriptions/` | Exists; add the approved board, invitation, collaboration and Public-publication entitlements; verify pricing, UTC reset, counters and downgrade behaviour |
@@ -345,7 +362,9 @@ The documentation repository and branch are locally confirmed as `faridbouchdak/
 
 Answers “How do I do this?” Use numbered steps and state prerequisites and results.
 
-Examples: create a board, invite a participant, cancel a subscription.
+Examples: create a board, invite a participant, cancel a subscription, run a workshop, take part in a workshop.
+
+**A session page is a task guide, not a new page type.** Leading a session is a sequence of steps with prerequisites and a result, which is exactly what this type is for. Two rules apply on top of the ordinary ones. First, say in every step what the room sees, because a facilitator is acting on behalf of people looking at a different screen. Second, never describe the timer as a lock: it ends when it ends and input stays open unless the facilitator closes it, and a page that suggests otherwise will be believed in front of an audience.
 
 ### Concept guide
 

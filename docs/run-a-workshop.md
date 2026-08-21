@@ -2,7 +2,7 @@
 layout: default
 title: Run a workshop
 description: Turn a private board into a guided session — invite people without an account, set an instruction, run a timer and reveal ideas together.
-nav_order: 7
+nav_order: 2
 permalink: /run-a-workshop/
 ---
 

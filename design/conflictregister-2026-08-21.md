@@ -20,9 +20,9 @@
 
 **Nummering.** De C-nummers begonnen in dit register bij C-01 en botsten met de bestaande CONFLICT-markers C-01 tot en met C-04 in `03_Product_Design_Notes.md`. Ze zijn op 21 augustus 2026 hernummerd naar C-05 tot en met C-11 en als markers in het reviewregister van 03 opgenomen, met de bijbehorende beslissingen in de decision log. Dit document is vanaf nu de uitgebreide toelichting; **03 is de bron**.
 
-**Alle conflicten zijn afgehandeld.** Wat resteert is geen conflict maar werk: de navigatie van `04_Help_Center_Architecture.md` is nog capture-first opgebouwd en heeft geen plaats voor een sessie — er staat nergens hoe je er een leidt of aan meedoet. Verder het onderstaande.
+**Alle conflicten zijn afgehandeld.** De navigatie van `04_Help_Center_Architecture.md` was nog capture-first opgebouwd en kende de twee sessiepagina's niet. Dat is op 21 augustus 2026 rechtgezet: 04 staat op v1.4 met een sessie-eerste navigatiemodel, de deelnemer zonder account als tweede doelgroep, beide sessiepagina's in de inventaris en de regel dat een sessiepagina een gewone task guide is. In het Help Centre zelf zijn `nav_order` en de startpagina in dezelfde volgorde gezet; er is niets hernoemd en geen permalink gewijzigd.
 
-**Openstaand werk dat uit deze rondes volgt:** een juridische review van de Terms voor deelname zonder account (V-12), een keuzestap bij downgrade met een read-only-toestand op het bord zelf (D-13, V-05), en de prijspagina die de resultatenpagina nog niet noemt terwijl die bestaat.
+**Openstaand werk dat uit deze rondes volgde, en de stand op 21 augustus 2026 (avond):** de keuzestap bij downgrade met een read-only-toestand op het bord is gebouwd (migratie 018, V-05 gedeeltelijk afgerond); de prijspagina noemt de resultatenpagina; de `?plan=`-route bleek al te werken en alleen `CLAUDE.md` liep achter. Wat nog openstaat is de juridische review van de Terms voor deelname zonder account (V-12), waarvoor nu een briefing en een conceptclausule klaarliggen.
 
 De bestuursregel uit §0 is op 21 augustus 2026 vastgesteld als **[DECISION D-31]** en staat in `00_Product_Constitution.md` (v1.4) onder *Governance*, met een tiebreaker voor het grijze gebied. Hij bekrachtigt met terugwerkende kracht de oplossingen van C-06, C-08, C-10 en C-11, die op die regel zijn gemaakt voordat hij bestond.
 
