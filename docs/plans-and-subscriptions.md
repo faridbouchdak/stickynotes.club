@@ -60,7 +60,9 @@ When you reach your limit, only further publication is blocked. You can keep usi
 
 The allowance counts active, editable private boards that you own. Boards you join as a Participant do not count.
 
-You cannot archive a whole board as an ordinary board action. A plan change that would leave you above the lower plan's allowance depends on preserved read-only archival. Before you confirm, StickyNotes.club must show which boards will be affected and must not silently delete content.
+If you own more boards than your plan keeps editable — usually after moving to a smaller plan — nothing is deleted, moved or archived. As many boards as your plan allows stay editable, and the rest become read-only: still visible, still complete, and editable again as soon as there is room.
+
+You choose which boards stay editable. Open **My Boards**, select **Choose editable boards**, tick the boards you want to keep working on and save. Until you choose, your oldest boards stay editable. You can change the choice whenever you like, and a read-only board says so at the top of the board, with a link back to that choice.
 
 ## Change or cancel your subscription
 
