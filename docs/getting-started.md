@@ -23,7 +23,7 @@ An account lets you create content, manage a private board and join a board when
 1. Open [StickyNotes.club](https://stickynotes.club).
 2. Select **Sign up**.
 3. Enter your email address and choose a password.
-4. Accept the [Terms of Service](https://stickynotes.club/tos/) and acknowledge the [Privacy Policy](https://stickynotes.club/privacy/).
+4. Accept the [Terms of Service](https://stickynotes.club/terms) and acknowledge the [Privacy Policy](https://stickynotes.club/privacy).
 5. Select **Create account**.
 6. Open the verification email and select **Verify email address**.
 

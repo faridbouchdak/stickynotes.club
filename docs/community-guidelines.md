@@ -31,11 +31,13 @@ Public sticky notes and Instant Photos can be copied, indexed and used outside S
 
 ## Report a concern
 
-Use **Report** on the relevant sticky note, comment or board. Choose the reason that best fits: spam or scams, threats or harassment, privacy or personal data, impersonation, illegal or dangerous content, sexual content or child safety, or another concern. Copyright has its own reporting route.
+Report a concern by emailing farid﹫stickynotes.club. There is no **Report** control in the product yet; it is being built, and this page will change when it arrives.
 
-StickyNotes.club does not have a general user-to-user blocking control. If you own a private board, you can remove a Participant's access. Use **Report** when content or behaviour may break these guidelines or put someone at risk.
+Include the link to the sticky note, comment or board, and the reason that fits best: spam or scams, threats or harassment, privacy or personal data, impersonation, illegal or dangerous content, sexual content or child safety, or another concern. Copyright has its own reporting route. Add a short explanation of what happened when the reason alone does not make it clear.
 
-You will receive a receipt and case reference. A human makes the final moderation decision, taking the severity and repetition of the problem into account.
+StickyNotes.club does not have a general user-to-user blocking control. If you own a private board, you can remove a Participant's access. Report content or behaviour that may break these guidelines or put someone at risk.
+
+You receive a reply confirming that the report arrived. A human makes the final moderation decision, taking the severity and repetition of the problem into account.
 
 ## Understand what can happen next
 

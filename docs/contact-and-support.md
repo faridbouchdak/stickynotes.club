@@ -48,7 +48,7 @@ If there is no Report control, email support and clearly explain why the situati
 
 Email farid﹫stickynotes.club to exercise applicable rights to access, correct, delete or receive your personal data. This is a privacy process, not a bulk board or product-export feature.
 
-Read the [Privacy Policy](https://stickynotes.club/privacy/) for the full explanation.
+Read the [Privacy Policy](https://stickynotes.club/privacy) for the full explanation.
 
 ## Suggest an improvement
 

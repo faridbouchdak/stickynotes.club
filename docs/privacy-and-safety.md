@@ -27,7 +27,7 @@ Search engines may crawl, index, cache and show Public content. External AI serv
 
 Returning content to Draft or deleting it stops StickyNotes.club from showing it publicly. This cannot necessarily remove copies, screenshots, saved images, search results, caches, AI datasets, model training or other third-party uses that already exist.
 
-For the full explanation, read the [Privacy Policy](https://stickynotes.club/privacy/) and [Terms of Service](https://stickynotes.club/tos/).
+For the full explanation, read the [Privacy Policy](https://stickynotes.club/privacy) and [Terms of Service](https://stickynotes.club/terms).
 
 ## Keep work private
 
@@ -57,13 +57,13 @@ Publishing to the worldwide wall is different. When you publish a sticky note or
 
 While your account exists, StickyNotes.club keeps a private internal connection so you can edit, return to Draft or delete the Public content and so authorised moderation can act. This connection is not shown on the worldwide wall and does not preserve ownership of the published content.
 
-Read the [Terms of Service](https://stickynotes.club/tos/) for the formal conditions that apply when you publish.
+Read the [Terms of Service](https://stickynotes.club/terms) for the formal conditions that apply when you publish.
 
 ## Report content or behaviour
 
-Use **Report** on the relevant sticky note, comment or board. Choose the closest reason, explain what happened when needed, and keep the receipt and case reference.
+Email farid﹫stickynotes.club with the link to the sticky note, comment or board, the reason that fits best and a short explanation when the reason alone does not make it clear. There is no **Report** control in the product yet; it is being built, and this page will change when it arrives.
 
-Copyright concerns use a separate reporting route. If the Report control is unavailable or the problem concerns your account, email farid﹫stickynotes.club.
+Copyright concerns use a separate reporting route. Use the same address for a problem with your own account.
 
 A human makes the final moderation decision. The outcome may be no action, a warning, a content or feature restriction, a temporary suspension or permanent exclusion. Restricting an account does not automatically remove its existing contributions.
 
