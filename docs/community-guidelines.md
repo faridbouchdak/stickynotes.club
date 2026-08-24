@@ -31,13 +31,15 @@ Public sticky notes and Instant Photos can be copied, indexed and used outside S
 
 ## Report a concern
 
-Report a concern by emailing farid﹫stickynotes.club. There is no **Report** control in the product yet; it is being built, and this page will change when it arrives.
+Open the sticky note and select the flag control next to the heart and share controls. Choose the reason that fits best: spam or scams, threats or harassment, privacy or personal data, impersonation, illegal or dangerous content, sexual content or child safety, or another concern. Add a short explanation of what happened when the reason alone does not make it clear.
 
-Include the link to the sticky note, comment or board, and the reason that fits best: spam or scams, threats or harassment, privacy or personal data, impersonation, illegal or dangerous content, sexual content or child safety, or another concern. Copyright has its own reporting route. Add a short explanation of what happened when the reason alone does not make it clear.
+You do not need an account to report a sticky note. Without one you give an email address, so we can send you a case reference and the outcome.
+
+For a board, a board sticky note or a comment, email farid﹫stickynotes.club with the link and the same information. The flag control covers public sticky notes; the other places follow. Copyright has its own reporting route.
 
 StickyNotes.club does not have a general user-to-user blocking control. If you own a private board, you can remove a Participant's access. Report content or behaviour that may break these guidelines or put someone at risk.
 
-You receive a reply confirming that the report arrived. A human makes the final moderation decision, taking the severity and repetition of the problem into account.
+You receive a case reference by email confirming that the report arrived, and a second email once a decision has been made. A human makes the final moderation decision, taking the severity and repetition of the problem into account.
 
 ## Understand what can happen next
 
@@ -53,6 +55,7 @@ People affected by an action receive a reason and an appeal route unless safety 
 - Public content can travel beyond StickyNotes.club.
 - A human, not an automated system alone, makes the final moderation decision.
 - Use the separate copyright route for copyright concerns.
+- Reporting a sticky note does not need an account.
 
 ## Related guides
 

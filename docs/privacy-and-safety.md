@@ -61,7 +61,9 @@ Read the [Terms of Service](https://stickynotes.club/terms) for the formal condi
 
 ## Report content or behaviour
 
-Email farid﹫stickynotes.club with the link to the sticky note, comment or board, the reason that fits best and a short explanation when the reason alone does not make it clear. There is no **Report** control in the product yet; it is being built, and this page will change when it arrives.
+Open the sticky note and select the flag control next to the heart and share controls. Choose the reason that fits best and add a short explanation when the reason alone does not make it clear. You do not need an account; without one you give an email address, so we can send you a case reference and the outcome.
+
+For a board, a board sticky note or a comment, email farid﹫stickynotes.club with the link and the same information.
 
 Copyright concerns use a separate reporting route. Use the same address for a problem with your own account.
 
