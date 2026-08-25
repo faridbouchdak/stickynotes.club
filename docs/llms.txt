@@ -4,28 +4,28 @@ permalink: /llms.txt
 ---
 # StickyNotes.club Help Centre
 
-> Official user documentation for StickyNotes.club, a web application for sharing ideas publicly and developing them on private boards.
+> Official user documentation for StickyNotes.club, a web application for running workshops, developing ideas on private boards and sharing individual ideas publicly.
 
 The Help Centre describes implemented StickyNotes.club behaviour in plain English. Use these pages to answer questions about accounts, Public sticky notes, private boards, collaboration, workshops, plans, privacy, safety and support. Capitalised product terms such as Draft, Public, Owner, Participant, View link, Post link and workshop link have specific meanings in the documentation.
 
 ## Start here
 
 - [Help Centre](https://docs.stickynotes.club/): Overview of the available guides and support topics.
-- [Getting started](https://docs.stickynotes.club/getting-started/): Create and verify an account, capture a first idea and choose where it belongs.
+- [Getting started](https://docs.stickynotes.club/getting-started/): Create an account, understand when email confirmation is required and choose where a first idea belongs.
 - [Frequently asked questions](https://docs.stickynotes.club/faq/): Short answers about accounts, content, sharing, invitations and plans.
 
 ## Create and organise ideas
 
 - [Sticky notes](https://docs.stickynotes.club/sticky-notes/): Create, publish, share, edit and delete sticky notes and Instant Photos.
-- [Private boards](https://docs.stickynotes.club/private-boards/): Create and manage private boards, templates, access and board content.
+- [Private boards](https://docs.stickynotes.club/private-boards/): Create, manage and duplicate private-board setups, control access and understand permanent board deletion.
 - [Organise your work](https://docs.stickynotes.club/organise-your-work/): Use layouts, colours, tags and due dates on private boards.
 
 ## Collaboration and accounts
 
 - [Collaboration](https://docs.stickynotes.club/collaboration/): Invite Participants, share board links and use collaborative features.
 - [Live collaboration](https://docs.stickynotes.club/live-collaboration/): See private-board changes live, understand autosave and recover safely from conflicts or connection problems.
-- [Run a workshop](https://docs.stickynotes.club/run-a-workshop/): Turn a private board into a guided session with accountless participation, a shared instruction, a timer and silent brainstorming.
-- [Take part in a workshop](https://docs.stickynotes.club/join-a-workshop/): Join a workshop with a link or QR code, without an account or installation.
+- [Run a workshop](https://docs.stickynotes.club/run-a-workshop/): Prepare and guide a session, make decisions, finish with read-only results, export them and reuse the clean setup.
+- [Take part in a workshop](https://docs.stickynotes.club/join-a-workshop/): Join with a link or QR code, contribute without an account and open the finished result.
 - [Manage your profile](https://docs.stickynotes.club/manage-your-profile/): Update profile and security details and understand account deletion.
 - [Plans and subscriptions](https://docs.stickynotes.club/plans-and-subscriptions/): Compare Club Member, Club Host, Club Facilitator and Chosen Few and understand plan limits.
 
@@ -40,4 +40,4 @@ The Help Centre describes implemented StickyNotes.club behaviour in plain Englis
 
 - [StickyNotes.club](https://stickynotes.club/): Open the web application.
 - [Privacy Policy](https://stickynotes.club/privacy/): Legal information about personal data and privacy.
-- [Terms of Service](https://stickynotes.club/tos/): Rules and conditions governing use of the service.
+- [Terms of Service](https://stickynotes.club/terms): Rules and conditions governing use of the service.

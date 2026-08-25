@@ -12,16 +12,16 @@ Private boards stay up to date while people work together. Changes usually appea
 
 ## What you'll learn
 
-- Which board changes appear live.
+- Which board and workshop changes appear live.
 - How autosave protects your sticky-note text.
 - What happens when two people edit the same sticky note.
 - How to recover from a connection or saving problem.
 
 ## See board changes live
 
-When someone creates, edits, moves or deletes a sticky note, the accepted change appears for other people viewing the board. Comments, hearts, votes, voting-round changes, tags and the tag filter also stay up to date.
+When someone creates, edits, moves or deletes a sticky note, the accepted change appears for other people viewing the board. Comments, hearts, votes, voting-round changes, tags and the tag filter also stay up to date. During a workshop, status changes, the instruction, timer, open or closed input, silent brainstorming, arrangement locks, spotlighted notes, discussed marks, result labels and the results link update without a manual refresh.
 
-This works for the Owner, Participants and people viewing an active View or Post link.
+This works for the Owner, Participants and people viewing an active View, Post or workshop link. The exact controls still depend on their access and on the current workshop state.
 
 If you are editing a sticky note or moving one when the board changes, StickyNotes.club waits rather than interrupting you. You will see **Board updated by someone else**. Finish what you are doing and the board updates automatically, or select **Refresh now**.
 
@@ -55,10 +55,12 @@ If the sticky note was deleted, your access changed or your session expired, the
 - StickyNotes.club stores the current accepted version of a sticky note, not an edit history.
 - A View-link visitor sees live changes but cannot contribute.
 - A signed-in Post-link visitor can manage their own notes, arrange notes, comment, use hearts and vote, but does not gain Participant or board-management rights.
+- Workshop participants see session changes and the finished results link automatically; finishing makes the board read-only.
 - If the board says you are making changes too quickly, wait for the time shown before trying again.
 
 ## Related guides
 
 - [Work together on a board](/collaboration/)
 - [Organise your work](/organise-your-work/)
+- [Run a workshop](/run-a-workshop/)
 - [Solve a problem](/troubleshooting/)

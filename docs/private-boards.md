@@ -16,6 +16,7 @@ Use a private board when an idea needs more space. Keep it as your own workspace
 - Who can open and contribute to a board.
 - How View and Post links differ from Participant access.
 - How to add and arrange sticky notes.
+- How to make a clean copy of a board.
 - How to see when a board last changed.
 - What happens when you delete a board.
 
@@ -41,7 +42,7 @@ Templates give your board an initial structure. You can keep changing the board 
 | **Week planner** | A column for every weekday |
 | **Brainstorm** | An open grid with a different default background; it can later change to columns |
 
-You can choose from nine backgrounds. Boards grow as you add material, but you cannot duplicate a board.
+You can choose from nine backgrounds. Boards grow as you add material, and the Owner can make a clean copy of a board when its setup is useful again.
 
 ## Decide who can take part
 
@@ -66,11 +67,19 @@ Anyone who receives or is forwarded an active link may be able to open the board
 
 ## Add and arrange sticky notes
 
-Each sticky note belongs to this board only. It can contain one optional image of up to **5 MB**. The image has the same audience as the board and is deleted with its sticky note.
+Each sticky note belongs to this board only. A contributor whose plan includes Instant Photos can add one optional image of up to **5 MB**. The image has the same audience as the board and is deleted with its sticky note.
 
 Reorder sticky notes in a grid, or move them within and between columns. Arranging changes a note's position, order or column; it does not change the note's author or give permission to rewrite its content.
 
 You can edit the text, colour, tags and due date of a sticky note you authored. The Owner can arrange or delete another author's note, but cannot rewrite it. Use tags or visible labels when a shared meaning matters. Colour can add expression, but it has no built-in meaning for status or priority.
+
+## Duplicate a useful setup
+
+As the Owner, open **Board settings**, find **Duplicate this board**, choose the name of the copy and select **Duplicate**.
+
+The copy includes the board description, columns, layout, background and dot-voting setting. For a workshop it also includes the instruction, facilitator name and author-name setting, and starts in **Preparing**.
+
+The copy does not include sticky notes, comments, hearts, votes, Participants, guests, share links or pending invitations. An ordinary board stays an ordinary board. A duplicate is a new board and counts towards your owned-board limit.
 
 ## See when a board changed
 
@@ -91,6 +100,7 @@ Deleting the Owner's account permanently deletes every board that account owns. 
 - Private means access-controlled. A Participant or link visitor can still copy information they are allowed to see.
 - Authorised platform moderators and administrators may access private content only when moderation, support, security or legal work genuinely requires it.
 - You cannot move or copy a Public sticky note directly into a private board.
+- You can duplicate a board's setup, but not copy its existing content into the new board.
 - Opening or viewing a board does not change its content.
 
 ## Related guides

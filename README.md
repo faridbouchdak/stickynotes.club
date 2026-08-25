@@ -25,10 +25,10 @@ These pages explain StickyNotes.club from the user's perspective:
 - `index.md` — Help Centre homepage
 - `getting-started.md` — account setup and first steps
 - `sticky-notes.md` — public sticky notes and the worldwide wall
-- `private-boards.md` — creating and managing private boards
+- `private-boards.md` — creating, managing and duplicating private-board setups
 - `collaboration.md` — working together on boards
 - `live-collaboration.md` — live changes, autosave and edit conflicts
-- `run-a-workshop.md` — setting up and facilitating a guided workshop
+- `run-a-workshop.md` — setting up, facilitating, finishing, exporting and reusing a guided workshop
 - `join-a-workshop.md` — taking part in a workshop without an account
 - `organise-your-work.md` — tags, due dates and board organisation
 - `manage-your-profile.md` — profile and account settings

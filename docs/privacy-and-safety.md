@@ -39,13 +39,17 @@ An Owner on a paid plan can also share a board with a link:
 
 - A **View link** shows a read-only version of the board to anyone with the link. No account is needed.
 - A **Post link** also lets a signed-in StickyNotes.club user on any plan contribute.
-- A **workshop link** lets someone take part without an account at all. They choose a nickname and can contribute for as long as the session runs. Only an Owner on Club Facilitator can create one, and it always has an expiry time.
+- A **workshop link** lets someone take part without an account at all. They choose a nickname and can contribute for as long as the session runs. Only an Owner on Club Facilitator or Chosen Few can create one, and it always has an expiry time.
 
-Link access does not make someone a Participant. A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access, change the board or edit other people's content. The Owner can revoke a link at any time, including after a downgrade. Existing links are unavailable while the Owner's plan does not include collaboration.
+Link access does not make someone a Participant. A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access, change board settings or edit other people's content. The Owner can revoke a link at any time, including after a downgrade. Existing links are unavailable while the Owner's plan does not include collaboration.
 
-A participant without an account can add, edit and delete their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access or change anyone else's content. Because there is no account behind the nickname, StickyNotes.club cannot verify who is taking part — the link itself is the access. Revoke it, or select **New link**, as soon as it should no longer work.
+A participant without an account can add, edit and delete their own sticky notes, arrange notes, comment, use hearts and take part in dot voting while the session is open. They cannot invite people, manage access or change anyone else's content. When the facilitator finishes, the board becomes read-only and the results page becomes available through the active link. Because there is no account behind the nickname, StickyNotes.club cannot verify who is taking part — the link itself is the access. Revoke it, or select **New link**, as soon as it should no longer work.
+
+When **Hide author names on notes** is enabled, note and comment authors stay anonymous to everyone, including the facilitator and on the results page. The facilitator still sees names in the participant list for attendance and guest removal.
 
 Treat a board link as private information. Anyone who receives or is forwarded an active View link can read the board. Access controls cannot stop a Participant or link visitor from independently copying information they can see.
+
+You must confirm your email before publishing. A board Owner must also confirm theirs before sending an invitation or creating a Post or workshop link. A View link is read-only and does not require this confirmation.
 
 Authorised moderators and administrators may access Drafts and private-board content only when genuine moderation, support, security or legal work requires it. Access should be limited and recorded. They may hide, remove or restore content, but must not silently rewrite someone's words. Only a narrowly necessary, recorded redaction is allowed.
 
@@ -80,11 +84,12 @@ Email farid﹫stickynotes.club to exercise applicable privacy rights, including 
 - Use a password you do not use elsewhere.
 - Keep your email address current.
 - Sign out when you use a shared device.
-- Change your password promptly if you think someone else accessed your account.
+- Review **Manage Devices & Sessions** and **Login Activity** in Settings.
+- Change your password promptly and sign out other devices if you think someone else accessed your account.
 
 ## Good to know
 
-- A workshop link lets people take part without an account and always expires; the nickname they choose is visible to everyone with access to that board.
+- A workshop link lets people take part without an account and always expires. The facilitator can see each nickname in the participant list; contribution names are hidden when anonymous notes are enabled.
 - The nickname of a participant without an account is removed 30 days after their last activity on the board. What they contributed stays, under a neutral name.
 - A Draft is not public, but a Public sticky note may travel beyond StickyNotes.club.
 - Private means access-controlled, not impossible to copy.

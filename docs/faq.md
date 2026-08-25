@@ -19,13 +19,13 @@ These are short answers to the questions people ask most often. Follow the links
 
 ## Do I need an account?
 
-You need an account to create content, manage a private board, accept an invitation or give a Public sticky note a heart. To accept an invitation, sign in or create an account with the invited email address.
+You need an account to create a worldwide-wall Draft, manage your own private board, accept an invitation or give a Public sticky note a heart. To accept an invitation, sign in or create an account with the invited email address.
 
-You do not need an account to open a private board through an active View link. A Post link also lets you read the board without an account, but you must sign in before you can contribute.
+You do not need an account to open a board through an active View link or to take part through a workshop link. A Post link also lets you read without an account, but you must sign in before you can contribute.
 
 ## What is the difference between a Draft, a Public sticky note and a private-board sticky note?
 
-A **Draft** is not public. A **Public sticky note** or **Instant Photo** appears on the worldwide wall. A sticky note on a **private board** is visible to its Owner and current Participants, anyone using an active View or Post link, and authorised platform staff when genuinely necessary.
+A **Draft** is not public. A **Public sticky note** or **Instant Photo** appears on the worldwide wall. A sticky note on a **private board** is visible to its Owner and current Participants, anyone using an active View, Post or workshop link, and authorised platform staff when genuinely necessary.
 
 Public and private-board sticky notes are separate. You cannot move or copy one directly into the other context.
 
@@ -35,9 +35,9 @@ No. The only public response is a heart from someone who is signed in. Comments,
 
 ## Can I edit or delete my sticky note?
 
-Yes. You can edit your own sticky notes. StickyNotes.club keeps the current accepted version and does not provide an edit history.
+You can edit your own sticky notes while you have contribution access. StickyNotes.club keeps the current accepted version and does not provide an edit history.
 
-After confirmation, deletion is permanent. It also deletes the sticky note's comments, hearts and dot votes.
+A private-board sticky note shows **Undo** for a few seconds after deletion and returns with its comments, hearts and votes if you use it. A Draft, Public sticky note, comment or whole board is deleted immediately and permanently after confirmation. A finished workshop is read-only until its Owner reopens it.
 
 ## Does a Public sticky note expire?
 
@@ -53,11 +53,11 @@ A signed-in Post-link contributor can create and manage their own sticky notes, 
 
 ## Can people join a workshop without an account?
 
-Yes. An Owner on Club Facilitator can create a workshop link. Anyone with that link picks a nickname and can contribute right away. The link always has an expiry time and can be revoked at any moment.
+Yes. An Owner on Club Facilitator or Chosen Few can create a workshop link. Anyone with that link picks a nickname and can contribute right away. The link always has an expiry time and can be revoked at any moment.
 
 ## Does everyone in my workshop need a paid plan?
 
-No. Only the person running the session needs Club Facilitator. Everyone taking part does so for free, with or without an account.
+No. Only the person running the session needs Club Facilitator or Chosen Few. Everyone taking part does so for free, with or without an account.
 
 ## Can I transfer board ownership?
 
@@ -75,13 +75,17 @@ StickyNotes.club does not have text search. You can filter sticky notes on a pri
 
 ## Can I export a board?
 
-No. StickyNotes.club does not provide bulk, board-level or structured export. You can use **Save as image** for one eligible sticky note, but not while a worldwide-wall sticky note is a Draft.
+An ordinary private board has no bulk or structured export. A finished workshop is the exception: open **View results** and use **Print or save as PDF** or **Copy as Markdown**. The result contains the final notes, voting outcome and any facilitator labels.
 
-A personal-data access or portability request is a separate privacy process and does not create a reusable board export.
+For one eligible worldwide-wall sticky note, you can use **Save as image**, but not while it is a Draft. A personal-data access or portability request is a separate privacy process and does not create a reusable board export.
+
+## Can I reuse a board setup?
+
+Yes. The Owner can duplicate a board. The copy keeps the setup, not the content or people, and counts as a new board. A copied workshop starts in **Preparing**.
 
 ## Can I block another user?
 
-There is no general user-to-user blocking control. An Owner can remove a Participant's access to a private board. Use **Report** for unsafe content or behaviour.
+There is no general user-to-user blocking control. An Owner can remove a Participant's access to a private board. Use the flag control on somebody else's Public sticky note, or contact support about board content or behaviour.
 
 ## Is StickyNotes.club free?
 
@@ -90,8 +94,8 @@ Yes. Club Member is free and includes two Public publications per day, one activ
 ## Good to know
 
 - Public content and private-board content follow different rules.
-- Anyone with an active View or Post link can read the linked board.
-- Deletion is permanent after confirmation.
+- Anyone with an active View, Post or workshop link may be able to read the linked board.
+- Deletion of a Draft, Public sticky note, comment or board is permanent after confirmation; a private-board sticky note briefly offers Undo.
 - Club Members can participate fully on boards they join.
 
 ## Related guides

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Take part in a workshop
-description: Join a workshop with a link or QR code. No account, no install — pick a name and start adding ideas.
+description: Join a workshop with a link or QR code, contribute safely and open the shared result when the session ends.
 nav_order: 3
 permalink: /join-a-workshop/
 ---
@@ -14,7 +14,8 @@ Someone invited you to a workshop with a link or a QR code. You do not need an a
 
 - How to join.
 - What you can do on the board.
-- What to do when the board looks empty or closed.
+- What different session states mean.
+- How to open the result when the workshop ends.
 
 ## Join in three steps
 
@@ -22,21 +23,23 @@ Someone invited you to a workshop with a link or a QR code. You do not need an a
 2. Type the name you want other people to see. Anything works — your first name is fine.
 3. Select **Join the board**.
 
-That's it. Your name appears next to the notes you add, and only there.
+That's it. The facilitator can see your name in the session list. It also appears with your notes and comments unless the facilitator has hidden author names.
 
 ## Add your ideas
 
-Select **Add Note**, type one idea and select **Add Note** again. Short beats complete: one idea per note.
+Select **Add a sticky note**, type one idea and select **Add a sticky note** again. Short beats complete: one idea per note.
 
 You can:
 
-- **edit and delete your own notes** at any time, by selecting the note;
+- **edit and delete your own notes** while the workshop is open, by selecting the note;
 - **comment** on anyone's note;
 - **use a heart** to show you like an idea;
 - **vote** when the facilitator opens a voting round;
 - **drag notes around** to group them with others.
 
 You cannot change what someone else wrote. That is deliberate — their words stay theirs.
+
+If author names are hidden, notes and comments stay anonymous for everyone, including the facilitator and on the results page. You can still recognise and edit your own contributions while the session is open.
 
 ## When the board looks different than you expect
 
@@ -46,18 +49,27 @@ You cannot change what someone else wrote. That is deliberate — their words st
 
 **The Add Note button is gone.** Input is closed for now. You can still comment, use hearts and vote — that is usually the point: the collecting is done and the discussion starts.
 
-**You are asked for your name again.** Your link expired, the facilitator revoked it, or you cleared your browser data. Ask the facilitator for a fresh link. Notes you already added stay on the board.
+**Moving notes is locked.** The facilitator has fixed the arrangement for the discussion. You can still use the other controls that are available.
+
+**One note stands out.** The facilitator has spotlighted it for the room. Notes marked **discussed** have already been covered.
+
+**The workshop is Finished.** The board is read-only: nobody can add, edit, move, comment, use hearts or vote. Select **View results** to see the final overview, including voting results and any Decisions, Action items, Open questions or Parking lot items the facilitator marked.
+
+**You are asked for your name again.** Your browser no longer recognises your session, usually because its site data was cleared. Ask the facilitator what to do. Notes you already added stay on the board.
+
+**The link no longer opens.** It may have expired, been replaced or been revoked, or your access may have been removed. Contact the facilitator; only they can confirm which applies.
 
 ## Good to know
 
 - Use the same browser and device to return as the same participant. Clearing your browser data means you join as somebody new.
 - The link is the access. Treat it as private and do not forward it without asking.
-- Your name is visible to everyone with access to that board. We do not ask for your email address or create an account, and you never get an email.
+- Your name is used for the session and shown to the facilitator. It appears with your contributions unless author names are hidden. We do not ask for your email address or create an account, and you never get an email.
 - Your name is removed 30 days after your last visit to the board. What you contributed stays, under a neutral name.
 - Want to keep your own boards? [Create a free account](https://www.stickynotes.club/register) — that is a separate thing from this session.
 
 ## Related guides
 
 - [Run a workshop](/run-a-workshop/)
+- [Work together in real time](/live-collaboration/)
 - [Solve a problem](/troubleshooting/)
 - [Understand privacy and stay safe](/privacy-and-safety/)

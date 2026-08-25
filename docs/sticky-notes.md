@@ -19,7 +19,7 @@ Capture an idea as a Draft first. When it is ready, you can share it on the worl
 
 ## Capture an idea
 
-For the worldwide wall, you can create:
+For the worldwide wall, every plan can create a text sticky note. Instant Photos and pastel colours require a plan that includes them. You can create:
 
 - a text **sticky note**; or
 - an **Instant Photo**, with one image in a Polaroid-like frame and a caption.
@@ -30,7 +30,7 @@ Creating or editing a Draft does not use your daily publication allowance.
 
 ## Publish when you're ready
 
-Before you select **Publish**, make sure you are comfortable sharing the content publicly. It will appear on the worldwide wall and will not expire automatically.
+Before you select **Publish**, confirm your email address and make sure you are comfortable sharing the content publicly. It will appear on the worldwide wall and will not expire automatically.
 
 Publishing also means that you explicitly give up ownership of that Public content. It is not linked to your name, profile or contribution history on the worldwide wall. StickyNotes.club keeps a private internal connection while your account exists so you can edit, return it to Draft or delete it.
 
@@ -74,9 +74,15 @@ Delete a sticky note only when you no longer need it. For a Draft or a Public st
 
 Deleting Public content stops StickyNotes.club from showing it, but cannot recall independent copies or earlier use by search engines, caches or external AI services.
 
+## Report a Public sticky note
+
+If somebody else's Public sticky note may break the community guidelines, open it and select the flag control beside the heart and sharing controls. Choose a reason and add a short explanation when helpful. You do not need an account; if you are signed out, enter an email address so StickyNotes.club can send the case reference and outcome.
+
+Boards, board notes and comments do not yet have this flag control. Email support with the relevant link instead.
+
 ## Use sticky notes on a private board
 
-A sticky note on a private board belongs to that board only. It can include one optional image of up to **5 MB**, board tags and one optional due date. It is not an Instant Photo and cannot be assigned to a person.
+A sticky note on a private board belongs to that board only. A contributor whose plan includes Instant Photos can add one optional image of up to **5 MB**. Every contributor can use board tags and one optional due date. It is not an Instant Photo and cannot be assigned to a person.
 
 ## Good to know
 
@@ -84,10 +90,11 @@ A sticky note on a private board belongs to that board only. It can include one 
 - A Public sticky note stays public until you return it to Draft, delete it or authorised moderation removes it.
 - Public and private-board sticky notes are separate; there is no direct move or copy action between them.
 - Mentions are available only on private boards and draw someone's attention without assigning responsibility.
-- StickyNotes.club does not offer bulk, board-level or structured export. **Save as image** applies to one eligible sticky note and is not available for a Draft.
+- StickyNotes.club does not offer bulk export or export for an ordinary board. **Save as image** applies to one eligible worldwide-wall sticky note and is not available for a Draft. A finished workshop is the exception: its results page can be printed or saved as PDF and copied as Markdown.
 
 ## Related guides
 
 - [Understand privacy and safety](/privacy-and-safety/)
 - [Create a private board](/private-boards/)
+- [Follow the community guidelines](/community-guidelines/)
 - [Choose a plan](/plans-and-subscriptions/)

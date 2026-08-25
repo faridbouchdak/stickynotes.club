@@ -14,7 +14,7 @@ Whether you are leading a room, joining someone else's session or capturing a th
 <div class="guide-grid">
   <a class="guide-card guide-card--yellow" href="/run-a-workshop/">
     <span class="guide-card__title">Run a workshop</span>
-    <p>Prepare a board, open the room and reach a shared result.</p>
+    <p>Prepare the room, make decisions and keep a shareable result.</p>
   </a>
   <a class="guide-card guide-card--pink" href="/join-a-workshop/">
     <span class="guide-card__title">Take part in a workshop</span>
@@ -32,8 +32,8 @@ Whether you are leading a room, joining someone else's session or capturing a th
 
 ## Run a session
 
-- **[Run a workshop](/run-a-workshop/)** — Guide a session with accountless participation, a shared instruction, a timer and silent brainstorming.
-- **[Take part in a workshop](/join-a-workshop/)** — Join with a link or QR code, without an account or installation.
+- **[Run a workshop](/run-a-workshop/)** — Guide a session from preparation and participation to decisions, results, PDF or Markdown and a reusable setup.
+- **[Take part in a workshop](/join-a-workshop/)** — Join with a link or QR code, contribute without an account and open the finished result.
 - **[Work together in real time](/live-collaboration/)** — See live changes, understand autosave and resolve simultaneous edits safely.
 
 ## Build on a board

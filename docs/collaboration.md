@@ -20,7 +20,7 @@ Invite Participants when an idea is ready for ongoing collaboration, or use a Vi
 
 ## Invite a Participant
 
-If you own a board on Club Host, Club Facilitator or Chosen Few, you can invite people by email.
+If you own a board on Club Host, Club Facilitator or Chosen Few, you can invite people by email. Your own email address must be confirmed before StickyNotes.club sends an invitation.
 
 1. Open the board's Participant or invitation controls.
 2. Enter the person's email address.
@@ -38,7 +38,7 @@ If you own a board on Club Host, Club Facilitator or Chosen Few:
 2. Create a **View link** or **Post link**.
 3. Copy the link and send it to the intended people.
 
-A View link shows a read-only version of the board to anyone with the link. No account is needed. A Post link provides the same viewing access and lets a signed-in StickyNotes.club user on any plan contribute.
+A View link shows a read-only version of the board to anyone with the link. No account is needed, and the Owner can create it before confirming their email address. A Post link provides the same viewing access and lets a signed-in StickyNotes.club user on any plan contribute. Creating or replacing a Post link requires the Owner to confirm their email address first.
 
 Link users do not become Participants. A signed-in Post-link contributor can create and manage their own sticky notes, arrange sticky notes, post and delete their own comments, use hearts and take part in dot voting. They cannot invite people, manage access, create or revoke share links, change board settings or edit other people's content. Only the Owner can create links.
 
@@ -69,7 +69,9 @@ Signed-in Post-link contributors have the same sticky-note, arranging, comment, 
 
 You cannot edit a comment after posting it, but you can delete your own comment. This leaves the sticky note and other comments in place.
 
-Arranging is separate from editing a sticky note's content. Someone with contribution access can change a sticky note's position, order or column without becoming its author or gaining permission to rewrite it.
+Arranging is separate from editing a sticky note's content. Someone with contribution access can change a sticky note's position, order or column without becoming its author or gaining permission to rewrite it. During a workshop, the facilitator can temporarily lock arranging for everyone else.
+
+A finished workshop is read-only for everyone, including the Owner: adding, editing, arranging, commenting, hearts and voting stop until the Owner reopens the workshop. The Owner can still remove an inappropriate note for moderation, and the finished results remain available to people who still have access.
 
 The Owner can arrange and delete any sticky note on an active board, but cannot edit another author's text, colour, tags or due date, or delete another author's comment separately. Deleting a sticky note also removes its comments, hearts and dot votes.
 
@@ -92,7 +94,7 @@ The Owner starts and closes each round and chooses **1**, **3**, **5** or **10**
 - A closed round cannot be reset or reopened.
 - Only the latest closed round remains available. Starting a new round permanently replaces the previous round and its results without a separate warning.
 
-While voting is open, the board shows how many dots you have used and reminds you that results remain hidden. After the Owner closes the round, the board shows the closing date with the latest results.
+While voting is open, the board shows how many votes you have left, dims unused vote buttons when none remain and reminds you that results stay hidden. Remove one of your votes if you want to place it somewhere else. After the Owner closes the round, the board shows the closing date with the latest results.
 
 ## Draw someone's attention with a mention
 
@@ -113,7 +115,7 @@ Individual edits, comments, hearts and votes do not each produce a separate emai
 
 ## Good to know
 
-- A workshop link goes one step further than a Post link: it lets someone take part without an account at all. See [Run a workshop](/run-a-workshop/).
+- A workshop link goes one step further than a Post link: it lets someone take part without an account at all. A finished workshop has a read-only results page. See [Run a workshop](/run-a-workshop/).
 - Board changes normally appear to everyone viewing the board within a few seconds.
 - Sticky-note text saves automatically, and simultaneous edits are never silently overwritten. See [Work together in real time](/live-collaboration/) for saving, conflicts and connection problems.
 - StickyNotes.club keeps the current accepted version and does not provide a version history.

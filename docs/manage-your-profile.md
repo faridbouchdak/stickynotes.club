@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manage your profile
-description: Update your StickyNotes.club profile, email address and password, understand what appears publicly and learn what account deletion removes.
+description: Update your profile and security details, review signed-in devices and understand what account deletion removes.
 nav_order: 10
 permalink: /manage-your-profile/
 ---
@@ -13,14 +13,28 @@ Keep your details up to date so people can recognise you on private boards and i
 ## What you'll learn
 
 - Where to update your profile, email address and password.
+- How to review sign-ins and sign out other devices.
 - Which profile details appear publicly.
 - What happens to each kind of content when you delete your account.
 
 ## Update your details
 
-Open **Profile** or **Settings** to change the fields and security controls available for your account, such as your name, profile picture, description, email address or password.
+Open **Profile** to change your display name, country, biography and profile picture. Your username and the email field on this page cannot be edited.
 
-Keep your email address current. StickyNotes.club uses it for account verification, private-board invitations and collaboration notifications.
+Open **Settings** to:
+
+- manage your plan, payment method and invoices when a billing portal is available;
+- change your password by entering the current password and the new one;
+- request an email-address change by entering the new address and your current password; and
+- confirm the email-address change through the message sent to the new address.
+
+Keep your email address current. StickyNotes.club uses it for account confirmation, private-board invitations and collaboration notifications.
+
+## Review account access
+
+In **Settings**, use **Manage Devices & Sessions** to review the devices where your account is signed in. Select **Sign Out** beside an unfamiliar device, or **Sign Out All Other Devices** to keep only the current session.
+
+**Login Activity** shows recent successful and failed sign-in attempts. If anything looks unfamiliar, change your password and sign out the other sessions.
 
 ## Understand where your identity appears
 
@@ -48,6 +62,7 @@ Public sticky notes that remain can still be indexed and used by external AI ser
 ## Good to know
 
 - Your profile is not a public byline for sticky notes on the worldwide wall.
+- Confirming your email is required for publishing, invitations and contributor or workshop links, but not for signing in and working privately.
 - Deleting your account also deletes every private board you own.
 - Cancelling a subscription and deleting an account are different actions.
 - If you need help understanding the consequences, contact support before confirming deletion.
@@ -57,3 +72,4 @@ Public sticky notes that remain can still be indexed and used by external AI ser
 - [Understand privacy and safety](/privacy-and-safety/)
 - [Create and manage a private board](/private-boards/)
 - [Choose a plan](/plans-and-subscriptions/)
+- [Solve a problem](/troubleshooting/)

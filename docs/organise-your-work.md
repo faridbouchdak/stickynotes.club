@@ -21,7 +21,7 @@ Let structure emerge as your board grows. A simple layout, a few clear tags and 
 
 Boards use a grid or columns, depending on the template. You can reorder sticky notes in their current row and, in a column layout, move them between columns.
 
-Arranging a sticky note changes only its position, order or column. It does not change authorship or give you permission to edit another author's text, colour, tags or due date. The Owner, Participants and signed-in Post-link contributors can arrange notes while they have contribution access.
+Arranging a sticky note changes only its position, order or column. It does not change authorship or give you permission to edit another author's text, colour, tags or due date. The Owner, Participants and signed-in Post-link contributors can arrange notes while they have contribution access. During a workshop, the facilitator can use **Lock arranging** to freeze movement for everyone else and **Allow arranging** to open it again.
 
 Blank and Brainstorm begin as grids and can later change to columns. Retro, Kanban and Week planner begin with columns. Choose from nine backgrounds to give the board a look that fits the work.
 
@@ -40,6 +40,8 @@ A sticky note can have several tags. Tags automatically become lower case and ar
 You cannot merge tags. Changing a tag on your sticky note does not change another author's note.
 
 Tags are not available on a board itself, a worldwide-wall Draft, a Public sticky note or an Instant Photo.
+
+During a workshop, the facilitator can also add **Decision**, **Action item**, **Open question** and **Parking lot** labels. These are not ordinary tags: they organise the results and the facilitator can apply them without rewriting the author's note.
 
 ## Add a due date when timing matters
 
@@ -61,17 +63,19 @@ Due dates are not available on boards, worldwide-wall Drafts, Public sticky note
 
 StickyNotes.club keeps the current accepted value of a sticky note, colour, tag or due date. There is no edit history or earlier version to restore.
 
-Delete outdated content only when you are sure nobody needs it. After confirmation, sticky-note deletion is immediate and permanent. Its comments, hearts and dot votes are deleted too.
+Deleting a private-board sticky note removes it immediately, but the person who deleted it sees **Undo** for a few seconds. Undo restores the sticky note with its comments, hearts and votes. After that prompt disappears, you cannot restore it yourself.
 
 ## Good to know
 
 - A board can grow as you add material.
 - A sticky note cannot be assigned to a person. Use a mention to draw a current Participant's attention.
 - Tags and due dates belong only to sticky notes on private boards.
-- You cannot duplicate or archive a whole board as an ordinary board action.
+- The Owner can duplicate a clean board setup. The copy has no notes, people, links or session activity and counts as a new board.
+- You cannot archive a whole ordinary board. **Archive this session** applies only to a finished workshop and keeps its board and results available.
 
 ## Related guides
 
 - [Create and manage a private board](/private-boards/)
 - [Work together on a board](/collaboration/)
+- [Run a workshop](/run-a-workshop/)
 - [Create and share a sticky note](/sticky-notes/)

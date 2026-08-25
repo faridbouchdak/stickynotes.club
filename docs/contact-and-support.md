@@ -40,9 +40,9 @@ Do not email your password, payment-card details or sensitive content that is no
 
 ## Report something unsafe
 
-Use **Report** on the relevant sticky note, comment or board whenever you can. This keeps the right context with your report and gives you a case reference.
+For somebody else's Public sticky note, open it and select the flag control beside the heart and sharing controls. This keeps the right context with your report and gives you a case reference.
 
-If there is no Report control, email support and clearly explain why the situation is urgent. Copyright concerns use the separate copyright reporting route provided by StickyNotes.club.
+Boards, board sticky notes and comments do not yet have this control. Email support with the relevant link and clearly explain why the situation is urgent. Copyright concerns use the separate copyright reporting route provided by StickyNotes.club.
 
 ## Make a privacy request
 
@@ -57,7 +57,7 @@ Ideas are welcome. The most useful suggestions explain the problem you want to s
 ## Good to know
 
 - Share only the information needed to understand the problem.
-- Use **Report** for unsafe content when that control is available.
+- Use the flag control for somebody else's Public sticky note; email support for board content or behaviour.
 - Product suggestions are clearest when they begin with the problem, not a feature request.
 
 ## Related guides

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting started
-description: Create and verify your StickyNotes.club account, capture your first idea and choose whether to keep it private or share it publicly.
+description: Create your StickyNotes.club account, understand when email confirmation is needed and choose where your first idea belongs.
 nav_order: 4
 permalink: /getting-started/
 ---
@@ -12,22 +12,29 @@ Start by creating an account and capturing one idea. You do not need to know yet
 
 ## What you'll learn
 
-- How to create and verify your account.
+- How to create and confirm your account.
 - Where to put your first idea.
 - How your profile is used.
 
 ## Create your account
 
-An account lets you create content, manage a private board and join a board when someone invites you.
+An account lets you create Drafts, manage a private board and join a board when someone invites you. A workshop guest is the exception: they can contribute through a workshop link without an account.
 
 1. Open [StickyNotes.club](https://stickynotes.club).
 2. Select **Sign up**.
 3. Enter your email address and choose a password.
 4. Accept the [Terms of Service](https://stickynotes.club/terms) and acknowledge the [Privacy Policy](https://stickynotes.club/privacy).
 5. Select **Create account**.
-6. Open the verification email and select **Verify email address**.
+6. Log in and start using your account.
+7. Open the confirmation email and select its link.
 
-If the email does not arrive, check your spam folder before requesting another one.
+You can log in, create Drafts and use your own private boards before confirming your email address. Confirmation is required before you can:
+
+- publish a Draft on the worldwide wall;
+- send a board invitation by email; or
+- create or replace a Post link or workshop link.
+
+Creating a View link does not require email confirmation. If the confirmation email does not arrive, check your spam folder and then use **Send a new link** in the banner at the top of the page.
 
 ## Choose the right place for your idea
 
@@ -47,6 +54,7 @@ Open **Profile** to update the information available there, such as your name, p
 ## Good to know
 
 - Every board is private, even when only its Owner uses it.
+- Confirming your email unlocks outward-facing actions; it is not required to explore your account or work privately.
 - Public and private content have different visibility and deletion consequences. Read [Understand privacy and safety](/privacy-and-safety/) before publishing anything sensitive.
 - You can manage your profile, security and account deletion from your account settings.
 
