@@ -20,7 +20,7 @@ Workshop mode is available with **Club Facilitator** and **Chosen Few**. Everyon
 - How to guide a session with an instruction and a timer.
 - How to collect ideas silently and reveal them together.
 - How to guide discussion, arrange ideas and make decisions.
-- How to finish, share, export and reuse a session.
+- How to finish, share, export as PDF, Markdown or CSV, and reuse a session.
 
 ## Turn a board into a workshop
 
@@ -139,8 +139,11 @@ The results page brings together the workshop question, date, facilitator, parti
 
 On the results page:
 
-- select **Print or save as PDF** to use your browser's print or PDF option; or
-- select **Copy as Markdown** to paste the structured result into another tool.
+- select **Print or save as PDF** to use your browser's print or PDF option;
+- select **Copy as Markdown** to paste the structured result into another tool; or
+- select **Download as CSV** to open the notes as a table in a spreadsheet.
+
+The CSV has one row per note, with its column, author, number of votes, position in the result, labels and due date. It contains the notes only — the question, the date and the participant count stay on the page and in the Markdown — so a spreadsheet reads it as a clean table you can sort and filter. Anyone who can open the results page can download it, including participants without an account.
 
 Participants can open **View results** through the same workshop link while it remains active. For longer-lived read-only sharing, create a **View link** under **Share this board** and send that link. A View link can show the finished result without requiring an account.
 
