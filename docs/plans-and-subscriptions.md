@@ -25,7 +25,7 @@ Choose the plan that fits how you want to use StickyNotes.club. Club Member is f
 | Send private-board invitations | No | Yes | Yes | Yes |
 | Create View and Post links for boards you own | No | Yes | Yes | Yes |
 | Run workshops | No | No | Yes | Yes |
-| Participants per workshop | — | — | Up to 50 | Up to 50 |
+| Participants per workshop | — | — | Up to {{ site.max_workshop_participants }} | Up to {{ site.max_workshop_participants }} |
 | Workshop results, PDF printing and Markdown copy | No | No | Yes | Yes |
 | Pastel colours and Instant Photos | No | Yes | Yes | Yes, while the subscription is active |
 | Receive invitations and participate | Yes | Yes | Yes | Yes |
@@ -36,7 +36,7 @@ Choose the plan that fits how you want to use StickyNotes.club. Club Member is f
 
 If you use Club Member, you have the same contribution rights as other Participants on boards you join. You can also contribute through a paying Owner's Post link. Club Host mainly lets you invite people or create View and Post links for boards you own, and gives you higher publication and board limits.
 
-Club Facilitator includes everything in Club Host, plus workshop mode: let up to 50 people take part without an account, share a QR code, use a live instruction and timer, collect ideas silently, control arranging, guide the discussion, label decisions and action items, finish with a read-only results page, print or save it as PDF, copy it as Markdown and duplicate the clean setup for another session. Participants never need a paid plan.
+Club Facilitator includes everything in Club Host, plus workshop mode: let up to {{ site.max_workshop_participants }} people take part without an account, share a QR code, use a live instruction and timer, collect ideas silently, control arranging, guide the discussion, label decisions and action items, finish with a read-only results page, print or save it as PDF, copy it as Markdown and duplicate the clean setup for another session. Participants never need a paid plan.
 
 The Owner's plan determines whether a board can host invitations and active View or Post links. Your own plan does not reduce the contribution rights you receive on somebody else's board. Your access type and board role determine what you can do there.
 

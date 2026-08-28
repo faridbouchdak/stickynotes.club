@@ -51,7 +51,7 @@ For each link you can:
 - **New link** — creates a replacement and kills the current one immediately. Use this when a code ends up in a photo or the link travels further than you intended.
 - **Revoke** — ends access without creating a replacement.
 
-A board holds up to 50 participants.
+A board holds up to {{ site.max_workshop_participants }} participants.
 
 Participants who do have an account can also be invited by email in the usual way. They do not need a paid plan.
 

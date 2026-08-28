@@ -22,9 +22,17 @@ search:
   rel_url: true
   button: false
 
+# Het deelnemersplafond per workshopbord. STAAT OOK IN DE APP, als de setting
+# `max_workshop_participants` (Admin -> Settings, standaard 50); de app leest
+# hem uit de database en toont hem op de homepage en /pricing. Deze site is
+# statisch en kan die database niet lezen, dus dit is de tweede plek waar het
+# getal woont. Wijzig je de setting, wijzig dan ook deze regel -- en niet de
+# pagina's zelf: die verwijzen alle drie hierheen.
+max_workshop_participants: 50
+
 aux_links:
   "Open StickyNotes.club →":
-    - "https://www.stickynotes.club"
+    - "https://stickynotes.club"
 
 aux_links_new_tab: true
 
