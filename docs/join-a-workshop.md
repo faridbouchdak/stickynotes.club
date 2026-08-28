@@ -65,7 +65,7 @@ If author names are hidden, notes and comments stay anonymous for everyone, incl
 - The link is the access. Treat it as private and do not forward it without asking.
 - Your name is used for the session and shown to the facilitator. It appears with your contributions unless author names are hidden. We do not ask for your email address or create an account, and you never get an email.
 - Your name is removed 30 days after your last visit to the board. What you contributed stays, under a neutral name.
-- Want to keep your own boards? [Create a free account](https://www.stickynotes.club/register) — that is a separate thing from this session.
+- Want to keep your own boards? [Create a free account](https://stickynotes.club/register) — that is a separate thing from this session.
 
 ## Related guides
 
