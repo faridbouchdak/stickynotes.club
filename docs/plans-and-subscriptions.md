@@ -2,7 +2,7 @@
 layout: default
 title: Plans & subscriptions
 description: Compare the StickyNotes.club Club Member, Club Host, Club Facilitator and Chosen Few plans and learn how publication limits, boards and subscriptions work.
-nav_order: 11
+nav_order: 12
 permalink: /plans-and-subscriptions/
 ---
 

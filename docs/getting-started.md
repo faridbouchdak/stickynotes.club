@@ -2,7 +2,7 @@
 layout: default
 title: Getting started
 description: Create your StickyNotes.club account, understand when email confirmation is needed and choose where your first idea belongs.
-nav_order: 4
+nav_order: 5
 permalink: /getting-started/
 ---
 

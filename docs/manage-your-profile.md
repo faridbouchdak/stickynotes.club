@@ -2,7 +2,7 @@
 layout: default
 title: Manage your profile
 description: Update your profile and security details, review signed-in devices and understand what account deletion removes.
-nav_order: 10
+nav_order: 11
 permalink: /manage-your-profile/
 ---
 

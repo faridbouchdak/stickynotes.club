@@ -2,7 +2,7 @@
 layout: default
 title: Collaboration
 description: Invite Participants, share View or Post links and use comments, hearts, dot voting and mentions on a private board.
-nav_order: 6
+nav_order: 7
 permalink: /collaboration/
 ---
 

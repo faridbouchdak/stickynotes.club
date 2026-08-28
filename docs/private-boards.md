@@ -2,7 +2,7 @@
 layout: default
 title: Private boards
 description: Create and manage a private StickyNotes.club board, choose a template, control access and organise ideas with other people.
-nav_order: 5
+nav_order: 6
 permalink: /private-boards/
 ---
 
@@ -41,6 +41,8 @@ Templates give your board an initial structure. You can keep changing the board 
 | **Kanban** | Columns for To do, Doing and Done |
 | **Week planner** | A column for every weekday |
 | **Brainstorm** | An open grid with a different default background; it can later change to columns |
+
+If you create the board for a workshop, this list changes: you then choose a session format, which also fills in the question, a run sheet and a suggested number of votes. See [choose a session format](/choose-a-session-format/).
 
 You can choose from nine backgrounds. Boards grow as you add material, and the Owner can make a clean copy of a board when its setup is useful again.
 

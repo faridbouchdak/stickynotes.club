@@ -33,6 +33,7 @@ Whether you are leading a room, joining someone else's session or capturing a th
 ## Run a session
 
 - **[Run a workshop](/run-a-workshop/)** — Guide a session from preparation and participation to decisions, results, PDF or Markdown and a reusable setup.
+- **[Choose a session format](/choose-a-session-format/)** — Pick the format that fits your session, see what the board fills in and adjust the run sheet.
 - **[Take part in a workshop](/join-a-workshop/)** — Join with a link or QR code, contribute without an account and open the finished result.
 - **[Work together in real time](/live-collaboration/)** — See live changes, understand autosave and resolve simultaneous edits safely.
 

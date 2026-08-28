@@ -15,6 +15,7 @@ Workshop mode is available with **Club Facilitator** and **Chosen Few**. Everyon
 ## What you'll learn
 
 - How to turn a board into a workshop.
+- How to start from a session format that fills in your preparation.
 - How to let people take part without an account.
 - How to guide a session with an instruction and a timer.
 - How to collect ideas silently and reveal them together.
@@ -34,6 +35,14 @@ Under **Set up the session**, fill in:
 Select **Turn on workshop mode**. The board is now in **Preparing**. Anyone opening the link at this point sees a waiting room, not your board, so you can add example notes, create columns and arrange things at your own pace.
 
 Any existing board can become a workshop, and a workshop board stays a normal board. Nothing about your notes, columns or layout changes.
+
+## Start from a session format
+
+You can also start the other way round and create the board for the session. On your boards page, choose **Start a workshop**: the starting points then become session formats — a retrospective, Start / Stop / Continue, a brainstorm, prioritising or a feedback session.
+
+A format fills in the question, the columns, a suggested number of votes and a run sheet with a suggested timing. The board opens with the workshop panel ready, so the only things left are the ones that need you.
+
+None of it is permanent. Rewrite the question, rename a column, change the timing — see [choose a session format](/choose-a-session-format/) for what each format is for.
 
 ## Get people in
 
@@ -154,6 +163,7 @@ To run the same format again, open **Board settings** and use **Duplicate this b
 
 ## Related guides
 
+- [Choose a session format](/choose-a-session-format/)
 - [Take part in a workshop](/join-a-workshop/)
 - [Create and manage a private board](/private-boards/)
 - [Work together on a board](/collaboration/)

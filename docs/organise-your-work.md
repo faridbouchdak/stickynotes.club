@@ -2,7 +2,7 @@
 layout: default
 title: Organise your work
 description: Arrange private boards and use layouts, colours, tags and due dates to keep ideas organised without unnecessary complexity.
-nav_order: 8
+nav_order: 9
 permalink: /organise-your-work/
 ---
 
@@ -23,7 +23,7 @@ Boards use a grid or columns, depending on the template. You can reorder sticky 
 
 Arranging a sticky note changes only its position, order or column. It does not change authorship or give you permission to edit another author's text, colour, tags or due date. The Owner, Participants and signed-in Post-link contributors can arrange notes while they have contribution access. During a workshop, the facilitator can use **Lock arranging** to freeze movement for everyone else and **Allow arranging** to open it again.
 
-Blank and Brainstorm begin as grids and can later change to columns. Retro, Kanban and Week planner begin with columns. Choose from nine backgrounds to give the board a look that fits the work.
+Blank and Brainstorm begin as grids and can later change to columns. Retro, Kanban, Week planner and the [session formats](/choose-a-session-format/) begin with columns. Choose from nine backgrounds to give the board a look that fits the work.
 
 ## Use colour for expression
 
@@ -78,4 +78,5 @@ Deleting a private-board sticky note removes it immediately, but the person who 
 - [Create and manage a private board](/private-boards/)
 - [Work together on a board](/collaboration/)
 - [Run a workshop](/run-a-workshop/)
+- [Choose a session format](/choose-a-session-format/)
 - [Create and share a sticky note](/sticky-notes/)
