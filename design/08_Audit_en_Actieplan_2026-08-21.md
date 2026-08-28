@@ -27,7 +27,7 @@ Ik scheid vier soorten uitspraken, en markeer ze overal expliciet:
 
 ---
 
-## 0b. Stand van zaken — bijgewerkt 23 augustus 2026
+## 0b. Stand van zaken — bijgewerkt 24 augustus 2026
 
 Alle drie de sprints zijn gebouwd, gecontroleerd en gedeployd. Van de 45 bevindingen zijn er 44 afgehandeld en één geschrapt op bewijs (B5, zie het verificatielogboek in §11).
 
@@ -36,21 +36,98 @@ Alle drie de sprints zijn gebouwd, gecontroleerd en gedeployd. Van de 45 bevindi
 | Sprint 0 — 12 items | Afgerond | 22 augustus |
 | Sprint 1 — 12 items, waarvan 11 gebouwd en 1 geschrapt | Afgerond | 22 augustus |
 | Sprint 2 — 12 items | Afgerond | 23 augustus |
-| Later — L1 t/m L6 | Open | — |
+| D-24 fase 1 — plak A en B | Afgerond, handmatig geverifieerd | 24 augustus |
+| L1 t/m L3 | Afgerond | 24 augustus |
+| L4 t/m L6 | Open, wacht op de eerste meetweek | — |
 
-**Eerstvolgende bouwklus is geen auditpunt.** Door besluit 7 (zie hieronder) gaat fase 1 van `spec-D-24-rapportage-en-moderatie.md` vóór de Later-lijst.
+**De handmatige controlelijst is afgerond op 24 augustus** — zie het einde van deze paragraaf. Besluit 1 en 2 uit §10 zijn diezelfde dag genomen; van de zeven besluiten staat alleen nummer 4 nog open, en dat wacht op de juristenronde. **De eerstvolgende bouwklussen zijn daarmee de twee ingrepen die uit besluit 1 en 2 volgen**, met de juristenronde uit §9 van `spec-D-24-rapportage-en-moderatie.md` parallel daaraan.
+
+| Werk | Uit | Stand |
+|---|---|---|
+| Eén gratis-instapregel onder het prijsblok op `/` | Besluit 1 | **Gebouwd 24-08** |
+| Login open voor ongeverifieerd, banner, plus drie gates | Besluit 2 | **Gebouwd 24-08** |
+| `check-render.php` uitbreiden naar de layout en de auth-schermen | Zie hieronder | **Gebouwd 24-08** |
+| Nieuwe homepagescreenshots met de actuele knoplabels | Los signaal | Open, 30 m |
+| URL-inspectie op `/sitemap.xml` in Search Console | Verificatielogboek | **Gedaan 24-08** — oorzaak was een gecachete 404, zie §11 |
+| Sitemaprapportage nog eens bekijken (verwerking duurt uren tot een dag) | Idem | Open, morgen |
+| Juristenronde §9 van de D-24-spec — deblokkeert besluit 4 | D-24 | Extern |
+
+Alles hierboven dat als gebouwd staat, is op 24 augustus gecommit en gepusht — drie commits: besluit 1, besluit 2 (met de `$db`-reparatie erin) en de uitbreiding van de smoke.
 
 ### Besluiten uit §10: waar staan ze
 
 | # | Onderwerp | Stand |
 |---|---|---|
-| 1 | Risicoloze ingang naar workshops | **Open.** Nog geen gratis proef, gratis plan of eerste gratis workshop. De funnel meet vanaf nu wat het kost. |
-| 2 | `/boards` in vóór e-mailverificatie | **Open.** De route is wel korter gemaakt: het plan overleeft nu een browserwissel (S1.6). |
+| 1 | Risicoloze ingang naar workshops | **Genomen op 24 augustus: zichtbaar maken wat al waar is.** Geen proef en geen gratis workshop; wel één regel op `/` die zegt dat je gratis kunt beginnen. Zie hieronder. |
+| 2 | `/boards` in vóór e-mailverificatie | **Genomen op 24 augustus: ja, met banner — behalve voor de twee naar buiten gerichte handelingen.** Zie hieronder. |
 | 3 | Club Facilitator als visueel hoofdplan | **Genomen.** Bevestigd op 23 augustus; badge *Recommended*, uitgelichte kolom in de vergelijkingstabel. |
 | 4 | Opzeg- en terugbetalingsregel bij de knop | **Open, wacht op de juridische ronde.** Bij de betaalknoppen staat nu alleen wat verifieerbaar is: betaalritme en btw. |
 | 5 | Uitnodiging aan deelnemers na afloop | **Genomen, terughoudende variant.** Alleen ná `workshopFinished`, alleen uitgelogd, één blok; tijdens de sessie blijft er één grijze regel. Geen facilitator-schakelaar gebouwd. Uitzetten is één `<check>`-blok verwijderen in `shared.html`. |
 | 6 | De twaalf willekeurige walltitels | **Genomen.** Vervangen door één vaste kop met de speelse variant als ondertitel. |
 | 7 | Indexeren vóór de Report-knop bestaat | **Genomen op 23 augustus: laten staan.** Zie hieronder — dit besluit verhoogt de prioriteit van D-24. |
+
+### Besluit 1 — de risicoloze ingang wordt zichtbaarheid, geen nieuw product
+
+> **Genomen op 24 augustus 2026.** Er komt geen proefperiode en geen gratis eerste workshop. Wat er komt is één regel op de homepage die zegt wat al waar is: je kunt gratis beginnen als Club Member.
+
+**Waarom dit en niet meer.** A1 constateert dat `/` precies één prijs toont en dat het woord *free* er alleen voorkomt in het FAQ-antwoord over deelnemers. Dat is een zichtbaarheidsprobleem, geen productprobleem: `/pricing` heeft de Club Member-kaart al staan, en `RoleHelper::privateBoardLimit()` geeft de gratis laag standaard één eigen bord. De goedkoopste ingreep is dus de kaart die je al hebt, ook noemen op de pagina waar de bezoeker begint.
+
+**Wat de duurdere variant werkelijk had gekost.** Een gratis eerste workshop raakt laag 1 op twee plaatsen, niet één: `BoardService::canFacilitateWorkshops()` kijkt naar de huidige bezoeker, en `ownerCanFacilitate()` doet daarnaast een eigen `SELECT role, has_chosen_few FROM users` om te bepalen of gásten binnen mogen. Een teller die alleen in de eerste zit, levert een facilitator op die zijn sessie kan starten terwijl zijn deelnemers buiten blijven staan — het slechtst denkbare moment voor een storing. Daarbovenop komt de vraag wat er met het bord en de resultatenpagina gebeurt als iemand niet upgradet. Dat is geen twee uur werk, en het hoort na de meetweek thuis.
+
+**De regel zelf.** Onder het prijsblok op `/`, en niet als losse claim maar als instap:
+
+> Start free as a Club Member with one private board of your own. Running a guided session with participants is part of Club Facilitator.
+
+Twee zinnen, allebei verifieerbaar, en de tweede voorkomt dat je de bezoeker naar een plan stuurt dat niet kan wat de pagina hierboven verkoopt — de fout die A2 in spiegelbeeld beschrijft.
+
+**Wat open blijft.** Of dit genoeg is, weet je pas na de eerste meetweek. Blijkt de drempel dan nog steeds de duurste stap, dan ligt de gratis eerste workshop klaar als volgende zet, en dan is hij onderbouwd in plaats van gegokt.
+
+---
+
+### Besluit 2 — `/boards` mag open vóór verificatie, de wall en de gastlink niet
+
+> **Genomen op 24 augustus 2026.** Een ongeverifieerd account mag inloggen en `/boards` gebruiken, met een banner die om verificatie vraagt. Twee handelingen blijven achter verificatie: publiceren op de worldwide wall, en het activeren van een gast- of post-sharelink.
+
+**Drie feiten uit de code die §10 nog niet had.**
+
+- **Verificatie wordt op precies één plek afgedwongen:** `User::login()` gooit een exception als `email_verified_at` leeg is. Er is geen tweede poortje. Wie die exception weghaalt, zet dus in één keer *alles* open — inclusief publiceren op de wall, en dat gaat sinds besluit 7 de zoekindex in.
+- **De opruimtaak bestaat al.** `app/scripts/cleanup_unverified_users.php` draait dagelijks via supercronic, verwijdert ongeverifieerde accounts na zeven dagen, spaart admins en ruimt via `ON DELETE CASCADE` ook notes, hearts en instant photo-bestanden op. De kostenpost die §10 bij *"Ja, met banner"* noemde, is dus al betaald.
+- **De limiet bestaat ook al.** De gratis laag mag standaard één privébord (`max_private_boards_free`), instelbaar zonder deploy. Een ongeverifieerd account kan dus niet in bulk borden aanmaken.
+
+**Waarom de twee uitzonderingen.** De opruimtaak werkt op zeven dagen. Een spam-note die op dag één wordt geplaatst, staat dan een week in de index voordat het account wordt opgeruimd — en Google laat de pagina daarna niet meteen vallen. De gastlink is dezelfde redenering met een ander gezicht: die nodigt mensen zonder account uit naar inhoud die door een niet-geverifieerd account is gemaakt. Alles wat binnen het account blijft, is onschadelijk; alles wat naar buiten wijst, wacht op de bevestigde mail.
+
+**Wat dit oplevert.** De uitstap naar het mailprogramma verdwijnt tussen intentie en betaling — volgens A8 de duurste stap van de funnel. De bezoeker ziet `/boards` en dus het product vóórdat hij afrekent, en verificatie verschuift van blokkade naar herinnering.
+
+**Wat het kost, eerlijk.** Dit is echt bouwwerk, geen configuratie: er staan nu nul poortjes op verificatie na de login, en er komen er twee. Reken op de exception uit `User::login()`, een bannerregel in de layout voor `email_verified_at IS NULL`, en twee gates met bijbehorende uitlegtekst. De rechtencontrole hoort op de server, niet in de template — een verborgen knop is geen gate.
+
+**Wat dit níet verandert.** De blootstelling die besluit 7 heeft gecreëerd blijft exact zoals hij is. D-24 fase 1 blijft daarmee toereikend, en de juristenronde uit §9 van de spec hoeft niet opnieuw.
+
+---
+
+### Besluit 1 en 2 — gebouwd en handmatig geverifieerd op 24 augustus
+
+Tien bestanden. Besluit 1 is één alinea op `/`; besluit 2 is de verplaatsing van verificatie van de voordeur naar de deuren die naar buiten leiden.
+
+- **De gratis-instapregel** staat onder het prijsblok, met het bordaantal uit `configuredFreeLimit()`. De tweede zin noemt Club Facilitator, zodat de regel een instap wordt en geen afslag.
+- **`User::login()` weigert niet meer.** Erboven staat waarom die ene regel gevaarlijk was om zomaar te schrappen: hij was de énige verificatiecontrole in de hele applicatie.
+- **`BaseController::requireVerifiedEmail($wat, $terug)`** is het nieuwe poortje en `emailUnverified()` de vraag erachter. Die gelooft een datum in de sessie zonder query — een bevestigd adres wordt nooit meer onbevestigd — maar gaat naar de database zodra de sessie "nog niet" zegt, want mensen bevestigen in een ander venster.
+- **Drie gates in plaats van twee.** Naast de wall en de post-/gastsharelink hangt ook `BoardController::invite()` eraan. Dat is een afwijking van het besluit, en met opzet: bij een uitnodiging verstuurt het product zélf een e-mail naar een zelf ingetypt adres, namens een account dat nog niemand is. Dat is geen blootstelling maar een verzendkanaal, en zo komt een domein op een blocklist. Een view-link blijft open — lezen is de blokkade niet waard.
+- **De banner** staat in `layout.html` boven de flashmeldingen, met `emailUnverified` als `false` in `setLayoutDefaults()` — anders breekt de 404-pagina precies zoals na S1.10.
+- **Wat de bezoeker leest, klopt nu overal:** de registratieflash, de tekst na het klikken op de verificatielink (die weet nu dat je al ingelogd kunt zijn en stuurt door via `destinationAfterLogin()` in plaats van naar `/login`), en de verificatiemail zelf, die niet langer beweert dat je pas ná bevestiging kunt beginnen.
+
+De regel staat in `CLAUDE.md`, zodat een vierde naar-buiten-gerichte route hem niet vergeet: **een handeling die mensen buiten het account bereikt, wacht op het bevestigde adres; alles daarbinnen niet.**
+
+**Wat dit onbedoeld blootlegde: een bestaande 500 in het wachtwoordherstelpad.** `isEmailVerified()` gebruikte `$this->db`, en die property bestond niet — `App\Models\User` is het enige model dat noch van `BaseModel` erft, noch zoals `Board`, `BoardNote`, `UserSession` en `BoardShareLink` zijn eigen `$db` declareert. Drie andere methodes in datzelfde bestand maakten die aanname **al**, en één ervan is `findByResetToken()`, zonder `try/catch`: wie op een wachtwoordherstellink klikte, kreeg daar een 500. Die fout stond er vóór dit besluit en heeft er niets mee te maken; hij kwam alleen aan het licht doordat een nieuwe regel dezelfde vanzelfsprekende aanname maakte.
+
+Gerepareerd door de property toe te voegen in plaats van vier aanroepen te verbouwen — dan klopt de aanname die de rest van de map ook maakt, en is de val weg in plaats van vier keer omzeild.
+
+**De les, en hij is dezelfde als die van B5.** `php -l` was groen: een niet-bestaande property is geldige syntaxis.
+
+`check-render.php` is diezelfde dag uitgebreid met vier layout-gevallen (uitgelogd, ingelogd bevestigd, ingelogd met de banner, en de foutpagina-variant die alleen `setLayoutDefaults()` heeft) en beide takken van de registratiepagina. Dat dekt de banner en het inlaadpad van de layout — het pad dat na S1.10 brak.
+
+**Maar het dekt deze fout niet, en dat staat nu ook in de kop van dat script.** De `$db`-fout zat in een model dat door een controller wordt aangeroepen; een render-smoke rendert views. Wat hem wél had gevonden is een controle die de klasse instantieert en de methode aanroept. Die bestaat niet, en zolang dat zo is betekent "alle checks groen" niet dat deze klasse fouten gedekt is. Dat is geen reden om er nu een te bouwen — het is een reden om het op te schrijven in plaats van het te vergeten.
+
+---
 
 ### Besluit 7 en wat het betekent voor D-24
 
@@ -112,6 +189,103 @@ Twee dingen die niet uit de audit kwamen maar uit het gebruik:
 
 - **De sitemap is opgeschoond** (23 augustus): `/login` en `/register` eruit, `changefreq` en `priority` weg, `/c` erbij. Een sitemap hoort de URL's te bevatten die je geïndexeerd wilt hebben.
 - **Een regressie uit S1.10 hersteld.** `facilitatorCta` werd alleen in `BaseController::render()` gezet, niet in de ONERROR-handler die de 401-, 403-, 404- en 500-pagina's rendert. Gevolg: de 404-pagina brak midden in de navigatiebalk af. De lijst met layoutvariabelen stond op twee plekken; hij staat nu op één, in `BaseController::setLayoutDefaults()`.
+
+### 24 augustus, later op de dag — één defect vóór de Later-lijst, en L1 t/m L3
+
+**Het defect: `is_flagged` verborg niets.** Gevonden bij het openen van de Later-lijst, en het gaat er in prioriteit ruim overheen. Het moderatiebesluit *Content hidden from the worldwide wall* zette de vlag netjes — `AdminController::hideNote()`, met auditregel — maar **geen enkele publieke query las hem**. Niet `getPublicNotes()`, niet `getPublicNotesByCountry()`, niet de tellers, en niet `NoteController::show()`. Een verborgen note bleef dus op de wall staan, op de landenpagina, op zijn eigen detailpagina, en sinds besluit 7 ook in de zoekindex — terwijl de auteur een artikel-17-brief kreeg die zei dat zijn inhoud was beperkt.
+
+Dat is precies het geval waar `Report::DECISIONS` in zijn eigen commentaar voor waarschuwt: *"een besluit dat zegt dat inhoud is verwijderd terwijl de inhoud er nog staat, is erger dan geen besluit"*. Alleen ging die waarschuwing over verwijderen, en verwijderen wérkte.
+
+**Waarom de bestaande test het niet vond.** `test-report-flow.php` controleerde `Report::decisionEffect('content_hidden') === 'flag'`. Dat is een test op de *intentie*, en die klopte. Er was geen test op het *gevolg*. Sectie 15 van dat script doet dat nu wel: hij zet twee echte notes in een echte database, vraagt de echte modelklasse wat een bezoeker ziet, en controleert ook de omgekeerde weg — de vlag weghalen brengt de note terug.
+
+**De fix, in drie delen.** (1) Elke publieke leesquery op `notes` draagt nu `is_flagged = 0`, precies zoals `deleted_at IS NULL` op `board_notes`; die regel staat als zodanig in `CLAUDE.md`, want een vijfde query die het vergeet is een verborgen note die weer meetelt. (2) `/notes/@id` geeft **404** — geen 403: de pagina staat in de index, en alleen een 404 laat een zoekresultaat vervallen. (3) De auteur en de beheerder houden toegang, met een gele balk die zegt wat de brief zegt. Dat laatste is geen beleefdheid maar consistentie: de brief zegt *hidden — until we decide otherwise*, en de community guidelines beloven dat een beperking bijdragen niet wist.
+
+**L1 — de sitemap wordt gegenereerd.** Nieuwe `SitemapController` op `GET /sitemap.xml`: statische pagina's, `/c`, elke landenpagina en elke publieke, niet-verborgen sticky note, met `lastmod` uit de database. Drie keuzes die afwijken van de kladversie in D2: statische pagina's krijgen **geen** `lastmod` (de enige afleidbare datum is de bestandsdatum, en die is in een Docker-image de builddatum — een `lastmod` die bij elke deploy verspringt leert Google dat je datums niet deugen); notes komen uit een eigen, kale query in plaats van uit `getPublicNotes()`, die per note nog drie extra queries doet; en er zit een plafond van 40.000 URL's op, want daarboven hoort een sitemap-index en geen hoger getal. **`www/sitemap.xml` moest daarvoor weg** — Caddy serveert een bestaand bestand vóór `index.php`, en dat gebeurt stil.
+
+Erbij, want besluit 7 maakte het relevant: `robots.txt` sluit nu `/notes/*/report` uit. `Allow: /notes/` had het meldformulier per ongeluk opengezet, en dat is een handeling, geen inhoud.
+
+**L2 — `srcset` op de homepagebeelden.** Elk van de vijf beelden heeft een halve variant gekregen. Een telefoon haalde tot nu toe ruim 550 kB aan beelden op voor een scherm van 360 pixels breed; dat is nu ongeveer 140 kB. De `sizes`-waarden beschrijven de CSS-breedte van de plek waar het beeld staat; verandert de lay-out van een sectie, dan hoort `sizes` mee te veranderen. De meting met PageSpeed Insights die D6 vraagt, kan pas ná deze deploy en staat in de handmatige lijst hieronder.
+
+**L3 — `og:image` per pagina.** `layout.html` gebruikt nu `@ogImage` met het merkbeeld als standaard in `BaseController::setLayoutDefaults()`. De resultatenpagina zet zijn eigen beeld — dat is de enige pagina van dit product die stelselmatig door iemand anders wordt rondgestuurd, en dus de enige plek waar een eigen preview iets uithaalt. Bewust één vast beeld en geen per sessie gegenereerde kaart: die zou de inhoud van een privébord in een afbeelding zetten die elke chat- en mailprovider ophaalt en cachet.
+
+**L4, L5 en L6: niet gedaan, met reden.** L4 (landingspagina's per situatie) wacht op de eerste meetweek — drie pagina's bouwen op een gok betekent ze daarna herschrijven, en dan is de opgebouwde zoekwaarde weg. L5 (testimonials) kan niet: er zijn er geen echte, en de regel is "geen dag eerder". L6 (A/B-test op de hero-copy) kan technisch pas iets opleveren met verkeer, en dat is er vóór de lancering niet.
+
+**Met de hand nagelopen — afgerond op 24 augustus.** Farid heeft de hele lijst zelf doorlopen; alle bevindingen kwamen overeen met wat hierboven staat beschreven. De lijst blijft staan als vastlegging van wát er is gecontroleerd:
+
+- `composer install` en dan `php scripts/check-templates.php`, `php scripts/check-render.php`, `php scripts/test-board-rights.php` en `php scripts/test-report-flow.php` — alle vier draaiden groen op een schone kopie van deze commit, en inmiddels ook op de machine van Farid.
+- Meld een eigen note, kies *Content hidden*, en controleer met een tweede browser: weg van `/wall`, weg van de landenpagina, 404 op `/notes/<id>`, en als ingelogde auteur de gele balk. **Gedaan, gedrag zoals beschreven.**
+- `/sitemap.xml` opvragen op de server en controleren dat het gegenereerde bestand komt en niet het oude statische — dat oude bestand staat als verwijderd in git, maar controleer dat het na de deploy ook echt niet meer in de image zit. **Gedaan, het gegenereerde bestand komt.**
+- Eén PageSpeed-meting op `/` en `/pricing` (D6) — **ná de deploy**, en pas daarna beslissen of er meer nodig is. Op 24 augustus zijn beide pagina's gemeten terwijl de srcset-wijziging nog niet live stond; die twee runs zijn dus een nulmeting en geen controle. **De meting ná de deploy staat hieronder.**
+- Sitemap opnieuw indienen in Search Console, nu er landenpagina's en notes in staan. **Gedaan.**
+
+**Wat hiermee níet is beantwoord.** Het opnieuw indienen lost de openstaande vraag uit het verificatielogboek van 23 augustus niet op: of Google de sitemap eerder niet kon lezen door een tijdelijke verwerkingsfout aan hun kant, of doordat Cloudflare Googlebot op dat pad blokkeert. Alleen URL-inspectie op `/sitemap.xml` in Search Console onderscheidt die twee. Zolang dat niet is gedaan, is een uitblijvende verwerking niet te lezen als "het duurt gewoon even".
+
+**Nagekomen op 24 augustus:** het meldvlaggetje stond op `w-6` omdat de maat van de deelknop was overgenomen, en was daardoor optisch het grootste icoon in de rij — de tekening loopt van y=3 tot y=21 omdat de stok doorloopt, terwijl het deelicoon rond y=4 begint en ophoudt bij y=20 en het hart al op `w-5` stond. Nu `w-5`. De les staat in de template: kijk naar wat de tekening vult, niet naar de klasse.
+
+### De PageSpeed-meting van 24 augustus, ná de deploy
+
+Mobiel, Moto G Power, trage 4G. Veldgegevens ontbreken nog (CrUX heeft te weinig verkeer), dus dit is labdata.
+
+| | `/` | `/pricing` |
+|---|---|---|
+| Prestaties | **99** | **100** |
+| Toegankelijkheid | 96 | 96 |
+| Praktische tips | 100 | 100 |
+| SEO | 92 | 92 |
+| FCP / LCP | 1,2 s / 1,7 s | 0,9 s / 1,3 s |
+| TBT / CLS | 0 ms / 0 | 0 ms / 0 |
+
+**De srcset-wijziging heeft gedaan wat hij moest doen.** Wat er van L2 overblijft is één beeld van 12 kB te zwaar: `workshop-participant-mobile-640.webp` wordt op 560×1589 getoond terwijl er 640×1816 wordt geladen. Mijn `sizes="320px"` is net iets ruimer dan de werkelijke 280 CSS-pixels. Twaalf kilobyte is geen reden om die waarde te gaan finetunen.
+
+**Wat de meting wél vond, en wat de audit nooit had kunnen vinden: één megabyte aan iconen.** `www/img/celestial/moon.png` was 775 kB bij 936×936 en `mars.png` 290 kB bij 517×517 — allebei getoond op **25×25 pixels**, want `CelestialHelper::icon()` rendert ze op `1em`. Ze staan niet alleen op `/pricing`: `countryHtml()` zet ze onder elke sticky note van de Maan of Mars, dus ook op de wall, de landenpagina's, de eigen-notes-lijst en de profielpagina. Beide zijn teruggebracht naar 64×64 — samen van 1,04 MB naar 16 kB, en op het scherm ziet niemand verschil. Dat de prestatiescore van `/pricing` toch 100 was, komt doordat de beelden `loading="lazy"` zijn en onder de vouw staan; de score zag ze niet, een bezoeker met een databundel wel.
+
+**SEO 92 op beide pagina's, om dezelfde reden:** de mobiele CTA naast de hamburger heet `Start`, en Lighthouse rekent dat als niet-beschrijvende linktekst. Het zichtbare woord blijft — daar is geen ruimte voor meer en `07` schrijft het zo voor — maar de link heeft nu `aria-label="Start a workshop"`. Dat is ook los van de score de juiste zet: een schermlezer die de links van een pagina opsomt, las hier alleen een werkwoord zonder object.
+
+**Toegankelijkheid 96 op beide:** één contrastfout, de regel *"Guest links expire, and the facilitator can replace or revoke them at any time"* in `text-gray-500` op de pastelroze body. Nu `text-gray-600`.
+
+**Bewust niet aangepakt.** Twee dingen die Lighthouse noemt en die ik zou laten liggen tot er een reden is:
+
+- **42 kB ongebruikte JavaScript** van de 52 kB in `app.js`. Dat is Alpine met de bordcomponenten, op een marketingpagina die er vrijwel niets van gebruikt. Een aparte bundel voor de publieke pagina's is een echte ingreep in de buildketen, en TBT staat op 0 ms — het kost nu niets aan snelheid, alleen aan bytes.
+- **Renderblokkerende CSS**, 11,5 kB `app.css` met een geschatte besparing van 450 ms op `/`. Critical CSS inlinen betekent een tweede plek waar stijl vandaan komt, en dat is precies het soort tweede waarheid dat dit product elders zorgvuldig vermijdt. Bij een prestatiescore van 99 is dat de investering niet waard.
+
+### De cache voor de app — bevestigd op 24 augustus
+
+`robots.txt` bleef na de deploy zijn oude inhoud tonen terwijl de sitemap en de srcset uit dezelfde image wél nieuw waren. De headers wijzen het aan:
+
+```
+server: cloudflare
+cf-cache-status: HIT
+age: 2636
+cache-control: max-age=2592000
+```
+
+**Dertig dagen**, en die waarde komt niet uit de app: de Caddyfile zette tot vandaag geen enkele `Cache-Control`, dus alles zonder eigen header kreeg de standaardwaarde van Cloudflare. Voor `/css/app.css?v=...` en `/js/app.js?v=...` is dat precies goed — die dragen hun eigen versie in de URL. Voor twee bestanden is het schadelijk:
+
+- **`robots.txt`** — een crawlregel die je vandaag corrigeert, komt een maand niet aan. Dit is wat er gebeurde.
+- **`/sitemap.xml`** — en dit is de stille: hij wordt sinds vandaag *gegenereerd* zodat hij altijd klopt, en zou vervolgens een maand lang de versie van vanmiddag blijven serveren. De hele winst van L1 verdampt dan zonder dat iemand het merkt, want het bestand ziet er goed uit — alleen een maand oud.
+
+Beide zijn nu bij de bron geregeld: `SitemapController::send()` stuurt `Cache-Control: public, max-age=3600` mee, en de Caddyfile zet `max-age=300` op `robots.txt`. De origin zegt het, en niet het CDN bij gebrek aan beter.
+
+**Afgehandeld op 24 augustus:** de cache voor `robots.txt` is met de hand geleegd (Cloudflare, Purge by URL) en de nieuwe versie is live. Vanaf nu is dat geen handmatige stap meer: met `max-age=300` uit de Caddyfile veroudert een verkeerde kopie binnen vijf minuten in plaats van binnen dertig dagen.
+
+**Afgemaakt op 24 augustus.** Browser Cache TTL in Cloudflare staat nu op *Respect existing headers*, en de Caddyfile vult in wat er dan gezegd moet worden. Die twee horen bij elkaar: zonder de tweede stap krijgen `/css`, `/js`, `/fonts`, `/img` en `/uploads` helemaal géén bewaarinstructie meer, waar Cloudflare eerst nog dertig dagen invulde — dat zou de dag erna hebben gevoeld als een site die plotseling traag werd voor terugkerende bezoekers.
+
+De regel waarop is gesplitst: **verandert de URL als de inhoud verandert?**
+
+| Pad | TTL | Waarom |
+|---|---|---|
+| `/css/*`, `/js/*` | 1 jaar, `immutable` | `layout.html` hangt `?v=<filemtime>` eraan; een deploy is een nieuwe URL |
+| `/fonts/*` | 1 jaar, `immutable` | gewicht en subset staan in de bestandsnaam; worden nooit ter plekke vervangen |
+| `/img/*`, `/uploads/*` | 1 week | een afbeelding houdt zijn naam bij nieuwe inhoud — `moon.png` is vandaag onder dezelfde naam vervangen |
+| `/robots.txt` | 5 minuten | een crawlregel die je vandaag corrigeert, moet vandaag aankomen |
+| `/sitemap.xml` | 1 uur | gegenereerd; een crawler mist hooguit het laatste uur, en de origin wordt niet bij elke crawl aan het scannen gezet |
+
+Op productie geverifieerd: alle vijf geven de bedoelde header terug.
+
+**`immutable` verdient één zin uitleg**, want het is sterker dan het lijkt: een browser slaat daarmee zelfs de revalidatie bij een harde refresh over. Dat mag alleen omdat die URL's versiegestempeld zijn. Zet nooit `immutable` op een pad waar een bestand zijn naam kan houden — dan is een fout die je publiceert onherroepelijk tot de cache verloopt.
+
+**Los signaal, geen bevinding:** de screenshots op de homepage tonen nog de oude statusknoppen (*Workshop running*, *Not a workshop*). Die labels bestaan sinds S0.1 niet meer. Nieuwe schermafdrukken zijn een klusje van een half uur, maar het is wel de eerste pagina die een bezoeker ziet.
+
 
 ---
 
@@ -1014,8 +1188,8 @@ Dit is de tabel waarnaar S1.2 verwijst. Eén canoniek label per actie, alle ande
 
 | # | Besluit | Waarom het niet van mij is | Belangrijkste tweede-orde-effecten |
 |---|---|---|---|
-| 1 | **Komt er een risicoloze ingang naar workshops?** (A1) | Prijsstrategie. | *Gratis plan zichtbaar maken op `/`* — kost niets, is al waar, maar leidt aandacht naar een plan dat geen workshops kan; je vangt de twijfelaar en verliest een deel van de directe kopers. *Eén gratis workshop per account* — het sterkste bewijs dat je hebt, want het product overtuigt in gebruik; kost bouwwerk (een teller) en je moet beslissen wat er met het resultaat gebeurt als iemand niet upgradet. *14 dagen proef* — bekend patroon, hoogste conversie, maar vraagt om creditcardafhandeling die je nu niet hebt en om een opzegflow die klopt. *Niets veranderen* — houdt de belofte zuiver (geen trial beloven die er niet is) en accepteert een lage conversie tot je social proof hebt. |
-| 2 | **Mag iemand `/boards` in vóór e-mailverificatie?** (A8) | Raakt misbruikbestrijding en de D-24-moderatiespec. | *Ja, met banner* — kortere weg naar de eerste wow, en de bezoeker ziet het product vóór hij betaalt. Kosten: ongeverifieerde accounts kunnen borden maken, dus je hebt een opruimtaak nodig en een limiet. *Nee* — houdt de misbruikdrempel hoog, maar de mailuitstap blijft de duurste stap in de funnel. |
+| 1 | ~~**Komt er een risicoloze ingang naar workshops?**~~ (A1) — **genomen 24-08: zichtbaarheid, geen nieuw product. Zie §0b.** | Prijsstrategie. | *Gratis plan zichtbaar maken op `/`* — kost niets, is al waar, maar leidt aandacht naar een plan dat geen workshops kan; je vangt de twijfelaar en verliest een deel van de directe kopers. *Eén gratis workshop per account* — het sterkste bewijs dat je hebt, want het product overtuigt in gebruik; kost bouwwerk (een teller) en je moet beslissen wat er met het resultaat gebeurt als iemand niet upgradet. *14 dagen proef* — bekend patroon, hoogste conversie, maar vraagt om creditcardafhandeling die je nu niet hebt en om een opzegflow die klopt. *Niets veranderen* — houdt de belofte zuiver (geen trial beloven die er niet is) en accepteert een lage conversie tot je social proof hebt. |
+| 2 | ~~**Mag iemand `/boards` in vóór e-mailverificatie?**~~ (A8) — **genomen 24-08: ja met banner, wall en gastlink pas ná verificatie. Zie §0b.** | Raakt misbruikbestrijding en de D-24-moderatiespec. | *Ja, met banner* — kortere weg naar de eerste wow, en de bezoeker ziet het product vóór hij betaalt. Kosten: ongeverifieerde accounts kunnen borden maken, dus je hebt een opruimtaak nodig en een limiet. *Nee* — houdt de misbruikdrempel hoog, maar de mailuitstap blijft de duurste stap in de funnel. |
 | 3 | **Wordt Club Facilitator het visuele hoofdplan op `/pricing`?** (A2, E1) | Positionering en omzetmix. | *Ja* — de funnel wordt consistent en de gemiddelde orderwaarde stijgt; risico is dat je Club Host-kopers verliest die anders wél waren ingestapt. *Nee* — meer instappers op €4,99, maar dan moet de homepage óók Club Host aanbieden, want de huidige situatie (homepage verkoopt A, prijspagina beveelt B aan) is de slechtste van de drie. |
 | 4 | **Wat is de opzeg- en terugbetalingsregel, en mag die bij de knop staan?** (A7, E3) | Juridisch; hoort in dezelfde ronde als V-12 en artikel 14 DSA. | Zonder regel staat er nu niets, en niets lezen bij een betaalknop is voor een deel van de bezoekers een reden om niet te klikken. Met regel moet die woordelijk kloppen met de Terms — de Public Communication Specification eist dat expliciet. |
 | 5 | **Mag de deelnemer na afloop een uitnodiging zien?** (B13) | Raakt *Calm software beats noisy software*. | *Ja* — de sterkste groeimotor die je hebt, en het moment klopt (na afloop, niet tijdens). Risico: de facilitator wordt niet gevraagd of zijn deelnemers marketing te zien krijgen op zijn sessie. *Ja, maar de facilitator kan het uitzetten* — netter, kost één instelling en één kolom. *Nee* — je houdt de sessie schoon en laat de groei liggen. |
@@ -1046,7 +1220,14 @@ Aannames uit dit rapport die na publicatie tegen de werkelijkheid zijn gehouden.
 | 2026-08-23 | **E2** — de vergelijkingstabel schuift op mobiel binnen zijn eigen container | Rooktest na de deploy van sprint 2 | **Juist.** De pagina zelf schuift niet mee. |
 | 2026-08-23 | **D1** — publieke sticky notes zijn weer indexeerbaar | `robots.txt` live gecontroleerd; Search Console moet nog crawlen | **Regel klopt.** Of Google de pagina's ook werkelijk opneemt, is pas over weken zichtbaar. |
 | 2026-08-24 | **C7** — het lookalike-teken in het e-mailadres is een fout | Aan Farid voorgelegd nadat het was rechtgezet | **Geen fout.** Het is een bewuste maatregel tegen spam-scrapers. Teruggedraaid en vastgelegd in `App\Helpers\ContactHelper`; de DSA-kant blijft vraag 4 voor de jurist. |
-| 2026-08-23 | Sitemap onleesbaar door host-mismatch tussen `www` en apex | Search Console-property nagekeken: het is de apex, en de sitemap bevat apex-URL's | **Onjuist.** Mijn hypothese klopte niet. Resterende kandidaten: een tijdelijke verwerkingsfout aan Google-zijde, of Cloudflare dat Googlebot op dat pad blokkeert. Te onderscheiden met URL-inspectie op `/sitemap.xml`. |
+| 2026-08-24 | **`is_flagged`** — het besluit 'Content hidden' verbergt de note | Twee notes in een echte database, de echte modelklasse gevraagd wat een bezoeker ziet | **Onjuist, en verholpen.** Geen enkele publieke query las de vlag. Gerepareerd in de datalaag plus een 404 op de detailpagina; `test-report-flow.php` §15 test nu het gevolg in plaats van de intentie. |
+| 2026-08-24 | **`robots.txt`** — de deploy had de nieuwe regel niet meegenomen | Responseheaders opgevraagd op productie | **Onjuist.** De deploy was in orde; Cloudflare serveerde een gecachete kopie met `max-age=2592000`, een waarde die de app zelf nooit had gezet. Cache geleegd, en `Cache-Control` staat nu bij de bron — voor `robots.txt` in de Caddyfile en voor de gegenereerde sitemap in de controller. |
+| 2026-08-23 | Sitemap onleesbaar door host-mismatch tussen `www` en apex | Search Console-property nagekeken: het is de apex, en de sitemap bevat apex-URL's | **Onjuist.** Mijn hypothese klopte niet. Resterende kandidaten: een tijdelijke verwerkingsfout aan Google-zijde, of Cloudflare dat Googlebot op dat pad blokkeert. Te onderscheiden met URL-inspectie op `/sitemap.xml`. **Opgelost op 24-08, zie de regel hieronder.** |
+| 2026-08-24 | **Sitemap "Kan niet ophalen"** — de oorzaak zit tussen Google en de edge, niet in het bestand | Live opgehaald: geldige XML, ~40 URL's, juiste `Content-Type`, `robots.txt` blokkeert niets, `www/sitemap.xml` bestaat niet meer. Daarna Purge by URL in Cloudflare en URL-inspectie live getest | **Gecachete 404, dezelfde val als bij `robots.txt`.** `/sitemap.xml` was een statisch bestand zónder eigen `Cache-Control` en kreeg dus de dertig dagen van Cloudflare; het is verwijderd toen `SitemapController` het overnam, en elke PoP die in dat gat een 404 ophaalde, hield die vast. Cloudflare cachet per datacenter, dus het bestand klopte voor iedereen behalve voor de PoP waar Googlebot landde. Alleen `robots.txt` was op 24-08 met de hand geleegd, `/sitemap.xml` niet. Nu wel. |
+| 2026-08-24 | **`X-Robots-Tag: noindex` op de sitemap blokkeert de verwerking** | Nagezocht: Rank Math en Yoast sturen die header standaard mee en die sitemaps worden verwerkt. De melding in Search Console komt uit de URL-inspectie, die élke URL als *pagina* beoordeelt | **Onjuist — en juist het bewijs dat het ophalen wérkt.** Google kan die header alleen melden als hij de response heeft binnengehaald. De header is desondanks weggehaald: hij beschermde tegen iets wat vrijwel nooit gebeurt en onschadelijk is als het gebeurt, en kostte een rood kruis op precies de plek waar je wilt kunnen zien of er écht iets mis is. Hij stond er bovendien zonder toelichting — het enige commentaarloze besluit in dat bestand. |
+| 2026-08-24 | **`$this->db` in `App\Models\User`** — de property bestond niet, terwijl vier methodes hem gebruikten | Foutmelding op productie na het inloggen met een nieuw account; daarna de klasse en de andere modellen nagekeken | **Bestaande bug, niet van besluit 2.** `findByResetToken()` gaf zonder `try/catch` een 500 op elke wachtwoordherstellink. Opgelost door de property toe te voegen die `Board`, `BoardNote`, `UserSession` en `BoardShareLink` al hebben. `php -l` was groen — dit is werk voor `check-render.php`, dat de auth-routes nog niet dekt. |
+| 2026-08-24 | **Besluit 1 en 2** — gebouwd | Farid: de vier scripts en `php -l` op alle gewijzigde bestanden, plus een doorloop met een nieuw account | **Groen.** Zie de paragraaf hierboven voor wat er is gebouwd en welke afwijking (de derde gate op `invite()`) bewust is. |
+| 2026-08-24 | De handmatige controlelijst na D-24 fase 1 en L1–L3 | Farid heeft de vijf punten zelf doorlopen: de vier scripts op zijn eigen machine, de *Content hidden*-toets met twee browsers, `/sitemap.xml` op de server, de PageSpeed-meting ná de deploy en het opnieuw indienen van de sitemap | **Juist.** Alle waarnemingen kwamen overeen met wat in §0b staat beschreven. De sitemapvraag uit de regel hierboven blijft open — opnieuw indienen onderscheidt de twee kandidaten niet; URL-inspectie wel. |
 
 **Wat deze ene toets leert.** Broncodevolgorde is geen schermvolgorde zodra `x-show` in het spel is. Dat raakt niet alleen B5: elke uitspraak in dit rapport over visuele hiërarchie of mobiel gedrag is op dezelfde manier afgeleid. Ze staan alle als **AANNAME** gemarkeerd, en ze verdienen alle dezelfde toets voordat er iemand aan gaat bouwen. In het bijzonder geldt dat voor A5 (de mobiele CTA), B11 en D4.
 
