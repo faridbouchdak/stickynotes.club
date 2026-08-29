@@ -2,7 +2,7 @@
 layout: default
 title: Plans & subscriptions
 description: Compare the StickyNotes.club Club Member, Club Host, Club Facilitator and Chosen Few plans and learn how publication limits, boards and subscriptions work.
-nav_order: 13
+nav_order: 15
 permalink: /plans-and-subscriptions/
 ---
 
@@ -29,7 +29,7 @@ Choose the plan that fits how you want to use StickyNotes.club. Club Member is f
 | Workshop results: PDF printing, Markdown copy and CSV download | No | No | Yes | Yes |
 | Pastel colours and Instant Photos | No | Yes | Yes | Yes, while the subscription is active |
 | Receive invitations and participate | Yes | Yes | Yes | Yes |
-| Contribute through a Post link | Yes | Yes | Yes | Yes |
+| Add and manage your own sticky notes through a Post link | Yes | Yes | Yes | Yes |
 | Comments, private-board hearts and dot voting | Yes | Yes | Yes | Yes |
 | Mention current board Participants | Yes | Yes | Yes | Yes |
 | Private-board sticky-note tags and due dates | Yes | Yes | Yes | Yes |

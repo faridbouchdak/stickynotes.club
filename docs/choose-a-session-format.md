@@ -42,11 +42,11 @@ Empty columns show a faint example note so nobody has to guess what a good contr
 
 **Make it work** by collecting in silence first. Start a silent brainstorm, let everyone write for ten minutes, then reveal everything at once. Without that, the first three notes decide what the session is about.
 
-**Watch out for** a session that stays in the first column. Going well is pleasant to read and easy to spend twenty minutes on; the reason you are here is the third column.
+**Watch out for** a session that stays in the first column. Going well is pleasant to read and can absorb twenty minutes; the reason you are here is the third column.
 
 ## Start / Stop / Continue
 
-**Use it when** you want the shortest possible retrospective, or when the group is new to this kind of session. Three questions are easier to answer than an open one.
+**Use it when** you want the shortest possible retrospective, or when the group is new to this kind of session. Three questions are more concrete than an open one.
 
 **The board gives you** three columns (Start, Stop, Continue), a question that names all three, and three votes per person.
 
@@ -80,7 +80,7 @@ Empty columns show a faint example note so nobody has to guess what a good contr
 
 **The board gives you** three columns (Appreciations, Suggestions, Questions), a question that asks for one point per note, and three votes per person.
 
-**Make it work** by turning on **Hide author names on notes** before you start, and by saying that you did. People still manage their own notes and you can still moderate; nobody sees who wrote what — not even you.
+**Make it work** by turning on **Hide author names on notes** before you start, and by saying that you did. People still manage their own notes and you can still moderate; while it is on, nobody sees who wrote what — not even you. It stays on until you switch it off, so say that you will leave it on and then do that.
 
 **Watch out for** reading everything out loud at speed. Read the questions column last and answer it properly; that is where the useful discomfort lives.
 
@@ -111,7 +111,7 @@ Two starting points are not sessions and appear when you create a board without 
 - **Kanban** — To do, Doing and Done, for work that moves through stages over weeks.
 - **Week planner** — a column for every weekday.
 
-Both are ordinary private boards. See [organise your work](/organise-your-work/) for what to do with them after the first day.
+Both are ordinary private boards. See [organise your work](/organise-your-work/) for the layouts, tags and due dates, and [keep a board going](/keep-a-board-going/) for what to do with them after the first week.
 
 ## Good to know
 
@@ -124,8 +124,6 @@ Both are ordinary private boards. See [organise your work](/organise-your-work/)
 ## Related guides
 
 - [Run your first retrospective](/run-your-first-retrospective/)
+- [Run a feedback session](/run-a-feedback-session/)
 - [Run a workshop](/run-a-workshop/)
 - [Take part in a workshop](/join-a-workshop/)
-- [Create and manage a private board](/private-boards/)
-- [Organise your work](/organise-your-work/)
-- [Choose a plan](/plans-and-subscriptions/)

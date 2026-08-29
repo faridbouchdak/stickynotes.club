@@ -2,7 +2,7 @@
 layout: default
 title: Collaboration
 description: Invite Participants, share View or Post links and use comments, hearts, dot voting and mentions on a private board.
-nav_order: 8
+nav_order: 9
 permalink: /collaboration/
 ---
 
@@ -14,7 +14,7 @@ Invite Participants when an idea is ready for ongoing collaboration, or use a Vi
 
 - How to invite someone and remove access.
 - How to share a board with a View or Post link.
-- What Owners, Participants and Post-link contributors can contribute.
+- How Participant, Post-link and workshop-guest access differ.
 - How hearts, dot voting and mentions work.
 - Which emails StickyNotes.club sends.
 
@@ -40,7 +40,7 @@ If you own a board on Club Host, Club Facilitator or Chosen Few:
 
 A View link shows a read-only version of the board to anyone with the link. No account is needed, and the Owner can create it before confirming their email address. A Post link provides the same viewing access and lets a signed-in StickyNotes.club user on any plan contribute. Creating or replacing a Post link requires the Owner to confirm their email address first.
 
-Link users do not become Participants. A signed-in Post-link contributor can create and manage their own sticky notes, arrange sticky notes, post and delete their own comments, use hearts and take part in dot voting. They cannot invite people, manage access, create or revoke share links, change board settings or edit other people's content. Only the Owner can create links.
+Link users do not become Participants. A signed-in Post-link contributor can create, edit and delete their own sticky notes while the link remains active. They cannot arrange sticky notes, comment, use hearts, take part in dot voting, invite people, manage access, create or revoke share links, change board settings or edit other people's content. Only the Owner can create links.
 
 Revoke a link when it should no longer provide access. Revocation takes effect immediately and does not delete sticky notes that were already added. You can revoke an existing link after a downgrade. Existing links are unavailable while your plan does not include collaboration.
 
@@ -65,7 +65,7 @@ Every invited Participant can:
 - use private-board hearts; and
 - take part in dot voting.
 
-Signed-in Post-link contributors have the same sticky-note, arranging, comment, heart and dot-voting capabilities while the link remains active. They do not gain Participant or board-management rights.
+Signed-in Post-link contributors can create, edit and delete their own sticky notes while the link remains active. They cannot arrange notes, comment, use hearts or take part in dot voting, and they do not gain Participant or board-management rights.
 
 You cannot edit a comment after posting it, but you can delete your own comment. This leaves the sticky note and other comments in place.
 
@@ -85,7 +85,7 @@ Private-board hearts stay on that board. They do not add anything to the Wall of
 
 ## Make a decision with dot voting
 
-The Owner starts and closes each round and chooses **1**, **3**, **5** or **10** dots per eligible contributor. The default is **3**. Invited Participants and signed-in Post-link contributors can vote while they have access.
+The Owner starts and closes each round and chooses **1**, **3**, **5** or **10** dots per eligible contributor. The default is **3**. Invited Participants can vote while they have access. Workshop guests can also vote during a session; ordinary Post-link contributors cannot.
 
 - You can place no more than one dot on a sticky note.
 - You can withdraw a vote while the round is open.
@@ -119,11 +119,11 @@ Individual edits, comments, hearts and votes do not each produce a separate emai
 - Board changes normally appear to everyone viewing the board within a few seconds.
 - Sticky-note text saves automatically, and simultaneous edits are never silently overwritten. See [Work together in real time](/live-collaboration/) for saving, conflicts and connection problems.
 - StickyNotes.club keeps the current accepted version and does not provide a version history.
-- A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting, but does not receive Participant or board-management rights.
+- A signed-in Post-link contributor can create, edit and delete their own sticky notes while the link remains active, but cannot arrange notes, comment, use hearts or vote.
 
 ## Related guides
 
 - [Create and manage a private board](/private-boards/)
 - [Work together in real time](/live-collaboration/)
 - [Organise your work](/organise-your-work/)
-- [Choose a plan](/plans-and-subscriptions/)
+- [Keep a board going](/keep-a-board-going/)

@@ -2,7 +2,7 @@
 layout: default
 title: Organise your work
 description: Arrange private boards and use layouts, colours, tags and due dates to keep ideas organised without unnecessary complexity.
-nav_order: 10
+nav_order: 11
 permalink: /organise-your-work/
 ---
 
@@ -21,7 +21,7 @@ Let structure emerge as your board grows. A simple layout, a few clear tags and 
 
 Boards use a grid or columns, depending on the template. You can reorder sticky notes in their current row and, in a column layout, move them between columns.
 
-Arranging a sticky note changes only its position, order or column. It does not change authorship or give you permission to edit another author's text, colour, tags or due date. The Owner, Participants and signed-in Post-link contributors can arrange notes while they have contribution access. During a workshop, the facilitator can use **Lock arranging** to freeze movement for everyone else and **Allow arranging** to open it again.
+Arranging a sticky note changes only its position, order or column. It does not change authorship or give you permission to edit another author's text, colour, tags or due date. The Owner and Participants can arrange notes while they have contribution access. Workshop guests can also arrange notes during a session; ordinary Post-link contributors cannot. During a workshop, the facilitator can use **Lock arranging** to freeze movement for everyone else and **Allow arranging** to open it again.
 
 Blank and Brainstorm begin as grids and can later change to columns. Retro, Kanban, Week planner and the [session formats](/choose-a-session-format/) begin with columns. Choose from nine backgrounds to give the board a look that fits the work.
 
@@ -35,9 +35,9 @@ Your group can agree on a colour convention. When the meaning matters, add a vis
 
 Tags help you bring related sticky notes together and filter a private board.
 
-A sticky note can have several tags. Tags automatically become lower case and are available only inside their board. Participants and signed-in Post-link contributors can create tags and apply them to sticky notes they authored. Only the author can change the tags attached to their sticky note.
+A sticky note can have several tags. Tags automatically become lower case and are available only inside their board. The Owner and every current Participant can create, rename and delete tags. Only the author can change which tags are attached to their sticky note.
 
-You cannot merge tags. Changing a tag on your sticky note does not change another author's note.
+You cannot merge tags. Deleting a tag removes that label from every affected sticky note without deleting the sticky notes themselves. Ordinary Post-link contributors cannot manage or apply tags.
 
 Tags are not available on a board itself, a worldwide-wall Draft, a Public sticky note or an Instant Photo.
 
@@ -75,8 +75,7 @@ Deleting a private-board sticky note removes it immediately, but the person who 
 
 ## Related guides
 
+- [Keep a board going](/keep-a-board-going/)
 - [Create and manage a private board](/private-boards/)
 - [Work together on a board](/collaboration/)
-- [Run a workshop](/run-a-workshop/)
 - [Choose a session format](/choose-a-session-format/)
-- [Create and share a sticky note](/sticky-notes/)

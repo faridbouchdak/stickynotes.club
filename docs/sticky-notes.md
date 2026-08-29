@@ -2,7 +2,7 @@
 layout: default
 title: Sticky notes
 description: Learn how to create, publish, share, edit and delete sticky notes and Instant Photos on the StickyNotes.club worldwide wall.
-nav_order: 11
+nav_order: 13
 permalink: /sticky-notes/
 ---
 

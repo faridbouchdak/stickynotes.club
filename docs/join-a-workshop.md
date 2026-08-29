@@ -23,7 +23,9 @@ Someone invited you to a workshop with a link or a QR code. You do not need an a
 2. Type the name you want other people to see. Anything works — your first name is fine.
 3. Select **Join the board**.
 
-That's it. The facilitator can see your name in the session list. It also appears with your notes and comments unless the facilitator has hidden author names.
+That's it. When the board opens, select **Add a sticky note** to share one idea. Vote when the facilitator opens a voting round, and select **View results** after the workshop finishes.
+
+The facilitator can see your name in the session list. It also appears with your notes and comments unless the facilitator has hidden author names.
 
 ## Add your ideas
 
@@ -40,6 +42,8 @@ You can:
 You cannot change what someone else wrote. That is deliberate — their words stay theirs.
 
 If author names are hidden, notes and comments stay anonymous for everyone, including the facilitator and on the results page. You can still recognise and edit your own contributions while the session is open.
+
+Hiding names is a setting the facilitator controls, and they can switch it off again — your name then reappears on what you wrote. If it matters to you, ask them before you write.
 
 ## When the board looks different than you expect
 
@@ -69,7 +73,7 @@ If author names are hidden, notes and comments stay anonymous for everyone, incl
 
 ## Related guides
 
-- [Run a workshop](/run-a-workshop/)
-- [Work together in real time](/live-collaboration/)
 - [Solve a problem](/troubleshooting/)
 - [Understand privacy and stay safe](/privacy-and-safety/)
+- [Work together in real time](/live-collaboration/)
+- [Run a workshop](/run-a-workshop/)

@@ -2,7 +2,7 @@
 layout: default
 title: Troubleshooting
 description: Solve common sign-in, access, workshop-result, billing, publication, upload and saving problems.
-nav_order: 17
+nav_order: 19
 permalink: /troubleshooting/
 ---
 
@@ -45,7 +45,7 @@ The same Owner and plan requirement applies when creating a View or Post link. Y
 - Sign in if you are trying to contribute through a Post link.
 - Ask the Owner whether their current plan still includes collaboration.
 
-A View link does not require an account. A Post link requires an account before you can create or manage your own notes, arrange notes, comment, use hearts or vote. Existing links become unavailable if the Owner's plan no longer includes collaboration. The Owner can still revoke such a link.
+A View link does not require an account. A Post link requires an account before you can create, edit or delete your own sticky notes. It does not let you arrange notes, comment, use hearts or vote. Existing links become unavailable if the Owner's plan no longer includes collaboration. The Owner can still revoke such a link.
 
 ## I cannot add a note to a workshop board
 
@@ -112,8 +112,7 @@ A comment, a board and a Public sticky note are deleted immediately and permanen
 
 ## Related guides
 
-- [Work together on a board](/collaboration/)
-- [Work together in real time](/live-collaboration/)
-- [Find a quick answer](/faq/)
 - [Contact support](/contact-and-support/)
+- [Find a quick answer](/faq/)
+- [Work together in real time](/live-collaboration/)
 - [Understand privacy and stay safe](/privacy-and-safety/)

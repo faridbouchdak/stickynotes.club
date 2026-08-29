@@ -11,23 +11,28 @@ The Help Centre describes implemented StickyNotes.club behaviour in plain Englis
 ## Start here
 
 - [Help Centre](https://docs.stickynotes.club/): Overview of the available guides and support topics.
+- [Run a workshop](https://docs.stickynotes.club/run-a-workshop/): Prepare and guide a session, make decisions, finish with read-only results, export them as PDF, Markdown or CSV and reuse the clean setup.
+- [Take part in a workshop](https://docs.stickynotes.club/join-a-workshop/): Join with a link or QR code, contribute without an account and open the finished result.
 - [Getting started](https://docs.stickynotes.club/getting-started/): Create an account, understand when email confirmation is required and choose where a first idea belongs.
 - [Frequently asked questions](https://docs.stickynotes.club/faq/): Short answers about accounts, content, sharing, invitations and plans.
 
-## Create and organise ideas
+## Run a session
+
+- [Choose a session format](https://docs.stickynotes.club/choose-a-session-format/): Compare the session formats a workshop board can start from, see what each one fills in and adjust the run sheet.
+- [Run your first retrospective](https://docs.stickynotes.club/run-your-first-retrospective/): A step-by-step walkthrough of one retrospective, from preparing the board to sharing the result.
+- [Run a feedback session](https://docs.stickynotes.club/run-a-feedback-session/): Run an anonymous feedback session, read the room's input and turn it into decisions and action items.
+- [Live collaboration](https://docs.stickynotes.club/live-collaboration/): See private-board changes live, understand autosave and recover safely from conflicts or connection problems.
+
+## Build on a board
+
+- [Private boards](https://docs.stickynotes.club/private-boards/): Create, manage and duplicate private-board setups, control access and understand permanent board deletion.
+- [Collaboration](https://docs.stickynotes.club/collaboration/): Invite Participants, share board links and use collaborative features.
+- [Organise your work](https://docs.stickynotes.club/organise-your-work/): Use layouts, colours, tags and due dates on private boards.
+- [Keep a board going](https://docs.stickynotes.club/keep-a-board-going/): Keep a Kanban board or week planner readable and useful over time.
+
+## Share ideas and manage your account
 
 - [Sticky notes](https://docs.stickynotes.club/sticky-notes/): Create, publish, share, edit and delete sticky notes and Instant Photos.
-- [Private boards](https://docs.stickynotes.club/private-boards/): Create, manage and duplicate private-board setups, control access and understand permanent board deletion.
-- [Organise your work](https://docs.stickynotes.club/organise-your-work/): Use layouts, colours, tags and due dates on private boards.
-
-## Collaboration and accounts
-
-- [Collaboration](https://docs.stickynotes.club/collaboration/): Invite Participants, share board links and use collaborative features.
-- [Live collaboration](https://docs.stickynotes.club/live-collaboration/): See private-board changes live, understand autosave and recover safely from conflicts or connection problems.
-- [Run a workshop](https://docs.stickynotes.club/run-a-workshop/): Prepare and guide a session, make decisions, finish with read-only results, export them as PDF, Markdown or CSV and reuse the clean setup.
-- [Run your first retrospective](https://docs.stickynotes.club/run-your-first-retrospective/): A step-by-step walkthrough of one retrospective, from preparing the board to sharing the result.
-- [Choose a session format](https://docs.stickynotes.club/choose-a-session-format/): Compare the session formats a workshop board can start from, see what each one fills in and adjust the run sheet.
-- [Take part in a workshop](https://docs.stickynotes.club/join-a-workshop/): Join with a link or QR code, contribute without an account and open the finished result.
 - [Manage your profile](https://docs.stickynotes.club/manage-your-profile/): Update profile and security details and understand account deletion.
 - [Plans and subscriptions](https://docs.stickynotes.club/plans-and-subscriptions/): Compare Club Member, Club Host, Club Facilitator and Chosen Few and understand plan limits.
 

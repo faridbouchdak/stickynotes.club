@@ -35,6 +35,7 @@ Whether you are leading a room, joining someone else's session or capturing a th
 - **[Run a workshop](/run-a-workshop/)** — Guide a session from preparation and participation to decisions, results, PDF, Markdown or CSV and a reusable setup.
 - **[Choose a session format](/choose-a-session-format/)** — Pick the format that fits your session, see what the board fills in and adjust the run sheet.
 - **[Run your first retrospective](/run-your-first-retrospective/)** — A complete walkthrough of one session, including what to say at each step.
+- **[Run a feedback session](/run-a-feedback-session/)** — Ask for honest input on your own work, set up anonymity and read the result aloud without defending it.
 - **[Take part in a workshop](/join-a-workshop/)** — Join with a link or QR code, contribute without an account and open the finished result.
 - **[Work together in real time](/live-collaboration/)** — See live changes, understand autosave and resolve simultaneous edits safely.
 
@@ -43,6 +44,7 @@ Whether you are leading a room, joining someone else's session or capturing a th
 - **[Create a private board](/private-boards/)** — Give your own ideas, or a group's ideas, room to grow.
 - **[Work together on a board](/collaboration/)** — Invite Participants or share controlled access with a View or Post link.
 - **[Organise your work](/organise-your-work/)** — Use layouts, colours, tags and due dates without making things complicated.
+- **[Keep a board going](/keep-a-board-going/)** — Keep a Kanban board or week planner readable over weeks, and know what to do when it fills up.
 
 ## Share an idea publicly
 

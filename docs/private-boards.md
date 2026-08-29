@@ -2,7 +2,7 @@
 layout: default
 title: Private boards
 description: Create and manage a private StickyNotes.club board, choose a template, control access and organise ideas with other people.
-nav_order: 7
+nav_order: 8
 permalink: /private-boards/
 ---
 
@@ -63,7 +63,7 @@ If you own the board and use Club Host, Club Facilitator or Chosen Few, open **S
 - **View link** to show a read-only version of the board to anyone with the link. No account is needed.
 - **Post link** to provide the same viewing access and also let signed-in StickyNotes.club users on any plan contribute.
 
-Link users are not Participants. A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access, change board settings or edit other people's content. Revoke a link when it should no longer work. You can still revoke an existing link after a downgrade, although links are unavailable while your plan does not include collaboration.
+Link users are not Participants. A signed-in Post-link contributor can create, edit and delete their own sticky notes while the link remains active. They cannot arrange notes, comment, use hearts, take part in dot voting, invite people, manage access, change board settings or edit other people's content. Revoke a link when it should no longer work. You can still revoke an existing link after a downgrade, although links are unavailable while your plan does not include collaboration.
 
 Anyone who receives or is forwarded an active link may be able to open the board, so share it only with people who should see the content.
 
@@ -109,4 +109,5 @@ Deleting the Owner's account permanently deletes every board that account owns. 
 
 - [Work together on a board](/collaboration/)
 - [Organise your work](/organise-your-work/)
+- [Keep a board going](/keep-a-board-going/)
 - [Understand privacy and safety](/privacy-and-safety/)

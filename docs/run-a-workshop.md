@@ -30,7 +30,9 @@ Under **Set up the session**, fill in:
 
 - **Facilitator name** — how you are introduced to participants. This can differ from your display name.
 - **Instruction** — the central question of the session, for example *“What slowed us down this sprint? One idea per note.”*
-- **Hide author names on notes** — optional. Author names are removed from notes, comments and the results, for everyone including you. People can still edit their own contributions and you can still moderate. The participant list continues to show names so you can see who is present and remove a guest if necessary.
+- **Hide author names on notes** — optional, and reversible. Author names are removed from notes, comments and the results, for everyone including you. People can still edit their own contributions and you can still moderate. The participant list continues to show names so you can see who is present and remove a guest if necessary.
+
+You can switch **Hide author names on notes** on and off at any time, before or during a session. Switching it on also hides the names on notes that are already there; switching it off shows them again. Anonymity therefore lasts exactly as long as you leave the setting on — the board does not lock it. If you tell a room that names are hidden, that promise is yours to keep, so say what you intend to do rather than describing the setting.
 
 Select **Turn on workshop mode**. The board is now in **Preparing**. Anyone opening the link at this point sees a waiting room, not your board, so you can add example notes, create columns and arrange things at your own pace.
 
@@ -167,9 +169,6 @@ To run the same format again, open **Board settings** and use **Duplicate this b
 ## Related guides
 
 - [Run your first retrospective](/run-your-first-retrospective/)
+- [Run a feedback session](/run-a-feedback-session/)
 - [Choose a session format](/choose-a-session-format/)
 - [Take part in a workshop](/join-a-workshop/)
-- [Create and manage a private board](/private-boards/)
-- [Work together on a board](/collaboration/)
-- [Work together in real time](/live-collaboration/)
-- [Understand privacy and stay safe](/privacy-and-safety/)

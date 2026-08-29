@@ -2,7 +2,7 @@
 layout: default
 title: Privacy & safety
 description: Understand who can see your StickyNotes.club content, how public and private content differ and how to protect your account.
-nav_order: 14
+nav_order: 16
 permalink: /privacy-and-safety/
 ---
 
@@ -41,11 +41,13 @@ An Owner on a paid plan can also share a board with a link:
 - A **Post link** also lets a signed-in StickyNotes.club user on any plan contribute.
 - A **workshop link** lets someone take part without an account at all. They choose a nickname and can contribute for as long as the session runs. Only an Owner on Club Facilitator or Chosen Few can create one, and it always has an expiry time.
 
-Link access does not make someone a Participant. A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They cannot invite people, manage access, change board settings or edit other people's content. The Owner can revoke a link at any time, including after a downgrade. Existing links are unavailable while the Owner's plan does not include collaboration.
+Link access does not make someone a Participant. A signed-in Post-link contributor can create, edit and delete their own sticky notes while the link remains active. They cannot arrange notes, comment, use hearts, take part in dot voting, invite people, manage access, change board settings or edit other people's content. The Owner can revoke a link at any time, including after a downgrade. Existing links are unavailable while the Owner's plan does not include collaboration.
 
 A participant without an account can add, edit and delete their own sticky notes, arrange notes, comment, use hearts and take part in dot voting while the session is open. They cannot invite people, manage access or change anyone else's content. When the facilitator finishes, the board becomes read-only and the results page becomes available through the active link. Because there is no account behind the nickname, StickyNotes.club cannot verify who is taking part — the link itself is the access. Revoke it, or select **New link**, as soon as it should no longer work.
 
 When **Hide author names on notes** is enabled, note and comment authors stay anonymous to everyone, including the facilitator and on the results page. The facilitator still sees names in the participant list for attendance and guest removal.
+
+The setting is reversible and controlled by the facilitator. They can switch it on during a session, which also hides the names on notes that are already there, and switch it off again, which shows them. Anonymity in a workshop is therefore a facilitation promise rather than a permanent property of a note. If you are contributing something you would only write anonymously, ask the facilitator what they intend to do with the setting.
 
 Treat a board link as private information. Anyone who receives or is forwarded an active View link can read the board. Access controls cannot stop a Participant or link visitor from independently copying information they can see.
 
@@ -99,8 +101,7 @@ Email farid﹫stickynotes.club to exercise applicable privacy rights, including 
 
 ## Related guides
 
-- [Create and manage a private board](/private-boards/)
-- [Work together on a board](/collaboration/)
-- [Follow the community guidelines](/community-guidelines/)
 - [Manage your profile and account](/manage-your-profile/)
 - [Contact support](/contact-and-support/)
+- [Follow the community guidelines](/community-guidelines/)
+- [Create and manage a private board](/private-boards/)

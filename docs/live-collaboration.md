@@ -2,7 +2,7 @@
 layout: default
 title: Work together in real time
 description: See private-board changes live, understand autosave and recover safely from conflicts or connection problems.
-nav_order: 9
+nav_order: 10
 permalink: /live-collaboration/
 ---
 
@@ -54,7 +54,7 @@ If the sticky note was deleted, your access changed or your session expired, the
 
 - StickyNotes.club stores the current accepted version of a sticky note, not an edit history.
 - A View-link visitor sees live changes but cannot contribute.
-- A signed-in Post-link visitor can manage their own notes, arrange notes, comment, use hearts and vote, but does not gain Participant or board-management rights.
+- A signed-in Post-link visitor can create, edit and delete their own sticky notes while the link remains active, but cannot arrange notes, comment, use hearts or vote.
 - Workshop participants see session changes and the finished results link automatically; finishing makes the board read-only.
 - If the board says you are making changes too quickly, wait for the time shown before trying again.
 

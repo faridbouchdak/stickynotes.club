@@ -2,7 +2,7 @@
 layout: default
 title: Frequently asked questions
 description: Find quick answers about StickyNotes.club accounts, public and private content, editing, deletion, sharing, invitations and plans.
-nav_order: 16
+nav_order: 18
 permalink: /faq/
 ---
 
@@ -49,7 +49,7 @@ Returning it to Draft cannot recall external copies, search results, caches or e
 
 Yes, if you own the board and use Club Host, Club Facilitator or Chosen Few. A **View link** lets anyone with the link read the board without an account. A **Post link** also lets a signed-in StickyNotes.club user on any plan contribute.
 
-A signed-in Post-link contributor can create and manage their own sticky notes, arrange notes, comment, use hearts and take part in dot voting. They do not become Participants and do not receive invitation, mention or board-management rights. You can revoke a link at any time. Use an email invitation when someone should join as a Participant; invitations expire after 14 days.
+A signed-in Post-link contributor can create, edit and delete their own sticky notes while the link remains active. They cannot arrange notes, comment, use hearts or take part in dot voting, and they do not become Participants or receive invitation, mention or board-management rights. You can revoke a link at any time. Use an email invitation when someone should join as a Participant; invitations expire after 14 days.
 
 ## Can people join a workshop without an account?
 
@@ -100,8 +100,7 @@ Yes. Club Member is free and includes two Public publications per day, one activ
 
 ## Related guides
 
-- [Create and manage a private board](/private-boards/)
-- [Work together on a board](/collaboration/)
 - [Solve a problem](/troubleshooting/)
 - [Get started with StickyNotes.club](/getting-started/)
 - [Contact support](/contact-and-support/)
+- [Understand privacy and stay safe](/privacy-and-safety/)

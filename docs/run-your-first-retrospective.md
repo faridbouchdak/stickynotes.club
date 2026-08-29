@@ -25,7 +25,7 @@ Everything here is the product doing the work. You choose a format, the board ar
 
 **Read the question out loud to yourself.** It is the one thing everyone sees, and it decides what people write. The default asks what helped and what slowed the team down this sprint; if your session is about something else, rewrite it now.
 
-**Decide about names.** Under **Set up the session** you can select **Hide author names on notes**. For a team that talks openly, leave it off — knowing who wrote something makes the discussion easier. If there is tension, or if someone new is joining a group that knows each other well, turn it on and say that you did.
+**Decide about names.** Under **Set up the session** you can select **Hide author names on notes**. For a team that talks openly, leave it off — knowing who wrote something makes the discussion easier. If there is tension, or if someone new is joining a group that knows each other well, turn it on and say that you did. You can switch it either way during the session, so decide once and leave it alone: names that reappear halfway through a retrospective change what people write next.
 
 **Check the voting bar.** The Retro format switches dot-voting on for you, so the bar sits above the notes with five votes preselected. If you turned an existing board into a workshop instead of creating a new one, its own settings stay as they are: open **Board settings** and select **Dot-voting on this board**.
 
@@ -55,7 +55,7 @@ While people write, add a note yourself. A facilitator who only watches makes th
 
 ## Reveal and read
 
-When the timer runs out, select **Reveal all notes** and read them aloud, one by one, without discussing them yet:
+When the room is done writing — you decide that, not the clock — select **Close input**, then **Reveal all notes**, and read them aloud, one by one, without discussing them yet:
 
 > "I am going to read everything first. If something is not clear, say so — we will discuss after."
 
@@ -67,7 +67,7 @@ Drag notes that say the same thing next to each other while you read. If people 
 
 Nobody has time to discuss thirty notes. Start a voting round from the bar above the notes and say how it works:
 
-> "Everyone has five dots. Spend them on what you want to talk about. More than one on the same note is allowed."
+> "Everyone has five dots. Spend them on what you want to talk about. You can place no more than one dot on each note."
 
 Nobody sees any votes while the round is open, not even you. Close the round when everyone is done and the results become visible at once. That is the moment the session turns from collecting into deciding.
 
@@ -108,5 +108,4 @@ Open **Board settings** and select **Duplicate this board**. You get a clean cop
 - [Choose a session format](/choose-a-session-format/)
 - [Run a workshop](/run-a-workshop/)
 - [Take part in a workshop](/join-a-workshop/)
-- [Work together on a board](/collaboration/)
 - [Solve a problem](/troubleshooting/)
