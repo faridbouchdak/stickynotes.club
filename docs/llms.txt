@@ -10,11 +10,11 @@ The Help Centre describes implemented StickyNotes.club behaviour in plain Englis
 
 ## Start here
 
-- [Help Centre](https://docs.stickynotes.club/): Overview of the available guides and support topics.
+- [How can we help?](https://docs.stickynotes.club/): Overview of the available guides and support topics.
 - [Run a workshop](https://docs.stickynotes.club/run-a-workshop/): Prepare and guide a session, make decisions, finish with read-only results, export them as PDF, Markdown or CSV and reuse the clean setup.
 - [Take part in a workshop](https://docs.stickynotes.club/join-a-workshop/): Join with a link or QR code, contribute without an account and open the finished result.
-- [Getting started](https://docs.stickynotes.club/getting-started/): Create an account, understand when email confirmation is required and choose where a first idea belongs.
-- [Frequently asked questions](https://docs.stickynotes.club/faq/): Short answers about accounts, content, sharing, invitations and plans.
+- [Get started with StickyNotes.club](https://docs.stickynotes.club/getting-started/): Create an account, understand when email confirmation is required and choose where a first idea belongs.
+- [Find a quick answer](https://docs.stickynotes.club/faq/): Short answers about accounts, content, sharing, invitations and plans.
 
 ## Run a session
 
@@ -25,23 +25,23 @@ The Help Centre describes implemented StickyNotes.club behaviour in plain Englis
 
 ## Build on a board
 
-- [Private boards](https://docs.stickynotes.club/private-boards/): Create, manage and duplicate private-board setups, control access and understand permanent board deletion.
-- [Collaboration](https://docs.stickynotes.club/collaboration/): Invite Participants, share board links and use collaborative features.
+- [Create and manage a private board](https://docs.stickynotes.club/private-boards/): Create, manage and duplicate private-board setups, control access and understand permanent board deletion.
+- [Work together on a board](https://docs.stickynotes.club/collaboration/): Invite Participants, share board links and use collaborative features.
 - [Organise your work](https://docs.stickynotes.club/organise-your-work/): Use layouts, colours, tags and due dates on private boards.
 - [Keep a board going](https://docs.stickynotes.club/keep-a-board-going/): Keep a Kanban board or week planner readable and useful over time.
 
 ## Share ideas and manage your account
 
-- [Sticky notes](https://docs.stickynotes.club/sticky-notes/): Create, publish, share, edit and delete sticky notes and Instant Photos.
-- [Manage your profile](https://docs.stickynotes.club/manage-your-profile/): Update profile and security details and understand account deletion.
-- [Plans and subscriptions](https://docs.stickynotes.club/plans-and-subscriptions/): Compare Club Member, Club Host, Club Facilitator and Chosen Few and understand plan limits.
+- [Create and share a sticky note](https://docs.stickynotes.club/sticky-notes/): Create, publish, share, edit and delete sticky notes and Instant Photos.
+- [Manage your profile and account](https://docs.stickynotes.club/manage-your-profile/): Update profile and security details and understand account deletion.
+- [Choose and manage your plan](https://docs.stickynotes.club/plans-and-subscriptions/): Compare Club Member, Club Host, Club Facilitator and Chosen Few and understand plan limits.
 
 ## Privacy, safety and support
 
-- [Privacy and safety](https://docs.stickynotes.club/privacy-and-safety/): Understand content visibility, ownership, external indexing and account safety.
-- [Community guidelines](https://docs.stickynotes.club/community-guidelines/): Rules for respectful, lawful and safe participation.
-- [Troubleshooting](https://docs.stickynotes.club/troubleshooting/): Resolve common sign-in, invitation, publication, upload and saving problems.
-- [Contact and support](https://docs.stickynotes.club/contact-and-support/): Ask for help, report a bug or concern, make a privacy request or share feedback.
+- [Understand privacy and stay safe](https://docs.stickynotes.club/privacy-and-safety/): Understand content visibility, ownership, external indexing and account safety.
+- [Help keep StickyNotes.club welcoming](https://docs.stickynotes.club/community-guidelines/): Rules for respectful, lawful and safe participation.
+- [Solve a problem](https://docs.stickynotes.club/troubleshooting/): Resolve common sign-in, invitation, publication, upload and saving problems.
+- [Contact support](https://docs.stickynotes.club/contact-and-support/): Ask for help, report a bug or concern, make a privacy request or share feedback.
 
 ## Optional
 

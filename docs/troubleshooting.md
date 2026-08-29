@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troubleshooting
+title: Solve a problem
 description: Solve common sign-in, access, workshop-result, billing, publication, upload and saving problems.
 nav_order: 19
 permalink: /troubleshooting/

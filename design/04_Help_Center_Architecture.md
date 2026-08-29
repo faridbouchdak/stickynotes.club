@@ -1,6 +1,6 @@
 # Help Centre Architecture
 
-> Status: v1.4
+> Status: v1.5
 > Role: information architecture, templates and governance for docs.stickynotes.club
 
 ## Purpose
@@ -41,44 +41,48 @@ Their top tasks are:
 
 Navigation follows user goals and the product journey. Labels should match page titles and product language.
 
-The order below was capture-first until 21 August 2026: Sticky notes came third and the two session pages sat halfway down, inside *Build ideas together*. That contradicted D-30, which makes facilitated sessions the primary use and allows public-facing surfaces to lead with the session outcome. The Help Centre is such a surface, so the running of a session now comes first and capture keeps its place further down. Nothing was renamed and no permalink changed; only `nav_order` and the ordering of the sections on the Help Centre home.
+The order below was capture-first until 21 August 2026. That contradicted D-30, which makes facilitated sessions the primary use and allows public-facing surfaces to lead with the session outcome. The Help Centre is such a surface, so session guidance now comes first and capture keeps its place further down. The focused session and long-running-board guides added afterwards remain first-level because each answers a distinct user goal.
 
 ### Start here
 
-- Home
+- How can we help?
 
 ### Run a session
 
 - Run a workshop
 - Take part in a workshop
+- Choose a session format
+- Run your first retrospective
+- Run a feedback session
 - Work together in real time
 
 ### Build on a board
 
-- Getting started
-- Private boards
-- Collaboration
+- Get started with StickyNotes.club
+- Create and manage a private board
+- Work together on a board
 - Organise your work
+- Keep a board going
 
 ### Share ideas
 
-- Sticky notes
+- Create and share a sticky note
 
 ### Account and plans
 
-- Manage your profile
-- Plans & subscriptions
-- Privacy & safety
+- Manage your profile and account
+- Choose and manage your plan
+- Understand privacy and stay safe
 
 ### Community
 
-- Community guidelines
+- Help keep StickyNotes.club welcoming
 
 ### Help and support
 
-- Frequently asked questions
-- Troubleshooting
-- Contact & support
+- Find a quick answer
+- Solve a problem
+- Contact support
 
 This is the current single-level architecture. Add subpages when a page serves multiple distinct goals or becomes difficult to scan; do not add hierarchy merely to make the Help Centre look larger.
 
@@ -101,22 +105,26 @@ Place practical concepts beside the task they support: explain Public versus Pri
 
 | Page | Primary user question | Canonical permalink | Status |
 | --- | --- | --- | --- |
-| Home | Where should I start? | `/` | Exists; revise links |
-| Getting started | How do I create and set up my account? | `/getting-started/` | Exists; verify deletion scope |
-| Sticky notes | How do I create, publish and unpublish a sticky note? | `/sticky-notes/` | Exists; add and verify Draft/Public behaviour and external-copy warning |
-| Private boards | How do I create and manage a private board? | `/private-boards/` | Exists; currently presents proposed archiving as an available feature |
-| Collaboration | How do we work together on a board? | `/collaboration/` | Exists; needs concrete workflows |
+| How can we help? | Where should I start? | `/` | Exists |
+| Run a workshop | How do I lead a session and keep the result? | `/run-a-workshop/` | Exists; verify export and session-archive claims before publication |
+| Take part in a workshop | How do I join and contribute without an account? | `/join-a-workshop/` | Exists; keep the complete core task available at the top of the page on a phone |
+| Choose a session format | Which format fits the session I want to run? | `/choose-a-session-format/` | Exists |
+| Run your first retrospective | How do I facilitate a complete retrospective? | `/run-your-first-retrospective/` | Exists |
+| Run a feedback session | How do I facilitate honest feedback on my own work? | `/run-a-feedback-session/` | Exists |
+| Get started with StickyNotes.club | How do I create and set up my account? | `/getting-started/` | Exists; verify deletion scope |
+| Create and manage a private board | How do I create and manage a private board? | `/private-boards/` | Exists |
+| Work together on a board | How do we work together on a board? | `/collaboration/` | Exists; View, Post, Participant and workshop-guest rights must stay distinct |
 | Work together in real time | How are live changes saved and protected? | `/live-collaboration/` | Added after V-04 verification on 29 July 2026 |
-| Run a workshop | How do I lead a session and keep the result? | `/run-a-workshop/` | Exists; recorded in this architecture on 21 August 2026 under C-05. Covers preparing the board, the lobby, opening and closing input, the instruction, the timer, silent brainstorming, dot voting, closing the session and the results page |
-| Take part in a workshop | How do I join and contribute without an account? | `/join-a-workshop/` | Exists; recorded in this architecture on 21 August 2026 under C-05. The only page written for a reader with no account; keep it answerable on a phone in one screenful |
 | Organise your work | How do I keep a board understandable? | `/organise-your-work/` | Exists; canonical British-English permalink |
-| Manage your profile | How do I update or remove my account information? | `/manage-your-profile/` | Exists; contains vague capability language |
-| Plans & subscriptions | Which plan do I need and how do I manage it? | `/plans-and-subscriptions/` | Exists; add the approved board, invitation, collaboration and Public-publication entitlements; verify pricing, UTC reset, counters and downgrade behaviour |
-| Privacy & safety | Who can see my content and how do I stay safe? | `/privacy-and-safety/` | Exists; document the D-24 privileged-access safeguards and remove private-board share-link claims |
-| Community guidelines | What behaviour is expected? | `/community-guidelines/` | Exists |
-| Frequently asked questions | What are the short answers to common questions? | `/faq/` | Exists; keep concise |
-| Troubleshooting | How do I recover from a common problem? | `/troubleshooting/` | Exists; verify every recovery step |
-| Contact & support | How do I get human help? | `/contact-and-support/` | Exists; “team” language may overstate capacity |
+| Keep a board going | How do I keep a recurring board useful over time? | `/keep-a-board-going/` | Exists |
+| Create and share a sticky note | How do I create, publish and unpublish a sticky note? | `/sticky-notes/` | Exists; verify Draft/Public behaviour and external-copy warning |
+| Manage your profile and account | How do I update or remove my account information? | `/manage-your-profile/` | Exists; verify account-deletion consequences |
+| Choose and manage your plan | Which plan do I need and how do I manage it? | `/plans-and-subscriptions/` | Exists; four-tier model recorded; V-05 still governs enforcement verification |
+| Understand privacy and stay safe | Who can see my content and how do I stay safe? | `/privacy-and-safety/` | Exists; D-24 publication gate remains |
+| Help keep StickyNotes.club welcoming | What behaviour is expected? | `/community-guidelines/` | Exists; D-24 publication gate remains |
+| Find a quick answer | What are the short answers to common questions? | `/faq/` | Exists; keep concise |
+| Solve a problem | How do I recover from a common problem? | `/troubleshooting/` | Exists; verify every recovery step |
+| Contact support | How do I get human help? | `/contact-and-support/` | Exists; support is provided by one person |
 
 ## Immediate architecture issues
 
@@ -157,7 +165,7 @@ Product filtering is bounded: private boards filter sticky notes by tags, while 
 
 > **[DECISION D-09] Resolved on 20 July 2026** — Document **Filter by tag** for private boards and **Country** for the worldwide wall only after their exact controls and empty states are verified. Never refer to public boards; only individual Public sticky notes appear on the worldwide wall.
 
-The Private boards guide should state that board creation contains a required **Name** field, an optional **Description** field and a template choice with **Blank** selected by default. It must not describe visibility, a central question or a desired result as creation fields; every board is private by definition. Document the five templates and their purpose: **Blank**, **Retro**, **Kanban**, **Week planner** and **Brainstorm**. Explain that Blank and Brainstorm use the same grid structure and can both later change to columns; only their default backgrounds and product framing differ. Retro, Kanban and Week planner start with columns. The Organise your work guide should explain reordering sticky notes within a row, moving sticky notes between columns, choosing from nine backgrounds, unrestricted current growth and the absence of board duplication. Do not describe the board as a freeform infinite canvas.
+The Private boards guide should state that board creation contains a required **Name** field, an optional **Description** field and a template choice with **Blank** selected by default. It must not describe visibility, a central question or a desired result as creation fields; every board is private by definition. Document the five templates and their purpose: **Blank**, **Retro**, **Kanban**, **Week planner** and **Brainstorm**. Explain that Blank and Brainstorm use the same grid structure and can both later change to columns; only their default backgrounds and product framing differ. Retro, Kanban and Week planner start with columns. The Organise your work guide should explain reordering sticky notes within a row, moving sticky notes between columns, choosing from nine backgrounds and unrestricted current growth. Board duplication copies only the ratified setup-field allowlist, never content, people, invitations or links, and the copy counts against the Owner's active-board allowance. Do not describe the board as a freeform infinite canvas.
 
 The Private boards guide should document **Last modified on YYYY/MM/DD** as a neutral date shown for each board in the board overview. Explain that it reflects the latest accepted visible change to the board, its content, organisation, collaboration or access. Merely opening or viewing a board does not change it. Do not describe an inactivity threshold, warning, reminder, email, activity feed, automatic reordering or automatic archival, restriction or deletion. The date is not an edit history and Q-06 adds no notification to the D-08 email model.
 
@@ -165,7 +173,7 @@ The Private boards guide should document **Last modified on YYYY/MM/DD** as a ne
 
 > **[VERIFY V-01] Resolved on 20 July 2026** — Document only **Name**, **Description** and template selection in the board-creation procedure.
 
-> **[DECISION D-19] Resolved on 20 July 2026; [VERIFY V-08] resolved on 21 July 2026** — Document Blank and Brainstorm as structurally identical grid templates with different default backgrounds. Both can later change to columns. Retro, Kanban and Week planner start with columns.
+> **[DECISION D-19] Resolved on 20 July 2026; [VERIFY V-08] resolved on 21 July 2026; duplication ratified on 21 August 2026 under C-12** — Document Blank and Brainstorm as structurally identical grid templates with different default backgrounds. Both can later change to columns. Retro, Kanban and Week planner start with columns. The Owner may duplicate a board setup; a duplicate starts as a new board, copies only the named setup allowlist and counts against the active-board allowance. A duplicated workshop starts in **Preparing**.
 
 The Organise your work guide must present sticky-note colours as expression and personalisation, not as product-defined status, priority or category. Use visible tags or labels whenever meaning matters, including any informal convention adopted within a board. Never require readers to distinguish meaning by colour alone.
 
@@ -267,7 +275,7 @@ The account-deletion guide and confirmation must distinguish every outcome: owne
 The Private boards, Collaboration and Privacy & safety guides must distinguish three access paths:
 
 - **Participant invitation:** the recipient signs in or creates an account before becoming a Participant with the D-07 capability set. The invitation expires after 14 days. Declining grants no access and appears as **Declined** to the Owner without a separate Owner email. Revoking Participant access takes effect immediately and sends the former Participant an immediate email.
-- **View link:** an Owner with a Premium or Chosen Few collaboration entitlement can create a link that lets anyone with it see a read-only version of the board without an account.
+- **View link:** an Owner with a Club Host or higher collaboration entitlement can create a link that lets anyone with it see a read-only version of the board without an account.
 - **Post link:** the same eligible Owner can create a link that anyone may use to view the board; a signed-in StickyNotes.club user on any plan can additionally add sticky notes.
 
 Explain that Participants cannot create links, regardless of their plan, and that link access does not make somebody a Participant or grant comments, hearts, dot votes, invitations, access management or board settings. Link creation requires the Owner’s current collaboration entitlement. Existing links become inaccessible when the Owner loses that entitlement, but the Owner can still revoke them. Existing sticky notes are not deleted by link revocation. Do not publish later-upgrade behaviour until it is verified whether an unrevoked link remains disabled or becomes active again. Sharing a Public sticky note remains a separate action and must not be presented as private-board access.
@@ -324,29 +332,32 @@ A person can contact StickyNotes.club by email to exercise applicable privacy ri
 
 The Plans & subscriptions page needs a scannable comparison table with the following product rules:
 
-| Capability | Free | Premium | Chosen Few |
-| --- | --- | --- | --- |
-| Sticky notes per day | 2 | 12 | Unlimited |
-| Active, editable owned private boards | 1 | 5 | Unlimited |
-| Send private-board invitations | No | Yes | Yes |
-| Receive invitations and participate | Yes | Yes | Yes |
-| Comments, private-board hearts and dot voting | Yes | Yes | Yes |
-| Mention current board Participants | Yes | Yes | Yes |
-| Private-board sticky-note tags and due dates | Yes | Yes | Yes |
+| Capability | Club Member | Club Host | Club Facilitator | Chosen Few |
+| --- | --- | --- | --- | --- |
+| Public sticky-note publications per day | 2 | 12 | 12 | Unlimited |
+| Active, editable owned private boards | 1 | 5 | 15 | Unlimited |
+| Send private-board invitations | No | Yes | Yes | Yes |
+| Create View and Post links | No | Yes | Yes | Yes |
+| Run a workshop session on an owned board | No | No | Yes | Yes |
+| Participants without an account, per session | — | — | Current configured limit | Current configured limit |
+| Receive invitations and participate | Yes | Yes | Yes | Yes |
+| Comments, private-board hearts and dot voting | Yes | Yes | Yes | Yes |
+| Mention current board Participants | Yes | Yes | Yes | Yes |
+| Private-board sticky-note tags and due dates | Yes | Yes | Yes | Yes |
 
-State that archived owned boards and joined boards do not consume the active-board allowance. The daily sticky-note limit applies only to successful **Draft → Public** transitions, including republication. Creating or editing Drafts, creating or editing private-board sticky notes, editing an existing Public sticky note and failed publication attempts do not count. When the limit is reached, explain that publication is unavailable until **00:00:01 UTC on the next day**, expressed for the user in local time.
+Joined boards do not consume the active-board allowance. The daily sticky-note limit applies only to successful **Draft → Public** transitions, including republication. Creating or editing Drafts, creating or editing private-board sticky notes, editing an existing Public sticky note and failed publication attempts do not count. When the limit is reached, explain that publication is unavailable until **00:00:01 UTC on the next day**, expressed for the user in local time.
 
-Lead the Plans & subscriptions page with private collaboration as the primary paid value while keeping the Help Centre factual rather than promotional. The supporting tier summary is **Free is for capturing and joining. Premium is for bringing people together around your own ideas. Chosen Few is for people who want no practical plan-level volume limits.** Follow it immediately with the exact comparison table and explanations above.
+Lead the Plans & subscriptions page with collaboration and facilitated sessions as the primary paid value while keeping the Help Centre factual rather than promotional. The supporting tier summary is **Club Member is for capturing and joining. Club Host is for bringing people together around your own ideas. Club Facilitator is for running the session. Chosen Few is for people who want no practical plan-level volume limits.** Follow it immediately with the exact comparison table and explanations above.
 
-Make clear that Free Participants retain full collaboration rights on boards they join, Premium primarily unlocks sending invitations and initiating collaboration on owned boards, and Chosen Few removes the documented plan-level publication and active-board limits only. Present higher volume, organisation and personalisation as supporting differences. Do not imply that payment removes safety, content, file or technical boundaries or alter D-13 and D-27 through marketing shorthand.
+Make clear that Club Members retain full collaboration rights on boards they join, Club Host unlocks invitations and controlled links on owned boards, Club Facilitator adds workshop mode and Chosen Few removes the documented plan-level publication and active-board limits only. Present higher volume, organisation and personalisation as supporting differences. Do not imply that payment removes safety, content, file or technical boundaries or alter D-13 and D-27 through marketing shorthand.
 
-> **[QUESTION Q-07] Resolved on 22 July 2026; content and commercial verification required** — Align the Plans & subscriptions guide with the collaboration-first value hierarchy and verify all supporting claims against the product, pricing and checkout. Keep broad emotional positioning on the marketing site under D-16.
+> **[QUESTION Q-07] Resolved on 22 July 2026; four-tier wording recorded on 21 August 2026; content and commercial verification required** — Align the Plans & subscriptions guide with the collaboration-first value hierarchy and verify all supporting claims against the product, pricing and checkout. Keep broad emotional positioning on the marketing site under D-16.
 
-> **[DECISION D-13] Resolved on 22 July 2026 / [DECISION D-27] Resolved and refined on 21 July 2026 / [VERIFY V-05] required** — Apply the successful-publication counter and UTC reset above. A deliberate downgrade to Free requires the Owner to select 1 active, editable owned board; a downgrade to Premium requires a selection of up to 5. Before confirmation, list the selected active boards and every other owned board that will be archived, and refuse to continue until the selection fits the new allowance. Automatically archive the listed excess boards with the Owner’s authorisation and preserve them read-only under V-02. Do not count archived or joined boards towards the active allowance, and block restoration when the allowance is full. Verify counters, archival, checkout and later upgrade behaviour before enabling or documenting the flow. Never describe the downgrade as deleting content.
+> **[DECISION D-13 / DECISION D-27 / DECISION D-29] Four-tier model and revised downgrade route recorded on 21 August 2026; [VERIFY V-05] required** — Apply the successful-publication counter and UTC reset above. A deliberate downgrade requires the Owner to choose which owned boards remain editable: 1 for Club Member, up to 5 for Club Host and up to 15 for Club Facilitator. Before confirmation, list the selected editable boards and every other owned board that will become read-only, and refuse to continue until the selection fits the new allowance. The remaining boards stay visible, owned and read-only; nothing is archived, moved or deleted, and upgrading restores editing on all of them. Joined boards do not count. Verify counters, selection, read-only presentation, checkout and restoration after upgrade before treating enforcement as complete.
 
-### Future board archiving described as current
+### Whole-board archiving remains unavailable
 
-`docs/private-boards.md` currently says that a user can archive a board, and `docs/organise-your-work.md` advises archiving completed work. Whole-board archiving is only a proposed future feature. Until it ships, remove both current-capability claims.
+The Private boards, Organise your work and Keep a board going guides correctly state that an ordinary board cannot be archived. **Archive this session** is a workshop-specific state for a finished session and must not be used to imply that ordinary whole-board archiving exists. Keep the two concepts and their labels separate.
 
 > **[DECISION D-05 / VERIFY V-02] Resolved design; not yet available; link boundary revised under D-23 on 23 July 2026** — When implemented, explain that archiving preserves the entire private board, including sticky notes, comments, hearts and dot votes, indefinitely. The board remains visible but read-only for the Owner and existing Participants; the Owner can revoke access, pending invitations are cancelled, new invitations and routine activity or daily-digest notifications stop, and cancelled invitations do not revive after restoration. Active View and Post links may show only the read-only archive, Post links cannot accept new sticky notes and the Owner may revoke either link. Only the Owner or an authorised platform moderator or administrator may archive, restore or permanently delete it. Necessary privileged moderation remains available under D-24.
 

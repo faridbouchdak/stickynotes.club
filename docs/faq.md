@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently asked questions
+title: Find a quick answer
 description: Find quick answers about StickyNotes.club accounts, public and private content, editing, deletion, sharing, invitations and plans.
 nav_order: 18
 permalink: /faq/

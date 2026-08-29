@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Guides and support
+title: How can we help?
 description: Find guides and answers for running and joining workshops, collaborating on private boards and sharing sticky notes publicly with StickyNotes.club.
 nav_order: 1
 ---

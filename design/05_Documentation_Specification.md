@@ -151,11 +151,11 @@ Always:
 
 Prefer:
 
-> Archive a board when you no longer actively use it.
+> Revoke a board link when it should no longer provide access.
 
 Instead of:
 
-> The archive functionality allows inactive boards to be hidden.
+> The link revocation functionality allows access to be disabled.
 
 ---
 
@@ -180,11 +180,12 @@ Every concept has one preferred name.
 
 Examples:
 
-- note
+- sticky note
 - board
 - private board
-- public board
-- archive
+- Public sticky note
+- Owner
+- Participant
 - delete
 - profile
 

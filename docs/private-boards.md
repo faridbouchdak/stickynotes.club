@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Private boards
+title: Create and manage a private board
 description: Create and manage a private StickyNotes.club board, choose a template, control access and organise ideas with other people.
 nav_order: 8
 permalink: /private-boards/

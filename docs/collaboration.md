@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Collaboration
+title: Work together on a board
 description: Invite Participants, share View or Post links and use comments, hearts, dot voting and mentions on a private board.
 nav_order: 9
 permalink: /collaboration/
