@@ -32,7 +32,7 @@ Whether you are leading a room, joining someone else's session or capturing a th
 
 ## Run a session
 
-- **[Run a workshop](/run-a-workshop/)** — Guide a session from preparation and participation to decisions, results, PDF or Markdown and a reusable setup.
+- **[Run a workshop](/run-a-workshop/)** — Guide a session from preparation and participation to decisions, results, PDF, Markdown or CSV and a reusable setup.
 - **[Choose a session format](/choose-a-session-format/)** — Pick the format that fits your session, see what the board fills in and adjust the run sheet.
 - **[Run your first retrospective](/run-your-first-retrospective/)** — A complete walkthrough of one session, including what to say at each step.
 - **[Take part in a workshop](/join-a-workshop/)** — Join with a link or QR code, contribute without an account and open the finished result.

@@ -90,7 +90,7 @@ A sticky note on a private board belongs to that board only. A contributor whose
 - A Public sticky note stays public until you return it to Draft, delete it or authorised moderation removes it.
 - Public and private-board sticky notes are separate; there is no direct move or copy action between them.
 - Mentions are available only on private boards and draw someone's attention without assigning responsibility.
-- StickyNotes.club does not offer bulk export or export for an ordinary board. **Save as image** applies to one eligible worldwide-wall sticky note and is not available for a Draft. A finished workshop is the exception: its results page can be printed or saved as PDF and copied as Markdown.
+- StickyNotes.club does not offer bulk export or export for an ordinary board. **Save as image** applies to one eligible worldwide-wall sticky note and is not available for a Draft. A finished workshop is the exception: its results page can be printed or saved as PDF, copied as Markdown and downloaded as CSV.
 
 ## Related guides
 

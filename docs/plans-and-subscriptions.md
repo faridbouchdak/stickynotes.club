@@ -8,7 +8,7 @@ permalink: /plans-and-subscriptions/
 
 # Choose and manage your plan
 
-Choose the plan that fits how you want to use StickyNotes.club. Club Member is for capturing and joining. Club Host is for bringing people together around your own ideas. Club Facilitator adds guided workshops. Chosen Few is for people who want no practical plan-level volume limits.
+Choose the plan that fits how you want to use StickyNotes.club. Club Member is for capturing and joining. Club Host is for bringing people together around your own ideas. Club Facilitator adds guided workshops. Chosen Few is a one-time upgrade on top of a Club Host subscription, for people who want no practical plan-level volume limits.
 
 ## What you'll learn
 
@@ -26,7 +26,7 @@ Choose the plan that fits how you want to use StickyNotes.club. Club Member is f
 | Create View and Post links for boards you own | No | Yes | Yes | Yes |
 | Run workshops | No | No | Yes | Yes |
 | Participants per workshop | — | — | Up to {{ site.max_workshop_participants }} | Up to {{ site.max_workshop_participants }} |
-| Workshop results, PDF printing and Markdown copy | No | No | Yes | Yes |
+| Workshop results: PDF printing, Markdown copy and CSV download | No | No | Yes | Yes |
 | Pastel colours and Instant Photos | No | Yes | Yes | Yes, while the subscription is active |
 | Receive invitations and participate | Yes | Yes | Yes | Yes |
 | Contribute through a Post link | Yes | Yes | Yes | Yes |
@@ -36,13 +36,13 @@ Choose the plan that fits how you want to use StickyNotes.club. Club Member is f
 
 If you use Club Member, you have the same contribution rights as other Participants on boards you join. You can also contribute through a paying Owner's Post link. Club Host mainly lets you invite people or create View and Post links for boards you own, and gives you higher publication and board limits.
 
-Club Facilitator includes everything in Club Host, plus workshop mode: let up to {{ site.max_workshop_participants }} people take part without an account, share a QR code, use a live instruction and timer, collect ideas silently, control arranging, guide the discussion, label decisions and action items, finish with a read-only results page, print or save it as PDF, copy it as Markdown and duplicate the clean setup for another session. Participants never need a paid plan.
+Club Facilitator includes everything in Club Host, plus workshop mode: let up to {{ site.max_workshop_participants }} people take part without an account, share a QR code, use a live instruction and timer, collect ideas silently, control arranging, guide the discussion, label decisions and action items, finish with a read-only results page, print or save it as PDF, copy it as Markdown, download the notes as CSV and duplicate the clean setup for another session. Participants never need a paid plan.
 
 The Owner's plan determines whether a board can host invitations and active View or Post links. Your own plan does not reduce the contribution rights you receive on somebody else's board. Your access type and board role determine what you can do there.
 
 Tags and due dates are part of ordinary sticky-note editing on private boards. If you authored a sticky note, you may edit its text, colour, tags and due date. You cannot rewrite those fields on somebody else's sticky note. Arranging a sticky note by changing its position, order or column is a separate board action and does not change authorship.
 
-Chosen Few permanently removes the documented plan-level limits for Public publications and active boards you own, and includes workshop and collaboration rights. Pastel colours and Instant Photos still depend on an active subscription. Safety, content, file and technical boundaries still apply.
+Chosen Few is a one-time purchase on top of an active Club Host subscription, not a separate monthly plan. It permanently removes the documented plan-level limits for Public publications and active boards you own, and includes workshop and collaboration rights. Pastel colours and Instant Photos still depend on an active subscription. Safety, content, file and technical boundaries still apply.
 
 You will see current prices, taxes, billing intervals and renewal terms before you buy.
 

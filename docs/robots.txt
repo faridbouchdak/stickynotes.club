@@ -29,4 +29,6 @@ Allow: /
 User-agent: GPTBot
 Allow: /
 
+# LLM guidance: https://docs.stickynotes.club/llms.txt
+
 Sitemap: {{ "/sitemap.xml" | absolute_url }}

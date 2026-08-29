@@ -75,7 +75,7 @@ StickyNotes.club does not have text search. You can filter sticky notes on a pri
 
 ## Can I export a board?
 
-An ordinary private board has no bulk or structured export. A finished workshop is the exception: open **View results** and use **Print or save as PDF** or **Copy as Markdown**. The result contains the final notes, voting outcome and any facilitator labels.
+An ordinary private board has no bulk or structured export. A finished workshop is the exception: open **View results** and use **Print or save as PDF**, **Copy as Markdown** or **Download as CSV**. The result contains the final notes, voting outcome and any facilitator labels.
 
 For one eligible worldwide-wall sticky note, you can use **Save as image**, but not while it is a Draft. A personal-data access or portability request is a separate privacy process and does not create a reusable board export.
 
