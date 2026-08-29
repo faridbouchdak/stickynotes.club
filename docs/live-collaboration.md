@@ -2,7 +2,7 @@
 layout: default
 title: Work together in real time
 description: See private-board changes live, understand autosave and recover safely from conflicts or connection problems.
-nav_order: 8
+nav_order: 9
 permalink: /live-collaboration/
 ---
 

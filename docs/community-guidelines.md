@@ -2,7 +2,7 @@
 layout: default
 title: Community guidelines
 description: Read the StickyNotes.club community guidelines for respectful sharing, privacy, intellectual property, safety and reporting concerns.
-nav_order: 14
+nav_order: 15
 permalink: /community-guidelines/
 ---
 

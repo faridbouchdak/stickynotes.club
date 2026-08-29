@@ -30,6 +30,8 @@ Every format fills in four things:
 - **A run sheet.** A suggested timing for the session, visible only to you.
 - **A suggested number of votes.** Preselected in the voting bar when you start a round. It is a suggestion; you choose.
 
+Formats that vote also switch **dot-voting** on for the board, so the voting bar is there when your run sheet says it is time to vote. One exception worth knowing: if you turn an *existing* board into a workshop, its own settings stay as they are — check **Board settings** before you start.
+
 Empty columns show a faint example note so nobody has to guess what a good contribution looks like. It disappears as soon as a real note arrives, and it is never part of your result.
 
 ## Retrospective
@@ -121,6 +123,7 @@ Both are ordinary private boards. See [organise your work](/organise-your-work/)
 
 ## Related guides
 
+- [Run your first retrospective](/run-your-first-retrospective/)
 - [Run a workshop](/run-a-workshop/)
 - [Take part in a workshop](/join-a-workshop/)
 - [Create and manage a private board](/private-boards/)

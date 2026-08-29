@@ -166,6 +166,7 @@ To run the same format again, open **Board settings** and use **Duplicate this b
 
 ## Related guides
 
+- [Run your first retrospective](/run-your-first-retrospective/)
 - [Choose a session format](/choose-a-session-format/)
 - [Take part in a workshop](/join-a-workshop/)
 - [Create and manage a private board](/private-boards/)
