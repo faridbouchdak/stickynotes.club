@@ -47,6 +47,8 @@ Select **Start silent brainstorm**. Everyone now sees only their own notes, incl
 
 Set a timer for ten minutes from the bar at the top. The clock is the same for everyone, which does more work than it sounds: people stop asking how long they still have.
 
+The timer does not close the board. At zero it stops at 0:00 and everyone can keep writing; you decide when the room is done, and **Close input** is the button that actually stops it. That is a feature in the room: somebody who is halfway through a sentence gets to finish it.
+
 This is the step first-time facilitators skip, and the one that decides the quality of the session. Without it the first three notes set the agenda and the quieter half of the room writes variations on them.
 
 While people write, add a note yourself. A facilitator who only watches makes the room self-conscious.
