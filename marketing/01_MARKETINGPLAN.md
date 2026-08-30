@@ -122,13 +122,15 @@ Use these URLs when a channel link is appropriate:
 - Mastodon: https://stickynotes.club/?utm_source=mastodon&utm_medium=organic&utm_campaign=warmup_2026&utm_content=post01
 - WIP.co: https://stickynotes.club/?utm_source=wip&utm_medium=organic&utm_campaign=warmup_2026&utm_content=shipped_update
 
+These parameters are recorded by the website itself as of 30 August 2026 and appear under "Campagnebronnen" on the admin dashboard. Attribution stops at the landing page: the visit is attributed, a later registration is not. Keep values lowercase and limited to letters, digits, `.`, `-` and `_` (at most 32 characters), and never put anything recipient-specific in `utm_content` — that would turn a campaign label into personal data.
+
 Do not add a link merely because one exists. On LinkedIn, place the first link in a comment. On Instagram, place the tagged URL in the profile and write “link in profile”. On Reddit, do not link until the current community rules allow it.
 
 ## 8. Metrics
 
 ### Essential now
 
-- Website sessions per UTM source.
+- Homepage visits per UTM source, read from the admin dashboard. These are page views and not unique visitors or sessions; compare them against the untagged total shown beside them, because a campaign number means nothing without the ordinary traffic next to it.
 - Substantive replies from people in the target audiences.
 - Profile visits after posts.
 - Link clicks where the channel exposes them.

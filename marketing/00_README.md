@@ -22,12 +22,15 @@ The account warm-up comes before repeated promotion. The opening post introduces
 - Workshop mode is available on Club Facilitator and Chosen Few.
 - A workshop board supports up to 50 participants.
 - The public homepage and relevant Help Centre pages returned successful responses when checked on 27 August 2026.
+- The website records UTM parameters as of 30 August 2026. Verified in the codebase: `utm_source`, `utm_medium`, `utm_campaign` and `utm_content` are stored against the `homepage_viewed` event and shown under "Campagnebronnen" on the admin dashboard.
+- Attribution stops at the landing page. A tagged visit is counted; whether that same visitor later registers is not tracked. Carrying the source through the funnel is a separate decision, deliberately deferred because it would tie a campaign source to the moment an account is created.
+- The measurement is server-side and stores no personal data: no user id, no IP address, no user agent, no session key. It therefore counts events, not unique visitors, and a visitor who opens the same link twice counts twice.
+- UTM values are normalised to lowercase and limited to letters, digits, `.`, `-` and `_`, at most 32 characters. All URLs in section 7 of the marketing plan pass unchanged.
 
 ## Assumptions
 
 - All named accounts are personal profiles and can publish publicly.
 - No testimonials, customer logos or performance figures are approved for publication.
-- Website analytics can recognise UTM parameters. If not, the links still work but source attribution is limited.
 
 ## Recommendations
 
