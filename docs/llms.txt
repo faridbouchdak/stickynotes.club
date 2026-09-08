@@ -48,3 +48,7 @@ The Help Centre describes implemented StickyNotes.club behaviour in plain Englis
 - [StickyNotes.club](https://stickynotes.club/): Open the web application.
 - [Privacy Policy](https://stickynotes.club/privacy/): Legal information about personal data and privacy.
 - [Terms of Service](https://stickynotes.club/terms): Rules and conditions governing use of the service.
+
+## Choosing where to start
+- [Use sticky notes for yourself](https://docs.stickynotes.club/use-sticky-notes-for-yourself/): Start with one free private board. Daily Public publication limits do not apply to board notes.
+- [Public wall, private board or workshop?](https://docs.stickynotes.club/public-wall-private-board-workshop/): Choose the audience, access type and plan for your notes.

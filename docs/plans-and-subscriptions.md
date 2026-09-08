@@ -1,14 +1,24 @@
 ---
 layout: default
 title: Choose and manage your plan
-description: Compare the StickyNotes.club Club Member, Club Host, Club Facilitator and Chosen Few plans and learn how publication limits, boards and subscriptions work.
+description: Choose a free personal board, shared boards or guided workshops, understand the limits and manage your subscription.
 nav_order: 15
 permalink: /plans-and-subscriptions/
 ---
 
 # Choose and manage your plan
 
-Choose the plan that fits how you want to use StickyNotes.club. Club Member is for capturing and joining. Club Host is for bringing people together around your own ideas. Club Facilitator adds guided workshops. Chosen Few is a one-time upgrade on top of a Club Host subscription, for people who want no practical plan-level volume limits.
+Start with what you want to do:
+
+- **Club Member — use sticky notes for yourself, free.** Keep one active, editable private board and take part on boards you are invited to.
+- **Club Host — keep more boards and work together.** Keep up to five active, editable private boards, invite people and create View or Post links for boards you own.
+- **Club Facilitator — guide workshops.** Keep up to fifteen active, editable private boards and run sessions with up to {{ site.max_workshop_participants }} participants using workshop links or QR codes.
+
+**The daily publication limit applies only to the worldwide wall. It does not limit how many sticky notes you create on a private board.**
+
+Only the board owner needs a paid plan to enable collaboration. Invited Participants can use free accounts. Workshop guests do not need an account. Ordinary Post-link contributors do need to sign in.
+
+See [current prices and billing details](https://stickynotes.club/pricing) before choosing a paid plan. Chosen Few is a separate one-time upgrade on top of Club Host at purchase, not a fourth monthly subscription; its rights remain documented below.
 
 ## What you'll learn
 
@@ -18,21 +28,22 @@ Choose the plan that fits how you want to use StickyNotes.club. Club Member is f
 
 ## Compare the plans
 
-| Capability | Club Member | Club Host | Club Facilitator | Chosen Few |
-| --- | --- | --- | --- | --- |
-| Public sticky-note publications per day | 2 | 12 | 12 | Unlimited |
-| Active, editable private boards you own | 1 | 5 | 15 | Unlimited |
-| Send private-board invitations | No | Yes | Yes | Yes |
-| Create View and Post links for boards you own | No | Yes | Yes | Yes |
-| Run workshops | No | No | Yes | Yes |
-| Participants per workshop | — | — | Up to {{ site.max_workshop_participants }} | Up to {{ site.max_workshop_participants }} |
-| Workshop results: PDF printing, Markdown copy and CSV download | No | No | Yes | Yes |
-| Pastel colours and Instant Photos | No | Yes | Yes | Yes, while the subscription is active |
-| Receive invitations and participate | Yes | Yes | Yes | Yes |
-| Add and manage your own sticky notes through a Post link | Yes | Yes | Yes | Yes |
-| Comments, private-board hearts and dot voting | Yes | Yes | Yes | Yes |
-| Mention current board Participants | Yes | Yes | Yes | Yes |
-| Private-board sticky-note tags and due dates | Yes | Yes | Yes | Yes |
+| Capability | Club Member | Club Host | Club Facilitator |
+| --- | --- | --- | --- |
+| Active, editable private boards you own | 1 | 5 | 15 |
+| Daily publication allowance applies to private-board notes | No | No | No |
+| Public sticky-note publications per day, on the worldwide wall only | 2 | 12 | 12 |
+| Send private-board invitations | No | Yes | Yes |
+| Create View and Post links for boards you own | No | Yes | Yes |
+| Run workshops | No | No | Yes |
+| Participants per workshop | — | — | Up to {{ site.max_workshop_participants }} |
+| Workshop results: PDF printing, Markdown copy and CSV download | No | No | Yes |
+| Pastel colours and Instant Photos | No | Yes | Yes |
+| Receive invitations and participate | Yes | Yes | Yes |
+| Add and manage your own sticky notes through a Post link | Yes | Yes | Yes |
+| Comments, private-board hearts and dot voting | Yes | Yes | Yes |
+| Mention current board Participants | Yes | Yes | Yes |
+| Private-board sticky-note tags and due dates | Yes | Yes | Yes |
 
 If you use Club Member, you have the same contribution rights as other Participants on boards you join. You can also contribute through a paying Owner's Post link. Club Host mainly lets you invite people or create View and Post links for boards you own, and gives you higher publication and board limits.
 
@@ -42,7 +53,9 @@ The Owner's plan determines whether a board can host invitations and active View
 
 Tags and due dates are part of ordinary sticky-note editing on private boards. If you authored a sticky note, you may edit its text, colour, tags and due date. You cannot rewrite those fields on somebody else's sticky note. Arranging a sticky note by changing its position, order or column is a separate board action and does not change authorship.
 
-Chosen Few is a one-time purchase on top of an active Club Host subscription, not a separate monthly plan. It permanently removes the documented plan-level limits for Public publications and active boards you own, and includes workshop and collaboration rights. Pastel colours and Instant Photos still depend on an active subscription. Safety, content, file and technical boundaries still apply.
+## Chosen Few: a separate one-time upgrade
+
+Chosen Few is separate from the three monthly choices above. It is a one-time purchase on top of an active Club Host subscription at purchase, not a separate monthly plan. See [the pricing page](https://stickynotes.club/pricing) for its current price and purchase details. You do not need Chosen Few for ordinary shared boards or guided workshops. It permanently removes the documented plan-level limits for Public publications and active boards you own, and includes workshop and collaboration rights. Pastel colours and Instant Photos still depend on an active subscription. The workshop participant limit still applies. Safety, content, file and technical boundaries still apply.
 
 You will see current prices, taxes, billing intervals and renewal terms before you buy.
 

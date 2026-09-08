@@ -17,6 +17,22 @@ These are short answers to the questions people ask most often. Follow the links
 - What you can edit, delete and share.
 - How ownership, search, export, invitations and plans work.
 
+## Can I use StickyNotes.club just for myself?
+
+Yes. Club Member includes one free active, editable private board. Use it for ideas, a week planner or tasks, without publishing on the worldwide wall. [Start your own board](/use-sticky-notes-for-yourself/).
+
+## Am I limited to two sticky notes a day?
+
+Only when publishing on the worldwide wall with Club Member. Drafts and private-board notes do not use that daily allowance. Club Host and Club Facilitator include twelve Public publications per day. [Understand the limits](/plans-and-subscriptions/).
+
+## Is a workshop a public board?
+
+No. A workshop runs on a private board. The worldwide wall contains individual Public sticky notes and is separate from your private-board content. [Compare the three uses](/public-wall-private-board-workshop/).
+
+## Which plan do I need?
+
+Choose Club Member for one board of your own, Club Host for more boards and collaboration, or Club Facilitator for guided workshops. People invited to somebody else's board do not need a paid plan. Workshop guests do not need an account; ordinary Post-link contributors do. [Compare the plans](/plans-and-subscriptions/).
+
 ## Do I need an account?
 
 You need an account to create a worldwide-wall Draft, manage your own private board, accept an invitation or give a Public sticky note a heart. To accept an invitation, sign in or create an account with the invited email address.

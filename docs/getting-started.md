@@ -8,7 +8,7 @@ permalink: /getting-started/
 
 # Get started with StickyNotes.club
 
-Start by creating an account and capturing one idea. You do not need to know yet whether you want to keep it to yourself, share it publicly or develop it with others.
+Start with one free private board for your own ideas, tasks or weekly plan. You do not have to publish on the worldwide wall. If you are joining a workshop, use the organiser’s link instead: you do not need to create an account.
 
 ## What you'll learn
 
@@ -20,11 +20,11 @@ Start by creating an account and capturing one idea. You do not need to know yet
 
 An account lets you create Drafts, manage a private board and join a board when someone invites you. A workshop guest is the exception: they can contribute through a workshop link without an account.
 
-1. Open [StickyNotes.club](https://stickynotes.club).
-2. Select **Sign up**.
-3. Enter your email address and choose a password.
-4. Accept the [Terms of Service](https://stickynotes.club/terms) and acknowledge the [Privacy Policy](https://stickynotes.club/privacy).
-5. Select **Create account**.
+1. Open [Create a free account](https://stickynotes.club/register).
+2. Choose a **Username** and enter your **Email address**.
+3. Enter a **Password** and repeat it in **Confirm password**.
+4. Read the [Terms of Service](https://stickynotes.club/terms) and [Privacy Policy](https://stickynotes.club/privacy) linked below the form. Creating an account means agreeing to them.
+5. Select **Create a free account**. If you arrived through a paid-plan link, the button says **Create your account**.
 6. Log in and start using your account.
 7. Open the confirmation email and select its link.
 
@@ -35,6 +35,14 @@ You can log in, create Drafts and use your own private boards before confirming 
 - create or replace a Post link or workshop link.
 
 Creating a View link does not require email confirmation. If the confirmation email does not arrive, check your spam folder and then use **Send a new link** in the banner at the top of the page.
+
+## Make your first private board useful
+
+Open **My boards**, select **New board**, give it a name and choose **Week planner** or **Blank**. Add three things you want to remember or work on. Leave the board unshared if you want to use it on your own.
+
+Club Member includes one active, editable private board. The limit of two daily Public publications does **not** apply to notes on that board.
+
+Follow [Use sticky notes for yourself](/use-sticky-notes-for-yourself/) for a complete first-board example. To invite people to a board you own, choose Club Host or Club Facilitator; running guided workshops requires Club Facilitator. [Compare the plans](/plans-and-subscriptions/).
 
 ## Choose the right place for your idea
 

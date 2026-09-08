@@ -10,6 +10,8 @@ permalink: /private-boards/
 
 Use a private board when an idea needs more space. Keep it as your own workspace, invite Participants or share controlled access with a board link.
 
+Club Member includes one active, editable private board for your own use. Notes on private boards do not use the daily Public publication allowance. Inviting people or creating View and Post links for a board you own requires Club Host, Club Facilitator or Chosen Few. [Compare the plans](/plans-and-subscriptions/).
+
 ## What you'll learn
 
 - How to create a board and choose a template.

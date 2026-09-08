@@ -1,34 +1,41 @@
 ---
 layout: home
 title: How can we help?
-description: Find guides and answers for running and joining workshops, collaborating on private boards and sharing sticky notes publicly with StickyNotes.club.
+description: Get help using sticky notes on your own, sharing private boards, running or joining workshops and publishing on the worldwide wall.
 nav_order: 1
 ---
 
 # How can we help?
 
-StickyNotes.club is where a group thinks together. Run a session on a private board and come out with a shared result, keep working on that board afterwards, and share single ideas publicly on the worldwide wall.
+Use online sticky notes for your own plans, a shared board or a guided workshop. The worldwide wall is an optional place to publish individual notes; you do not have to publish anything to use your own board.
 
-Whether you are leading a room, joining someone else's session or capturing a thought on your own, you can start here.
+Choose what you want to do first.
 
 <div class="guide-grid">
-  <a class="guide-card guide-card--yellow" href="/run-a-workshop/">
+  <a class="guide-card guide-card--yellow" href="/use-sticky-notes-for-yourself/">
+    <span class="guide-card__title">Use sticky notes for yourself</span>
+    <p>Start with one free private board for your ideas, tasks or weekly plan.</p>
+  </a>
+  <a class="guide-card guide-card--mint" href="/collaboration/">
+    <span class="guide-card__title">Work with other people</span>
+    <p>Understand invitations, shared links and which person needs a paid plan.</p>
+  </a>
+  <a class="guide-card guide-card--pink" href="/run-a-workshop/">
     <span class="guide-card__title">Run a workshop</span>
-    <p>Prepare the room, make decisions and keep a shareable result.</p>
+    <p>Prepare a private board, invite the room and keep a shareable result.</p>
   </a>
-  <a class="guide-card guide-card--pink" href="/join-a-workshop/">
-    <span class="guide-card__title">Take part in a workshop</span>
-    <p>Join with a link or a QR code. No account, no installation.</p>
-  </a>
-  <a class="guide-card guide-card--mint" href="/getting-started/">
-    <span class="guide-card__title">Get started</span>
-    <p>Create your account and find the right place for your first idea.</p>
-  </a>
-  <a class="guide-card guide-card--purple" href="/faq/">
-    <span class="guide-card__title">Find a quick answer</span>
-    <p>Browse common questions or solve a problem.</p>
+  <a class="guide-card guide-card--purple" href="/join-a-workshop/">
+    <span class="guide-card__title">Join a workshop</span>
+    <p>Use the organiser's link or QR code. You do not need an account.</p>
   </a>
 </div>
+
+## Start on your own
+
+- **[Use sticky notes for yourself](/use-sticky-notes-for-yourself/)** — Create a private week planner or collect ideas on a blank board.
+- **[Get started](/getting-started/)** — Create an account and understand email confirmation.
+- **[Choose a plan](/plans-and-subscriptions/)** — Start free, share your own boards or run guided sessions.
+- **[Public wall, private board or workshop?](/public-wall-private-board-workshop/)** — Choose who can see and contribute to your notes.
 
 ## Run a session
 
@@ -54,7 +61,7 @@ Whether you are leading a room, joining someone else's session or capturing a th
 ## Manage your account
 
 - **[Manage your profile and account](/manage-your-profile/)** — Update your details, secure your account or understand what deletion means.
-- **[Choose a plan](/plans-and-subscriptions/)** — Compare Club Member, Club Host, Club Facilitator and Chosen Few.
+- **[Choose a plan](/plans-and-subscriptions/)** — Compare the three monthly choices and find the separate Chosen Few details.
 - **[Understand privacy and safety](/privacy-and-safety/)** — Know who can see your content and how to report a concern.
 
 ## Good to know

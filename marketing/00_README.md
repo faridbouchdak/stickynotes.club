@@ -1,3 +1,5 @@
+> **Execution update — 8 September 2026:** Farid chose a broad product website with initial sales focused on workshop facilitators. The current four-month plan, limited to one hour per day and no committed advertising budget, is in [groei-2026-09-08/00-start-hier.md](groei-2026-09-08/00-start-hier.md). It replaces the multi-channel cadence below for current execution. Earlier campaign material remains available as background.
+
 # StickyNotes.club social warm-up campaign
 
 Start date: Saturday 29 August 2026  
