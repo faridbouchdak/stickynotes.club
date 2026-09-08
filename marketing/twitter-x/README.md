@@ -2,7 +2,12 @@
 
 ## Publish
 
-Saturday 29 August 2026, 11:15. Keep the website in the profile on day one; the first post is conversation-led.
+Status: published. The first post is conversation-led and the website remains in the profile rather than in the post itself.
+
+## Hashtag convention
+
+- Include `#workshops` in future X posts.
+- Keep hashtags selective; do not add unrelated tags merely for reach.
 
 ## First post
 
