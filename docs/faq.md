@@ -81,9 +81,9 @@ No. Every board has one Owner, and ownership cannot be transferred. Deleting the
 
 ## Who owns what I create?
 
-You keep ownership of content you create or share on a private board.
+You keep ownership of content you create or share, on a private board and on the worldwide wall.
 
-When you publish a sticky note or Instant Photo on the worldwide wall, you explicitly give up ownership of that Public content. It is not linked publicly to your name or profile. StickyNotes.club keeps a private internal connection while your account exists so you can edit, return it to Draft or delete it.
+By publishing a sticky note or Instant Photo there, you agree that this content is public and may be used accordingly: anyone can view, copy and share it, and search engines and external AI services may index or use it. It is not linked publicly to your name or profile. StickyNotes.club keeps a private internal connection while your account exists so you can edit, return it to Draft or delete it.
 
 ## Can I search StickyNotes.club?
 

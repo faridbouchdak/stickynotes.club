@@ -32,7 +32,7 @@ Creating or editing a Draft does not use your daily publication allowance.
 
 Before you select **Publish**, confirm your email address and make sure you are comfortable sharing the content publicly. It will appear on the worldwide wall and will not expire automatically.
 
-Publishing also means that you explicitly give up ownership of that Public content. It is not linked to your name, profile or contribution history on the worldwide wall. StickyNotes.club keeps a private internal connection while your account exists so you can edit, return it to Draft or delete it.
+By publishing, you agree that this content is public and may be used accordingly: anyone can view, copy and share it, and search engines and external AI services may index or use it. You keep ownership of what you publish, as set out in the [Terms of Service](https://stickynotes.club/terms). It is not linked to your name, profile or contribution history on the worldwide wall. StickyNotes.club keeps a private internal connection while your account exists so you can edit, return it to Draft or delete it.
 
 Public text and images may be copied, crawled, indexed or cached. External AI services may also process or use them to train, improve, evaluate or operate AI systems. There is no separate opt-out for search indexing or external AI use.
 

@@ -14,7 +14,7 @@ Before sharing an idea, pause for a moment and check who should see it. Public c
 
 - Who can see Public content, Drafts and private boards.
 - How someone can take part in a workshop without an account.
-- How ownership differs between private boards and the worldwide wall.
+- What you agree to when you publish on the worldwide wall.
 - What happens to copies of Public content.
 - How to report a concern or make a privacy request.
 - How to protect your account.
@@ -55,13 +55,13 @@ You must confirm your email before publishing. A board Owner must also confirm t
 
 Authorised moderators and administrators may access Drafts and private-board content only when genuine moderation, support, security or legal work requires it. Access should be limited and recorded. They may hide, remove or restore content, but must not silently rewrite someone's words. Only a narrowly necessary, recorded redaction is allowed.
 
-## Understand ownership in each space
+## Understand ownership and public use
 
 You keep ownership of the sticky notes, comments and images you create or share on a private board. Giving Participants access to the board does not transfer that ownership.
 
-Publishing to the worldwide wall is different. When you publish a sticky note or Instant Photo, you explicitly give up ownership of that Public content. The worldwide wall does not connect it to your name, profile or contribution history. The only origin information shown is the country saved when the content was created; the publication date, share count and heart count may also appear.
+Publishing to the worldwide wall does not change who owns the content, but it does change who can use it. When you publish a sticky note or Instant Photo, you agree that this content is public and may be used accordingly: anyone can view, copy and share it, and search engines and external AI services may index or use it. You keep ownership of what you publish, as set out in the [Terms of Service](https://stickynotes.club/terms). The worldwide wall does not connect it to your name, profile or contribution history. The only origin information shown is the country saved when the content was created; the publication date, share count and heart count may also appear.
 
-While your account exists, StickyNotes.club keeps a private internal connection so you can edit, return to Draft or delete the Public content and so authorised moderation can act. This connection is not shown on the worldwide wall and does not preserve ownership of the published content.
+While your account exists, StickyNotes.club keeps a private internal connection so you can edit, return to Draft or delete the Public content and so authorised moderation can act. This connection is not shown on the worldwide wall.
 
 Read the [Terms of Service](https://stickynotes.club/terms) for the formal conditions that apply when you publish.
 
